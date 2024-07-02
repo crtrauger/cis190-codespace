@@ -16,4 +16,7 @@
 		sudo ls ~/home
 	ls: cannot access '/home/codespace/home': No such file or directory
 9. Describe how to select a strong password.
+	Choose a password that is difficult to guess. Include nonalphanumeric. A good password will include uppercase and lowercase, numbers, and punctuation characters. Min of 6 characters, and should 	not be in the dictionary.
 10. After creating your file to test and make sure your file is in the correct location run "less /workspaces/cis190_codespace/labs/cis190_lab2.txt" and the less paging utility should open your file. If you get an error then check to see where you went wrong in the naming or location of your file.
+	I got an error. The file location was incorrect. /labs/lab02/cis190_lab2.txt
+
