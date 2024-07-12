@@ -1,0 +1,30 @@
+/workspaces/cis190-codespace (main) $ sudo mkdir /data
+/data $ sudo su
+/data/aircraft $ mkdir configurations
+/data/aircraft $ mkdir configurations/{xq-67a,mq-1c,mq-9b,mq-20,mojave,mq-
+9}
+/data/aircraft $ cd configurations/
+/data/aircraft/configurations $ touch n345qr.cfg n678st.cfg 
+/data/aircraft/configurations $ touch xq-67a/{n223wx.cfg,index.cfg,n90luv.cfg}
+/data/aircraft/configurations $ touch mq-1c/{n789ef.cfg,n101gh.cfg,index.cfg}
+/data/aircraft/configurations $ touch mq-9b/index.cfg
+/data/aircraft/configurations $ touch mq-20/{n234ij.cfg,n567kl.cfg,index.cfg}
+/data/aircraft/configurations $ touch mojave/{n456cd.cfg,index.cfg,n123ab.cfg}
+/data/aircraft/configurations $ touch mq-9/{n112op.cfg,n892mn.cfg,index.cfg}
+
+1. Answer: cd /data/aircraft/configurations/mq-9
+2. Answer: cd xq-67a/
+3. Answer: cd ../
+sudo mv n345qr.cfg mq-1c/
+4. Answer: sudo mv n678st.cfg mojave/
+5. Answer: cd ../
+sudo mkdir backup
+sudo cp -r configurations backup
+6. Answer: ls -i configurations/mq-20
+1093581 index.cfg  1093579 n234ij.cfg  1093580 n567kl.cfg
+7. Answer: sudo rmdir configurations/mq-9b
+rmdir: failed to remove 'configurations/mq-9b': Directory not empty
+There are cfg files inside the dir, rmdir requires dir to be empty for removal
+8. Answer: sudo mkdir locations
+9. Answer: sudo ln -s configurations/{xq-67a,mq-1c,mq-9} locations
+10. Answer: 
