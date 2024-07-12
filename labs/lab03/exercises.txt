@@ -27,4 +27,18 @@ rmdir: failed to remove 'configurations/mq-9b': Directory not empty
 There are cfg files inside the dir, rmdir requires dir to be empty for removal
 8. Answer: sudo mkdir locations
 9. Answer: sudo ln -s configurations/{xq-67a,mq-1c,mq-9} locations
-10. Answer: 
+10. Answer: /data $ cd aircraft
+/data/aircraft $ cd configurations/mojave/
+11. Answer: /data/aircraft/configurations/mojave $ sudo cp ../mq-9/n112op.cfg /data/aircraft/backup/
+12. Answer: /data/aircraft/configurations/mojave $ ls -s 
+../
+13. Anwser: /data/aircraft/configurations/mojave $ sudo mv ../mq-9/n892mn.cfg ../mq-20
+14. Answer: /data/aircraft/configurations/mojave $ sudo ln -s ../mq-1c/n101gh.cfg ../../locations/
+15. Answer: /data/aircraft/configurations/mojave $ cd /data/aircraft/configurations/mq-1c
+16. Answer: /data/aircraft/configurations/mq-1c $ sudo rm ../../locations/xq-67a 
+17. Answer: /data/aircraft/configurations/mq-1c $ sudo touch ../mojave/n567kl.cfg
+18. Answer: /data/aircraft/configurations/mq-1c $ du -h .
+./
+19. Answer: /data/aircraft/configurations/mq-1c $ sudo mkdir ../mq-9/test
+/data/aircraft/configurations/mq-1c $ sudo rmdir ../mq-9/test
+20. Answer: /data/aircraft/configurations/mq-1c $ sudo mv ../xq-67a/index.cfg ../xq-67a/main.cfg 
