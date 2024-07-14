@@ -1,0 +1,694 @@
+Script started on 2024-07-14 02:28:48+00:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="81" LINES="50"]
+[0;32m@crtrauger [0m➜ [1;34m/workspaces/cis190-codespace/labs/lab04 [0;36m([1;31mmain[0;36m) [0m$ wget https://boss.v vc.edu/tonno[King/classes/cis190/resources/lab04.tgz
+--2024-07-14 02:31:01--  https://boss.vvc.edu/tonning/classes/cis190/resources/lab04.tgz
+Resolving boss.vvc.edu (boss.vvc.edu)... 207.233.102.33
+Connecting to boss.vvc.edu (boss.vvc.edu)|207.233.102.33|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 12526 (12K) [application/octet-stream]
+Saving to: ‘lab04.tgz’
+
+lab04.tgz              0%[                    ]       0  --.-KB/s               lab04.tgz            100%[===================>]  12.23K  --.-KB/s    in 0.04s   
+
+2024-07-14 02:31:01 (329 KB/s) - ‘lab04.tgz’ saved [12526/12526]
+
+[0;32m@crtrauger [0m➜ [1;34m/workspaces/cis190-codespace/labs/lab04 [0;36m([1;31mmain[0;36m) [0m$ tar zxf lab04.tgz 
+[0;32m@crtrauger [0m➜ [1;34m/workspaces/cis190-codespace/labs/lab04 [0;36m([1;31mmain[0;36m) [0m$ ls -l[KL
+[0m[01;34mconfigs[0m  [01;31mlab04.tgz[0m  typescript
+[0;32m@crtrauger [0m➜ [1;34m/workspaces/cis190-codespace/labs/lab04 [0;36m([1;31mmain[0;36m) [0m$ ls -L configs
+[0m[01;34mn101gh[0m  [01;34mn123ab[0m  [01;34mn234ij[0m  [01;34mn567kl[0m  [01;34mn789ef[0m  tailnumbers.txt
+[01;34mn112op[0m  [01;34mn223wx[0m  [01;34mn456cd[0m  [01;34mn678st[0m  [01;34mn890mn[0m
+[0;32m@crtrauger [0m➜ [1;34m/workspaces/cis190-codespace/labs/lab04 [0;36m([1;31mmain[0;36m) [0m$ sudo mkdir /dad[Kts[Ka/ai rcraft/n223wx
+[0;32m@crtrauger [0m➜ [1;34m/workspaces/cis190-codespace/labs/lab04 [0;36m([1;31mmain[0;36m) [0m$ cd[K[Kls n223wa[Kx
+ls: cannot access 'n223wx': No such file or directory
+[0;32m@crtrauger [1;31m➜ [1;34m/workspaces/cis190-codespace/labs/lab04 [0;36m([1;31mmain[0;36m) [0m$ cd n223wz[Kx
+bash: cd: n223wx: No such file or directory
+[0;32m@crtrauger [1;31m➜ [1;34m/workspaces/cis190-codespace/labs/lab04 [0;36m([1;31mmain[0;36m) [0m$ ls configs/n223wx/
+config_1.ini  config_2.ini  config_3.ini  config_4.ini  config_5.ini
+[0;32m@crtrauger [0m➜ [1;34m/workspaces/cis190-codespace/labs/lab04 [0;36m([1;31mmain[0;36m) [0m$ cp configs/{[Kn223wx/{ config.[K_1.ini,config_2.ini} /data/aircraft/n223wx/
+cp: cannot create regular file '/data/aircraft/n223wx/config_1.ini': Permission denied
+cp: cannot create regular file '/data/aircraft/n223wx/config_2.ini': Permission denied
+[0;32m@crtrauger [1;31m➜ [1;34m/workspaces/cis190-codespace/labs/lab04 [0;36m([1;31mmain[0;36m) [0m$ cp configs/n223wx/{config_1.ini,config_2.ini} /data/aircraft/n223wx/[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cscp configs/n223wx/{[1@c[A[0;32m@crtrauger [1;31m➜ [1;34m/workspaces/cis190-codespace/labs/lab04 [0;36m([1;31mmain[0;36m) [0m$ [Cudcp configs/n223wx[2@/{[A[0;32m@crtrauger [1;31m➜ [1;34m/workspaces/cis190-codespace/labs/lab04 [0;36m([1;31mmain[0;36m) [0m$ [C[C[Cocp configs/n223w[1@x[A[0;32m@crtrauger [1;31m➜ [1;34m/workspaces/cis190-codespace/labs/lab04 [0;36m([1;31mmain[0;36m) [0m$ [C[C[C[C cp configs/n223[1@w[A[0;32m@crtrauger [1;31m➜ [1;34m/workspaces/cis190-codespace/labs/lab04 [0;36m([1;31mmain[0;36m) [0m$ [C[C[C[C[C
+
+[0;32m@crtrauger [0m➜ [1;34m/workspaces/cis190-codespace/labs/lab04 [0;36m([1;31mmain[0;36m) [0m$ diff /data/aircraft /n223wx/config_1.ini ?d[K[K/data/aircraft/n223wx/config_2.ini
+2c2
+< mission_id = MISS-7913
+---
+> mission_id = MISS-7914
+9,10c9,10
+< max_altitude = 40000
+< max_speed = 500
+---
+> max_altitude = 30000
+> max_speed = 200
+24,25c24,25
+< log_level = DEBUG
+< log_file = /data/logs/n223wx-MISS-7913.log
+---
+> log_level = ERROR
+> log_file = /data/logs/n223wx-MISS-7914.log
+[0;32m@crtrauger [1;31m➜ [1;34m/workspaces/cis190-codespace/labs/lab04 [0;36m([1;31mmain[0;36m) [0m$ bzcat configs/n890mn/config1[K_1.ini
+[mission]
+mission_id = MISS-5158
+objective = Engagement
+start_time = 12:45
+duration_minutes = 180
+
+[drone]
+tail_number = n890mn
+max_altitude = 10000
+max_speed = 250
+payload_capacity = 550
+
+[camera]
+resolution = 720p
+frame_rate = 30
+infrared = True
+lidar = True
+
+[communication]
+frequency = 3.28
+encryption = AES-128
+
+[logging]
+log_level = ERROR
+log_file = /data/logs/n890mn-MISS-5158.log
+
+[waypoints]
+waypoint_1 = 84.980788, -86.016524, 1533
+waypoint_2 = 81.807711, -138.487072, 1263
+waypoint_3 = -37.341804, -58.442351, 130
+waypoint_4 = 11.15891, 155.133732, 1234
+waypoint_5 = -31.33362, 168.860799, 465
+waypoint_6 = -18.869568, 25.004442, 1343
+waypoint_7 = -88.376913, 163.880079, 1261
+waypoint_8 = -43.837074, 145.609756, 531
+waypoint_9 = -74.808728, 137.050896, 1091
+waypoint_10 = 47.512843, 154.162226, 424
+
+[0;32m@crtrauger [0m➜ [1;34m/workspaces/cis190-codespace/labs/lab04 [0;36m([1;31mmain[0;36m) [0m$ grep mission configs/n223wx
+grep: configs/n223wx: Is a directory
+[0;32m@crtrauger [1;31m➜ [1;34m/workspaces/cis190-codespace/labs/lab04 [0;36m([1;31mmain[0;36m) [0m$ grep mission configs/n223wx[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C-mission configs/n223wx[A[0;32m@crtrauger [1;31m➜ [1;34m/workspaces/cis190-codespace/labs/lab04 [0;36m([1;31mmain[0;36m) [0m$ [C[C[C[C[C[Cimission configs/n223wx[A[0;32m@crtrauger [1;31m➜ [1;34m/workspaces/cis190-codespace/labs/lab04 [0;36m([1;31mmain[0;36m) [0m$ [C[C[C[C[C[C[CRmission configs/n223wx[A[0;32m@crtrauger [1;31m➜ [1;34m/workspaces/cis190-codespace/labs/lab04 [0;36m([1;31mmain[0;36m) [0m$ [C[C[C[C[C[C[C[C mission configs/n223wx[A[0;32m@crtrauger [1;31m➜ [1;34m/workspaces/cis190-codespace/labs/lab04 [0;36m([1;31mmain[0;36m) [0m$ [C[C[C[C[C[C[C[C[C
+
+[35m[Kconfigs/n223wx/config_3.ini[m[K[36m[K:[m[K[[01;31m[Kmission[m[K]
+[35m[Kconfigs/n223wx/config_3.ini[m[K[36m[K:[m[K[01;31m[Kmission[m[K_id = MISS-9994
+[35m[Kconfigs/n223wx/config_2.ini[m[K[36m[K:[m[K[[01;31m[Kmission[m[K]
+[35m[Kconfigs/n223wx/config_2.ini[m[K[36m[K:[m[K[01;31m[Kmission[m[K_id = MISS-7914
+[35m[Kconfigs/n223wx/config_5.ini[m[K[36m[K:[m[K[[01;31m[Kmission[m[K]
+[35m[Kconfigs/n223wx/config_5.ini[m[K[36m[K:[m[K[01;31m[Kmission[m[K_id = MISS-2626
+[35m[Kconfigs/n223wx/config_1.ini[m[K[36m[K:[m[K[[01;31m[Kmission[m[K]
+[35m[Kconfigs/n223wx/config_1.ini[m[K[36m[K:[m[K[01;31m[Kmission[m[K_id = MISS-7913
+[35m[Kconfigs/n223wx/config_4.ini[m[K[36m[K:[m[K[[01;31m[Kmission[m[K]
+[35m[Kconfigs/n223wx/config_4.ini[m[K[36m[K:[m[K[01;31m[Kmission[m[K_id = MISS-1386
+[0;32m@crtrauger [0m➜ [1;34m/workspaces/cis190-codespace/labs/lab04 [0;36m([1;31mmain[0;36m) [0m$ head -10 configs/n4 56cd/config-[K_1.ini
+[mission]
+mission_id = MISS-3634
+objective = Patrol
+start_time = 17:45
+duration_minutes = 360
+
+[drone]
+tail_number = n456cd
+max_altitude = 50000
+max_speed = 400
+[0;32m@crtrauger [0m➜ [1;34m/workspaces/cis190-codespace/labs/lab04 [0;36m([1;31mmain[0;36m) [0m$ tail -10 configs/n3 [A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C4 56cd/config_2.ini
+waypoint_2 = 32.112778, -12.041067, 393
+waypoint_3 = -67.216556, 15.735837, 493
+waypoint_4 = 86.718933, -167.632601, 805
+waypoint_5 = -61.850368, 94.285816, 1970
+waypoint_6 = -42.423122, -34.781124, 1191
+waypoint_7 = 74.349059, 126.832959, 841
+waypoint_8 = -62.28365, -29.046736, 725
+waypoint_9 = 41.232856, 63.482861, 638
+waypoint_10 = 17.614067, 81.488661, 1156
+
+[0;32m@crtrauger [0m➜ [1;34m/workspaces/cis190-codespace/labs/lab04 [0;36m([1;31mmain[0;36m) [0m$ sudo mkdir /data/ai rcraft/n456cd
+[0;32m@crtrauger [0m➜ [1;34m/workspaces/cis190-codespace/labs/lab04 [0;36m([1;31mmain[0;36m) [0m$ sudo mv configs/n456cd/config_3.ini /data/aircraft/n456cd/
+[0;32m@crtrauger [0m➜ [1;34m/workspaces/cis190-codespace/labs/lab04 [0;36m([1;31mmain[0;36m) [0m$ sort configs/tailnumbers.txt 
+n101gh
+n101gh
+n101gh
+n101gh
+n112op
+n112op
+n112op
+n112op
+n112op
+n123ab
+n223wx
+n223wx
+n223wx
+n223wx
+n234ij
+n234ij
+n234ij
+n234ij
+n456cd
+n456cd
+n456cd
+n456cd
+n456cd
+n456cd
+n456cd
+n567kl
+n567kl
+n567kl
+n678st
+n678st
+n678st
+n678st
+n678st
+n789ef
+n789ef
+n789ef
+n789ef
+n890mn
+n890mn
+n890mn
+n890mn
+[0;32m@crtrauger [0m➜ [1;34m/workspaces/cis190-codespace/labs/lab04 [0;36m([1;31mmain[0;36m) [0m$ sort configs/tailnumbers.txt | uniq
+n101gh
+n112op
+n123ab
+n223wx
+n234ij
+n456cd
+n567kl
+n678st
+n789ef
+n890mn
+[0;32m@crtrauger [0m➜ [1;34m/workspaces/cis190-codespace/labs/lab04 [0;36m([1;31mmain[0;36m) [0m$ tree
+[34;42m.[00m
+├── [01;34mconfigs[00m
+│   ├── [01;34mn101gh[00m
+│   │   ├── config_1.ini
+│   │   ├── config_1a.ini
+│   │   ├── config_2.ini
+│   │   ├── config_3.ini
+│   │   ├── config_4.ini
+│   │   └── config_5.ini
+│   ├── [01;34mn112op[00m
+│   │   ├── config_1.ini
+│   │   ├── config_2.ini
+│   │   ├── config_3.ini
+│   │   ├── config_4.ini
+│   │   └── config_5.ini
+│   ├── [01;34mn123ab[00m
+│   │   ├── config_1.ini
+│   │   ├── config_2.ini
+│   │   ├── config_3.ini
+│   │   ├── config_4.ini
+│   │   └── config_5.ini
+│   ├── [01;34mn223wx[00m
+│   │   ├── config_1.ini
+│   │   ├── config_2.ini
+│   │   ├── config_3.ini
+│   │   ├── config_4.ini
+│   │   └── config_5.ini
+│   ├── [01;34mn234ij[00m
+│   │   ├── config_1.ini
+│   │   ├── config_2.ini
+│   │   ├── config_3.ini
+│   │   ├── config_4.ini
+│   │   └── config_5.ini
+│   ├── [01;34mn456cd[00m
+│   │   ├── config_1.ini
+│   │   ├── config_2.ini
+│   │   ├── config_4.ini
+│   │   └── config_5.ini
+│   ├── [01;34mn567kl[00m
+│   │   ├── config_1.ini
+│   │   ├── config_2.ini
+│   │   ├── config_3.ini
+│   │   ├── config_4.ini
+│   │   └── config_5.ini
+│   ├── [01;34mn678st[00m
+│   │   ├── config_1.ini
+│   │   ├── config_2.ini
+│   │   ├── config_3.ini
+│   │   ├── config_4.ini
+│   │   └── config_5.ini
+│   ├── [01;34mn789ef[00m
+│   │   ├── config_1.ini
+│   │   ├── config_2.ini
+│   │   ├── config_3.ini
+│   │   ├── config_4.ini
+│   │   └── config_5.ini
+│   ├── [01;34mn890mn[00m
+│   │   ├── config_1.ini
+│   │   ├── config_2.ini
+│   │   ├── config_3.ini
+│   │   ├── config_4.ini
+│   │   └── config_5.ini
+│   └── tailnumbers.txt
+├── [01;31mlab04.tgz[00m
+└── typescript
+
+11 directories, 53 files
+[0;32m@crtrauger [0m➜ [1;34m/workspaces/cis190-codespace/labs/lab04 [0;36m([1;31mmain[0;36m) [0m$ bzip configs/n890mn/config_1.ini
+bash: bzip: command not found
+[0;32m@crtrauger [1;31m➜ [1;34m/workspaces/cis190-codespace/labs/lab04 [0;36m([1;31mmain[0;36m) [0m$ bzip configs/n890mn/config_1.ini[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C2 configs/n890mn/config_1.ini[A[0;32m@crtrauger [1;31m➜ [1;34m/workspaces/cis190-codespace/labs/lab04 [0;36m([1;31mmain[0;36m) [0m$ [C[C[C[C[C
+
+[0;32m@crtrauger [0m➜ [1;34m/workspaces/cis190-codespace/labs/lab04 [0;36m([1;31mmain[0;36m) [0m$ tree
+[34;42m.[00m
+├── [01;34mconfigs[00m
+│   ├── [01;34mn101gh[00m
+│   │   ├── config_1.ini
+│   │   ├── config_1a.ini
+│   │   ├── config_2.ini
+│   │   ├── config_3.ini
+│   │   ├── config_4.ini
+│   │   └── config_5.ini
+│   ├── [01;34mn112op[00m
+│   │   ├── config_1.ini
+│   │   ├── config_2.ini
+│   │   ├── config_3.ini
+│   │   ├── config_4.ini
+│   │   └── config_5.ini
+│   ├── [01;34mn123ab[00m
+│   │   ├── config_1.ini
+│   │   ├── config_2.ini
+│   │   ├── config_3.ini
+│   │   ├── config_4.ini
+│   │   └── config_5.ini
+│   ├── [01;34mn223wx[00m
+│   │   ├── config_1.ini
+│   │   ├── config_2.ini
+│   │   ├── config_3.ini
+│   │   ├── config_4.ini
+│   │   └── config_5.ini
+│   ├── [01;34mn234ij[00m
+│   │   ├── config_1.ini
+│   │   ├── config_2.ini
+│   │   ├── config_3.ini
+│   │   ├── config_4.ini
+│   │   └── config_5.ini
+│   ├── [01;34mn456cd[00m
+│   │   ├── config_1.ini
+│   │   ├── config_2.ini
+│   │   ├── config_4.ini
+│   │   └── config_5.ini
+│   ├── [01;34mn567kl[00m
+│   │   ├── config_1.ini
+│   │   ├── config_2.ini
+│   │   ├── config_3.ini
+│   │   ├── config_4.ini
+│   │   └── config_5.ini
+│   ├── [01;34mn678st[00m
+│   │   ├── config_1.ini
+│   │   ├── config_2.ini
+│   │   ├── config_3.ini
+│   │   ├── config_4.ini
+│   │   └── config_5.ini
+│   ├── [01;34mn789ef[00m
+│   │   ├── config_1.ini
+│   │   ├── config_2.ini
+│   │   ├── config_3.ini
+│   │   ├── config_4.ini
+│   │   └── config_5.ini
+│   ├── [01;34mn890mn[00m
+│   │   ├── [01;31mconfig_1.ini.bz2[00m
+│   │   ├── config_2.ini
+│   │   ├── config_3.ini
+│   │   ├── config_4.ini
+│   │   └── config_5.ini
+│   └── tailnumbers.txt
+├── [01;31mlab04.tgz[00m
+└── typescript
+
+11 directories, 53 files
+[0;32m@crtrauger [0m➜ [1;34m/workspaces/cis190-codespace/labs/lab04 [0;36m([1;31mmain[0;36m) [0m$ treebzip2 configs/n890mn/config_1.ini[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C configs/n890mn/[1Pconfig_1.ini[A[0;32m@crtrauger [0m➜ [1;34m/workspaces/cis190-codespace/labs/lab04 [0;36m([1;31mmain[0;36m) [0m$ [C[C[C[C configs/n890mn/c[1Ponfig_1.ini[A[0;32m@crtrauger [0m➜ [1;34m/workspaces/cis190-codespace/labs/lab04 [0;36m([1;31mmain[0;36m) [0m$ [C[C[C configs/n890mn/co[1Pnfig_1.ini[A[0;32m@crtrauger [0m➜ [1;34m/workspaces/cis190-codespace/labs/lab04 [0;36m([1;31mmain[0;36m) [0m$ [C[C configs/n890mn/con[1Pfig_1.ini[A[0;32m@crtrauger [0m➜ [1;34m/workspaces/cis190-codespace/labs/lab04 [0;36m([1;31mmain[0;36m) [0m$ [Cu configs/n890mn/config_1.ini[A[0;32m@crtrauger [0m➜ [1;34m/workspaces/cis190-codespace/labs/lab04 [0;36m([1;31mmain[0;36m) [0m$ [C[Cn configs/n890mn/config_1.ini[A[0;32m@crtrauger [0m➜ [1;34m/workspaces/cis190-codespace/labs/lab04 [0;36m([1;31mmain[0;36m) [0m$ [C[C[Cz configs/n890mn/config_1.ini[A[0;32m@crtrauger [0m➜ [1;34m/workspaces/cis190-codespace/labs/lab04 [0;36m([1;31mmain[0;36m) [0m$ [C[C[C[Ci configs/n890mn/config_1.ini[A[0;32m@crtrauger [0m➜ [1;34m/workspaces/cis190-codespace/labs/lab04 [0;36m([1;31mmain[0;36m) [0m$ [C[C[C[C[Cp configs/n890mn/config_1.ini[A[0;32m@crtrauger [0m➜ [1;34m/workspaces/cis190-codespace/labs/lab04 [0;36m([1;31mmain[0;36m) [0m$ [C[C[C[C[C[C2 configs/n890mn/config_1.ini[A[0;32m@crtrauger [0m➜ [1;34m/workspaces/cis190-codespace/labs/lab04 [0;36m([1;31mmain[0;36m) [0m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C.bz2
+[0;32m@crtrauger [0m➜ [1;34m/workspaces/cis190-codespace/labs/lab04 [0;36m([1;31mmain[0;36m) [0m$ tree
+[34;42m.[00m
+├── [01;34mconfigs[00m
+│   ├── [01;34mn101gh[00m
+│   │   ├── config_1.ini
+│   │   ├── config_1a.ini
+│   │   ├── config_2.ini
+│   │   ├── config_3.ini
+│   │   ├── config_4.ini
+│   │   └── config_5.ini
+│   ├── [01;34mn112op[00m
+│   │   ├── config_1.ini
+│   │   ├── config_2.ini
+│   │   ├── config_3.ini
+│   │   ├── config_4.ini
+│   │   └── config_5.ini
+│   ├── [01;34mn123ab[00m
+│   │   ├── config_1.ini
+│   │   ├── config_2.ini
+│   │   ├── config_3.ini
+│   │   ├── config_4.ini
+│   │   └── config_5.ini
+│   ├── [01;34mn223wx[00m
+│   │   ├── config_1.ini
+│   │   ├── config_2.ini
+│   │   ├── config_3.ini
+│   │   ├── config_4.ini
+│   │   └── config_5.ini
+│   ├── [01;34mn234ij[00m
+│   │   ├── config_1.ini
+│   │   ├── config_2.ini
+│   │   ├── config_3.ini
+│   │   ├── config_4.ini
+│   │   └── config_5.ini
+│   ├── [01;34mn456cd[00m
+│   │   ├── config_1.ini
+│   │   ├── config_2.ini
+│   │   ├── config_4.ini
+│   │   └── config_5.ini
+│   ├── [01;34mn567kl[00m
+│   │   ├── config_1.ini
+│   │   ├── config_2.ini
+│   │   ├── config_3.ini
+│   │   ├── config_4.ini
+│   │   └── config_5.ini
+│   ├── [01;34mn678st[00m
+│   │   ├── config_1.ini
+│   │   ├── config_2.ini
+│   │   ├── config_3.ini
+│   │   ├── config_4.ini
+│   │   └── config_5.ini
+│   ├── [01;34mn789ef[00m
+│   │   ├── config_1.ini
+│   │   ├── config_2.ini
+│   │   ├── config_3.ini
+│   │   ├── config_4.ini
+│   │   └── config_5.ini
+│   ├── [01;34mn890mn[00m
+│   │   ├── config_1.ini
+│   │   ├── config_2.ini
+│   │   ├── config_3.ini
+│   │   ├── config_4.ini
+│   │   └── config_5.ini
+│   └── tailnumbers.txt
+├── [01;31mlab04.tgz[00m
+└── typescript
+
+11 directories, 53 files
+[0;32m@crtrauger [0m➜ [1;34m/workspaces/cis190-codespace/labs/lab04 [0;36m([1;31mmain[0;36m) [0m$ tar zcf newconfigs. tgz configs
+[0;32m@crtrauger [0m➜ [1;34m/workspaces/cis190-codespace/labs/lab04 [0;36m([1;31mmain[0;36m) [0m$ tree
+[34;42m.[00m
+├── [01;34mconfigs[00m
+│   ├── [01;34mn101gh[00m
+│   │   ├── config_1.ini
+│   │   ├── config_1a.ini
+│   │   ├── config_2.ini
+│   │   ├── config_3.ini
+│   │   ├── config_4.ini
+│   │   └── config_5.ini
+│   ├── [01;34mn112op[00m
+│   │   ├── config_1.ini
+│   │   ├── config_2.ini
+│   │   ├── config_3.ini
+│   │   ├── config_4.ini
+│   │   └── config_5.ini
+│   ├── [01;34mn123ab[00m
+│   │   ├── config_1.ini
+│   │   ├── config_2.ini
+│   │   ├── config_3.ini
+│   │   ├── config_4.ini
+│   │   └── config_5.ini
+│   ├── [01;34mn223wx[00m
+│   │   ├── config_1.ini
+│   │   ├── config_2.ini
+│   │   ├── config_3.ini
+│   │   ├── config_4.ini
+│   │   └── config_5.ini
+│   ├── [01;34mn234ij[00m
+│   │   ├── config_1.ini
+│   │   ├── config_2.ini
+│   │   ├── config_3.ini
+│   │   ├── config_4.ini
+│   │   └── config_5.ini
+│   ├── [01;34mn456cd[00m
+│   │   ├── config_1.ini
+│   │   ├── config_2.ini
+│   │   ├── config_4.ini
+│   │   └── config_5.ini
+│   ├── [01;34mn567kl[00m
+│   │   ├── config_1.ini
+│   │   ├── config_2.ini
+│   │   ├── config_3.ini
+│   │   ├── config_4.ini
+│   │   └── config_5.ini
+│   ├── [01;34mn678st[00m
+│   │   ├── config_1.ini
+│   │   ├── config_2.ini
+│   │   ├── config_3.ini
+│   │   ├── config_4.ini
+│   │   └── config_5.ini
+│   ├── [01;34mn789ef[00m
+│   │   ├── config_1.ini
+│   │   ├── config_2.ini
+│   │   ├── config_3.ini
+│   │   ├── config_4.ini
+│   │   └── config_5.ini
+│   ├── [01;34mn890mn[00m
+│   │   ├── config_1.ini
+│   │   ├── config_2.ini
+│   │   ├── config_3.ini
+│   │   ├── config_4.ini
+│   │   └── config_5.ini
+│   └── tailnumbers.txt
+├── [01;31mlab04.tgz[00m
+├── [01;31mnewconfigs.tgz[00m
+└── typescript
+
+11 directories, 54 files
+[0;32m@crtrauger [0m➜ [1;34m/workspaces/cis190-codespace/labs/lab04 [0;36m([1;31mmain[0;36m) [0m$ tar zxf newconfigs.tgz /tmp
+tar: /tmp: Not found in archive
+tar: Exiting with failure status due to previous errors
+[0;32m@crtrauger [1;31m➜ [1;34m/workspaces/cis190-codespace/labs/lab04 [0;36m([1;31mmain[0;36m) [0m$ mkdir tmp
+[0;32m@crtrauger [0m➜ [1;34m/workspaces/cis190-codespace/labs/lab04 [0;36m([1;31mmain[0;36m) [0m$ mkdir tmptar zxf newconfigs.tgz /tmp
+tar: /tmp: Not found in archive
+tar: Exiting with failure status due to previous errors
+[0;32m@crtrauger [1;31m➜ [1;34m/workspaces/cis190-codespace/labs/lab04 [0;36m([1;31mmain[0;36m) [0m$ tree
+[34;42m.[00m
+├── [01;34mconfigs[00m
+│   ├── [01;34mn101gh[00m
+│   │   ├── config_1.ini
+│   │   ├── config_1a.ini
+│   │   ├── config_2.ini
+│   │   ├── config_3.ini
+│   │   ├── config_4.ini
+│   │   └── config_5.ini
+│   ├── [01;34mn112op[00m
+│   │   ├── config_1.ini
+│   │   ├── config_2.ini
+│   │   ├── config_3.ini
+│   │   ├── config_4.ini
+│   │   └── config_5.ini
+│   ├── [01;34mn123ab[00m
+│   │   ├── config_1.ini
+│   │   ├── config_2.ini
+│   │   ├── config_3.ini
+│   │   ├── config_4.ini
+│   │   └── config_5.ini
+│   ├── [01;34mn223wx[00m
+│   │   ├── config_1.ini
+│   │   ├── config_2.ini
+│   │   ├── config_3.ini
+│   │   ├── config_4.ini
+│   │   └── config_5.ini
+│   ├── [01;34mn234ij[00m
+│   │   ├── config_1.ini
+│   │   ├── config_2.ini
+│   │   ├── config_3.ini
+│   │   ├── config_4.ini
+│   │   └── config_5.ini
+│   ├── [01;34mn456cd[00m
+│   │   ├── config_1.ini
+│   │   ├── config_2.ini
+│   │   ├── config_4.ini
+│   │   └── config_5.ini
+│   ├── [01;34mn567kl[00m
+│   │   ├── config_1.ini
+│   │   ├── config_2.ini
+│   │   ├── config_3.ini
+│   │   ├── config_4.ini
+│   │   └── config_5.ini
+│   ├── [01;34mn678st[00m
+│   │   ├── config_1.ini
+│   │   ├── config_2.ini
+│   │   ├── config_3.ini
+│   │   ├── config_4.ini
+│   │   └── config_5.ini
+│   ├── [01;34mn789ef[00m
+│   │   ├── config_1.ini
+│   │   ├── config_2.ini
+│   │   ├── config_3.ini
+│   │   ├── config_4.ini
+│   │   └── config_5.ini
+│   ├── [01;34mn890mn[00m
+│   │   ├── config_1.ini
+│   │   ├── config_2.ini
+│   │   ├── config_3.ini
+│   │   ├── config_4.ini
+│   │   └── config_5.ini
+│   └── tailnumbers.txt
+├── [01;31mlab04.tgz[00m
+├── [01;31mnewconfigs.tgz[00m
+├── [34;42mtmp[00m
+└── typescript
+
+12 directories, 54 files
+[0;32m@crtrauger [0m➜ [1;34m/workspaces/cis190-codespace/labs/lab04 [0;36m([1;31mmain[0;36m) [0m$ treear zxf newconfigs.tgz /tmpc/tmponfigs//tmp[1Ptmp
+tar: configs/tmp: Not found in archive
+tar: Exiting with failure status due to previous errors
+[0;32m@crtrauger [1;31m➜ [1;34m/workspaces/cis190-codespace/labs/lab04 [0;36m([1;31mmain[0;36m) [0m$ tar zxf newconfigs.tgz configs/tmp[A[0;32m@crtrauger [1;31m➜ [1;34m/workspaces/cis190-codespace/labs/lab04 [0;36m([1;31mmain[0;36m) [0m$ [Cree[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Car zxf newconfigs.tgz /tmp[1Ptmp
+tar: tmp: Not found in archive
+tar: Exiting with failure status due to previous errors
+[0;32m@crtrauger [1;31m➜ [1;34m/workspaces/cis190-codespace/labs/lab04 [0;36m([1;31mmain[0;36m) [0m$ tar zxf newconfigs.tgz tmp-tmpctmp tmp[1Ptmp[1PtmpCtmp tmp
+[0;32m@crtrauger [0m➜ [1;34m/workspaces/cis190-codespace/labs/lab04 [0;36m([1;31mmain[0;36m) [0m$ tree
+[34;42m.[00m
+├── [01;34mconfigs[00m
+│   ├── [01;34mn101gh[00m
+│   │   ├── config_1.ini
+│   │   ├── config_1a.ini
+│   │   ├── config_2.ini
+│   │   ├── config_3.ini
+│   │   ├── config_4.ini
+│   │   └── config_5.ini
+│   ├── [01;34mn112op[00m
+│   │   ├── config_1.ini
+│   │   ├── config_2.ini
+│   │   ├── config_3.ini
+│   │   ├── config_4.ini
+│   │   └── config_5.ini
+│   ├── [01;34mn123ab[00m
+│   │   ├── config_1.ini
+│   │   ├── config_2.ini
+│   │   ├── config_3.ini
+│   │   ├── config_4.ini
+│   │   └── config_5.ini
+│   ├── [01;34mn223wx[00m
+│   │   ├── config_1.ini
+│   │   ├── config_2.ini
+│   │   ├── config_3.ini
+│   │   ├── config_4.ini
+│   │   └── config_5.ini
+│   ├── [01;34mn234ij[00m
+│   │   ├── config_1.ini
+│   │   ├── config_2.ini
+│   │   ├── config_3.ini
+│   │   ├── config_4.ini
+│   │   └── config_5.ini
+│   ├── [01;34mn456cd[00m
+│   │   ├── config_1.ini
+│   │   ├── config_2.ini
+│   │   ├── config_4.ini
+│   │   └── config_5.ini
+│   ├── [01;34mn567kl[00m
+│   │   ├── config_1.ini
+│   │   ├── config_2.ini
+│   │   ├── config_3.ini
+│   │   ├── config_4.ini
+│   │   └── config_5.ini
+│   ├── [01;34mn678st[00m
+│   │   ├── config_1.ini
+│   │   ├── config_2.ini
+│   │   ├── config_3.ini
+│   │   ├── config_4.ini
+│   │   └── config_5.ini
+│   ├── [01;34mn789ef[00m
+│   │   ├── config_1.ini
+│   │   ├── config_2.ini
+│   │   ├── config_3.ini
+│   │   ├── config_4.ini
+│   │   └── config_5.ini
+│   ├── [01;34mn890mn[00m
+│   │   ├── config_1.ini
+│   │   ├── config_2.ini
+│   │   ├── config_3.ini
+│   │   ├── config_4.ini
+│   │   └── config_5.ini
+│   └── tailnumbers.txt
+├── [01;31mlab04.tgz[00m
+├── [01;31mnewconfigs.tgz[00m
+├── [34;42mtmp[00m
+│   └── [01;34mconfigs[00m
+│       ├── [01;34mn101gh[00m
+│       │   ├── config_1.ini
+│       │   ├── config_1a.ini
+│       │   ├── config_2.ini
+│       │   ├── config_3.ini
+│       │   ├── config_4.ini
+│       │   └── config_5.ini
+│       ├── [01;34mn112op[00m
+│       │   ├── config_1.ini
+│       │   ├── config_2.ini
+│       │   ├── config_3.ini
+│       │   ├── config_4.ini
+│       │   └── config_5.ini
+│       ├── [01;34mn123ab[00m
+│       │   ├── config_1.ini
+│       │   ├── config_2.ini
+│       │   ├── config_3.ini
+│       │   ├── config_4.ini
+│       │   └── config_5.ini
+│       ├── [01;34mn223wx[00m
+│       │   ├── config_1.ini
+│       │   ├── config_2.ini
+│       │   ├── config_3.ini
+│       │   ├── config_4.ini
+│       │   └── config_5.ini
+│       ├── [01;34mn234ij[00m
+│       │   ├── config_1.ini
+│       │   ├── config_2.ini
+│       │   ├── config_3.ini
+│       │   ├── config_4.ini
+│       │   └── config_5.ini
+│       ├── [01;34mn456cd[00m
+│       │   ├── config_1.ini
+│       │   ├── config_2.ini
+│       │   ├── config_4.ini
+│       │   └── config_5.ini
+│       ├── [01;34mn567kl[00m
+│       │   ├── config_1.ini
+│       │   ├── config_2.ini
+│       │   ├── config_3.ini
+│       │   ├── config_4.ini
+│       │   └── config_5.ini
+│       ├── [01;34mn678st[00m
+│       │   ├── config_1.ini
+│       │   ├── config_2.ini
+│       │   ├── config_3.ini
+│       │   ├── config_4.ini
+│       │   └── config_5.ini
+│       ├── [01;34mn789ef[00m
+│       │   ├── config_1.ini
+│       │   ├── config_2.ini
+│       │   ├── config_3.ini
+│       │   ├── config_4.ini
+│       │   └── config_5.ini
+│       ├── [01;34mn890mn[00m
+│       │   ├── config_1.ini
+│       │   ├── config_2.ini
+│       │   ├── config_3.ini
+│       │   ├── config_4.ini
+│       │   └── config_5.ini
+│       └── tailnumbers.txt
+└── typescript
+
+23 directories, 105 files
+[0;32m@crtrauger [0m➜ [1;34m/workspaces/cis190-codespace/labs/lab04 [0;36m([1;31mmain[0;36m) [0m$ locate gzip
+bash: locate: command not found
+[0;32m@crtrauger [1;31m➜ [1;34m/workspaces/cis190-codespace/labs/lab04 [0;36m([1;31mmain[0;36m) [0m$ whereis gzip
+gzip: /usr/bin/gzip /usr/share/man/man1/gzip.1.gz /usr/share/info/gzip.info.gz
+[0;32m@crtrauger [0m➜ [1;34m/workspaces/cis190-codespace/labs/lab04 [0;36m([1;31mmain[0;36m) [0m$ uptime
+ 03:52:53 up  1:30,  0 users,  load average: 0.23, 0.22, 0.19
+[0;32m@crtrauger [0m➜ [1;34m/workspaces/cis190-codespace/labs/lab04 [0;36m([1;31mmain[0;36m) [0m$ free
+              total        used        free      shared  buff/cache   available
+Mem:        8119860     1396152      243556       67368     6480152     6333680
+Swap:             0           0           0
+[0;32m@crtrauger [0m➜ [1;34m/workspaces/cis190-codespace/labs/lab04 [0;36m([1;31mmain[0;36m) [0m$ date
+Sun Jul 14 03:55:00 UTC 2024
+[0;32m@crtrauger [0m➜ [1;34m/workspaces/cis190-codespace/labs/lab04 [0;36m([1;31mmain[0;36m) [0m$ echo "Hello, From G eneral Atomics!"
+Hello, From General Atomics!
+[0;32m@crtrauger [0m➜ [1;34m/workspaces/cis190-codespace/labs/lab04 [0;36m([1;31mmain[0;36m) [0m$ exit
+exit
+
+Script done on 2024-07-14 03:58:22+00:00 [COMMAND_EXIT_CODE="0"]
