@@ -1,0 +1,1928 @@
+Script started on 2024-08-15 01:19:06+00:00 [TERM="xterm-256color" TTY="/dev/pts/1" COLUMNS="199" LINES="50"]
+[0;32m@crtrauger [0m➜ [1;34m/workspaces/cis190-codespace/labs/final [0;36m([1;31mmain[0;36m) [0m$ wget https://boss.vvc.edu/tonning/classes/cis190/resources/final_configs.tgz
+--2024-08-15 01:20:14--  https://boss.vvc.edu/tonning/classes/cis190/resources/final_configs.tgz
+Resolving boss.vvc.edu (boss.vvc.edu)... 207.233.102.33
+Connecting to boss.vvc.edu (boss.vvc.edu)|207.233.102.33|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 12435 (12K) [application/octet-stream]
+Saving to: ‘final_configs.tgz’
+
+final_configs.tgz                                   0%[                                                                                                             ]       0  --.-KB/s               final_configs.tgz                                 100%[============================================================================================================>]  12.14K  --.-KB/s    in 0.04s   
+
+2024-08-15 01:20:14 (315 KB/s) - ‘final_configs.tgz’ saved [12435/12435]
+
+[0;32m@crtrauger [0m➜ [1;34m/workspaces/cis190-codespace/labs/final [0;36m([1;31mmain[0;36m) [0m$ untar[K[K[K[K[Ktar -xvf final_configs.tgz 
+configs/
+configs/n112op/
+configs/n112op/config_3.ini
+configs/n112op/config_5.ini
+configs/n112op/config_1.ini
+configs/n112op/config_2.ini
+configs/n112op/config_4.ini
+configs/n890mn/
+configs/n890mn/config_3.ini
+configs/n890mn/config_5.ini
+configs/n890mn/config_1.ini
+configs/n890mn/config_2.ini
+configs/n890mn/config_4.ini
+configs/n101gh/
+configs/n101gh/config_3.ini
+configs/n101gh/config_5.ini
+configs/n101gh/config_1.ini
+configs/n101gh/config_1a.ini
+configs/n101gh/config_2.ini
+configs/n101gh/config_4.ini
+configs/n678st/
+configs/n678st/config_3.ini
+configs/n678st/config_5.ini
+configs/n678st/config_1.ini
+configs/n678st/config_2.ini
+configs/n678st/config_4.ini
+configs/n567kl/
+configs/n567kl/config_3.ini
+configs/n567kl/config_5.ini
+configs/n567kl/config_1.ini
+configs/n567kl/config_2.ini
+configs/n567kl/config_4.ini
+configs/tailnumbers.txt
+configs/n789ef/
+configs/n789ef/config_3.ini
+configs/n789ef/config_5.ini
+configs/n789ef/config_1.ini
+configs/n789ef/config_2.ini
+configs/n789ef/config_4.ini
+configs/n456cd/
+configs/n456cd/config_3.ini
+configs/n456cd/config_5.ini
+configs/n456cd/config_1.ini
+configs/n456cd/config_2.ini
+configs/n456cd/config_4.ini
+configs/n123ab/
+configs/n123ab/config_3.ini
+configs/n123ab/config_5.ini
+configs/n123ab/config_1.ini
+configs/n123ab/config_2.ini
+configs/n123ab/config_4.ini
+configs/n234ij/
+configs/n234ij/config_3.ini
+configs/n234ij/config_5.ini
+configs/n234ij/config_1.ini
+configs/n234ij/config_2.ini
+configs/n234ij/config_4.ini
+configs/n223wx/
+configs/n223wx/config_3.ini
+configs/n223wx/config_5.ini
+configs/n223wx/config_1.ini
+configs/n223wx/config_2.ini
+configs/n223wx/config_4.ini
+[0;32m@crtrauger [0m➜ [1;34m/workspaces/cis190-codespace/labs/final [0;36m([1;31mmain[0;36m) [0m$ tree
+[34;42m.[00m
+├── [01;34mconfigs[00m
+│   ├── [01;34mn101gh[00m
+│   │   ├── config_1.ini
+│   │   ├── config_1a.ini
+│   │   ├── config_2.ini
+│   │   ├── config_3.ini
+│   │   ├── config_4.ini
+│   │   └── config_5.ini
+│   ├── [01;34mn112op[00m
+│   │   ├── config_1.ini
+│   │   ├── config_2.ini
+│   │   ├── config_3.ini
+│   │   ├── config_4.ini
+│   │   └── config_5.ini
+│   ├── [01;34mn123ab[00m
+│   │   ├── config_1.ini
+│   │   ├── config_2.ini
+│   │   ├── config_3.ini
+│   │   ├── config_4.ini
+│   │   └── config_5.ini
+│   ├── [01;34mn223wx[00m
+│   │   ├── config_1.ini
+│   │   ├── config_2.ini
+│   │   ├── config_3.ini
+│   │   ├── config_4.ini
+│   │   └── config_5.ini
+│   ├── [01;34mn234ij[00m
+│   │   ├── config_1.ini
+│   │   ├── config_2.ini
+│   │   ├── config_3.ini
+│   │   ├── config_4.ini
+│   │   └── config_5.ini
+│   ├── [01;34mn456cd[00m
+│   │   ├── config_1.ini
+│   │   ├── config_2.ini
+│   │   ├── config_3.ini
+│   │   ├── config_4.ini
+│   │   └── config_5.ini
+│   ├── [01;34mn567kl[00m
+│   │   ├── config_1.ini
+│   │   ├── config_2.ini
+│   │   ├── config_3.ini
+│   │   ├── config_4.ini
+│   │   └── config_5.ini
+│   ├── [01;34mn678st[00m
+│   │   ├── config_1.ini
+│   │   ├── config_2.ini
+│   │   ├── config_3.ini
+│   │   ├── config_4.ini
+│   │   └── config_5.ini
+│   ├── [01;34mn789ef[00m
+│   │   ├── config_1.ini
+│   │   ├── config_2.ini
+│   │   ├── config_3.ini
+│   │   ├── config_4.ini
+│   │   └── config_5.ini
+│   ├── [01;34mn890mn[00m
+│   │   ├── config_1.ini
+│   │   ├── config_2.ini
+│   │   ├── config_3.ini
+│   │   ├── config_4.ini
+│   │   └── config_5.ini
+│   └── tailnumbers.txt
+├── [01;31mfinal_configs.tgz[00m
+└── final_typescript
+
+11 directories, 54 files
+[0;32m@crtrauger [0m➜ [1;34m/workspaces/cis190-codespace/labs/final [0;36m([1;31mmain[0;36m) [0m$ mkdir data/aircraft
+mkdir: cannot create directory ‘data/aircraft’: No such file or directory
+[0;32m@crtrauger [1;31m➜ [1;34m/workspaces/cis190-codespace/labs/final [0;36m([1;31mmain[0;36m) [0m$ mkdir data
+[0;32m@crtrauger [0m➜ [1;34m/workspaces/cis190-codespace/labs/final [0;36m([1;31mmain[0;36m) [0m$ mkdir data/aircraftr[K
+[0;32m@crtrauger [0m➜ [1;34m/workspaces/cis190-codespace/labs/final [0;36m([1;31mmain[0;36m) [0m$ mv configs/[K data/aircraft/
+[0;32m@crtrauger [0m➜ [1;34m/workspaces/cis190-codespace/labs/final [0;36m([1;31mmain[0;36m) [0m$ tree
+[34;42m.[00m
+├── [34;42mdata[00m
+│   └── [34;42maircraft[00m
+│       └── [01;34mconfigs[00m
+│           ├── [01;34mn101gh[00m
+│           │   ├── config_1.ini
+│           │   ├── config_1a.ini
+│           │   ├── config_2.ini
+│           │   ├── config_3.ini
+│           │   ├── config_4.ini
+│           │   └── config_5.ini
+│           ├── [01;34mn112op[00m
+│           │   ├── config_1.ini
+│           │   ├── config_2.ini
+│           │   ├── config_3.ini
+│           │   ├── config_4.ini
+│           │   └── config_5.ini
+│           ├── [01;34mn123ab[00m
+│           │   ├── config_1.ini
+│           │   ├── config_2.ini
+│           │   ├── config_3.ini
+│           │   ├── config_4.ini
+│           │   └── config_5.ini
+│           ├── [01;34mn223wx[00m
+│           │   ├── config_1.ini
+│           │   ├── config_2.ini
+│           │   ├── config_3.ini
+│           │   ├── config_4.ini
+│           │   └── config_5.ini
+│           ├── [01;34mn234ij[00m
+│           │   ├── config_1.ini
+│           │   ├── config_2.ini
+│           │   ├── config_3.ini
+│           │   ├── config_4.ini
+│           │   └── config_5.ini
+│           ├── [01;34mn456cd[00m
+│           │   ├── config_1.ini
+│           │   ├── config_2.ini
+│           │   ├── config_3.ini
+│           │   ├── config_4.ini
+│           │   └── config_5.ini
+│           ├── [01;34mn567kl[00m
+│           │   ├── config_1.ini
+│           │   ├── config_2.ini
+│           │   ├── config_3.ini
+│           │   ├── config_4.ini
+│           │   └── config_5.ini
+│           ├── [01;34mn678st[00m
+│           │   ├── config_1.ini
+│           │   ├── config_2.ini
+│           │   ├── config_3.ini
+│           │   ├── config_4.ini
+│           │   └── config_5.ini
+│           ├── [01;34mn789ef[00m
+│           │   ├── config_1.ini
+│           │   ├── config_2.ini
+│           │   ├── config_3.ini
+│           │   ├── config_4.ini
+│           │   └── config_5.ini
+│           ├── [01;34mn890mn[00m
+│           │   ├── config_1.ini
+│           │   ├── config_2.ini
+│           │   ├── config_3.ini
+│           │   ├── config_4.ini
+│           │   └── config_5.ini
+│           └── tailnumbers.txt
+├── [01;31mfinal_configs.tgz[00m
+└── final_typescript
+
+13 directories, 54 files
+[0;32m@crtrauger [0m➜ [1;34m/workspaces/cis190-codespace/labs/final [0;36m([1;31mmain[0;36m) [0m$ sed -i 's/max_altitude +[K= {[K[0-9]/' [K[Kmac[Kx-[K_altitude +[K= 30000/' /data[K[K[K[K[Kdata/[K[K[K[K[Kdata/aircraft/configs/n123ab/*.ini
+[0;32m@crtrauger [0m➜ [1;34m/workspaces/cis190-codespace/labs/final [0;36m([1;31mmain[0;36m) [0m$ cat d[Ksed -i 's/max_altitude = [0-9]/max_altitude = 30000/' data/aircraft/configs/n123ab/*.ini[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ccat [Kdata/aircraft/configs/n123ab/config_1.imni[K[K[Kni
+[mission]
+mission_id = MISS-8692
+objective = Mapping
+start_time = 20:15
+duration_minutes = 360
+
+[drone]
+tail_number = n123ab
+max_altitude = 300000000
+max_speed = 300
+payload_capacity = 625
+
+[camera]
+resolution = 720p
+frame_rate = 30
+infrared = False
+lidar = True
+
+[communication]
+frequency = 5.77
+encryption = AES-128
+
+[logging]
+log_level = ERROR
+log_file = /data/logs/n123ab-MISS-8692.log
+
+[waypoints]
+waypoint_1 = -7.94085, 71.927998, 418
+waypoint_2 = -25.047837, -64.252971, 1038
+waypoint_3 = 19.013184, -96.396127, 1269
+waypoint_4 = 3.231508, -177.37585, 108
+waypoint_5 = -54.309493, -88.692402, 855
+waypoint_6 = 44.736732, 173.595894, 363
+waypoint_7 = -37.46829, -70.535238, 114
+waypoint_8 = 34.357269, 176.244412, 1701
+waypoint_9 = -68.980644, -162.020635, 1500
+waypoint_10 = -66.547623, -139.624019, 1760
+
+[0;32m@crtrauger [0m➜ [1;34m/workspaces/cis190-codespace/labs/final [0;36m([1;31mmain[0;36m) [0m$ cat data/aircraft/configs/n123ab/config_1.ini[C23ab/config_1.ini1223ab/config_1.ini[C[C23ab/config_1.inio223ab/config_1.inip223ab/config_1.ini[C[1P3ab/config_1.ini[1P3ab/config_1.ini[1Pab/config_1.ini[1Pb/config_1.ini[1P/config_1.ini
+[mission]
+mission_id = MISS-8346
+objective = Reconnaissance
+start_time = 21:00
+duration_minutes = 120
+
+[drone]
+tail_number = n112op
+max_altitude = 35000
+max_speed = 450
+payload_capacity = 500
+
+[camera]
+resolution = 720p
+frame_rate = 60
+infrared = False
+lidar = False
+
+[communication]
+frequency = 4.6
+encryption = AES-128
+
+[logging]
+log_level = ERROR
+log_file = /data/logs/n112op-MISS-8346.log
+
+[waypoints]
+waypoint_1 = -58.101731, 77.083839, 975
+waypoint_2 = -48.539808, -131.838005, 1226
+waypoint_3 = -8.72498, 6.285595, 369
+waypoint_4 = -78.789699, -59.452074, 848
+waypoint_5 = -30.200095, 157.98705, 1342
+waypoint_6 = 39.627965, -59.345075, 1826
+waypoint_7 = 75.749684, 74.215498, 1462
+waypoint_8 = 43.23346, -81.367136, 1584
+waypoint_9 = -83.614293, 157.99396, 442
+waypoint_10 = -10.398682, -103.073554, 1618
+
+[0;32m@crtrauger [0m➜ [1;34m/workspaces/cis190-codespace/labs/final [0;36m([1;31mmain[0;36m) [0m$ cat data/aircraft/configs/n112op/config_1.ini21.ini[1P.ini
+[mission]
+mission_id = MISS-9936
+objective = Engagement
+start_time = 13:00
+duration_minutes = 330
+
+[drone]
+tail_number = n112op
+max_altitude = 5000
+max_speed = 250
+payload_capacity = 550
+
+[camera]
+resolution = 4K
+frame_rate = 60
+infrared = False
+lidar = False
+
+[communication]
+frequency = 5.74
+encryption = None
+
+[logging]
+log_level = WARNING
+log_file = /data/logs/n112op-MISS-9936.log
+
+[waypoints]
+waypoint_1 = -73.407546, 112.737342, 1035
+waypoint_2 = -12.523029, -96.201207, 1812
+waypoint_3 = 4.429619, 41.578644, 964
+waypoint_4 = -27.096537, -78.500965, 115
+waypoint_5 = -30.63889, -65.830221, 724
+waypoint_6 = -52.556003, 30.695475, 1641
+waypoint_7 = 77.509558, 29.904751, 1670
+waypoint_8 = 14.413209, 39.004902, 1823
+waypoint_9 = 2.680531, 131.517543, 1752
+waypoint_10 = 58.396735, -49.576001, 1326
+
+[0;32m@crtrauger [0m➜ [1;34m/workspaces/cis190-codespace/labs/final [0;36m([1;31mmain[0;36m) [0m$ cat data/aircraft/configs/n112op/config_2.ini1.ini23ab/config_1.inised -i 's/max_altitude = [0-9]/max_altitude = 30000/' data/aircraft/configs/n123ab/*.ini[1@=[1P[1@+
+[0;32m@crtrauger [0m➜ [1;34m/workspaces/cis190-codespace/labs/final [0;36m([1;31mmain[0;36m) [0m$ sed -i 's/max_altitude = [0-9]+/max_altitude = 30000/' data/aircraft/configs/n123ab/*.ini[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[44Pcat data/aircraft/configs/n112op/config_2.ini1.ini23ab/config_1.ini
+[mission]
+mission_id = MISS-8692
+objective = Mapping
+start_time = 20:15
+duration_minutes = 360
+
+[drone]
+tail_number = n123ab
+max_altitude = 300000000
+max_speed = 300
+payload_capacity = 625
+
+[camera]
+resolution = 720p
+frame_rate = 30
+infrared = False
+lidar = True
+
+[communication]
+frequency = 5.77
+encryption = AES-128
+
+[logging]
+log_level = ERROR
+log_file = /data/logs/n123ab-MISS-8692.log
+
+[waypoints]
+waypoint_1 = -7.94085, 71.927998, 418
+waypoint_2 = -25.047837, -64.252971, 1038
+waypoint_3 = 19.013184, -96.396127, 1269
+waypoint_4 = 3.231508, -177.37585, 108
+waypoint_5 = -54.309493, -88.692402, 855
+waypoint_6 = 44.736732, 173.595894, 363
+waypoint_7 = -37.46829, -70.535238, 114
+waypoint_8 = 34.357269, 176.244412, 1701
+waypoint_9 = -68.980644, -162.020635, 1500
+waypoint_10 = -66.547623, -139.624019, 1760
+
+[0;32m@crtrauger [0m➜ [1;34m/workspaces/cis190-codespace/labs/final [0;36m([1;31mmain[0;36m) [0m$ cat data/aircraft/configs/n123ab/config_1.ini21.ini[1P.ini
+[mission]
+mission_id = MISS-4879
+objective = Engagement
+start_time = 02:45
+duration_minutes = 90
+
+[drone]
+tail_number = n123ab
+max_altitude = 300000000
+max_speed = 250
+payload_capacity = 600
+
+[camera]
+resolution = 1080p
+frame_rate = 24
+infrared = True
+lidar = True
+
+[communication]
+frequency = 2.9
+encryption = None
+
+[logging]
+log_level = DEBUG
+log_file = /data/logs/n123ab-MISS-4879.log
+
+[waypoints]
+waypoint_1 = 23.695311, 8.488492, 1162
+waypoint_2 = -22.370626, 2.288185, 1719
+waypoint_3 = -60.876411, -16.316544, 628
+waypoint_4 = -73.466589, 120.994067, 879
+waypoint_5 = 76.749445, 113.738315, 1912
+waypoint_6 = -39.829873, 33.826342, 1586
+waypoint_7 = 62.622789, 42.665519, 1879
+waypoint_8 = -64.629633, 84.920533, 1069
+waypoint_9 = 9.453238, -145.110354, 211
+waypoint_10 = 81.20267, 139.251564, 1161
+
+[0;32m@crtrauger [0m➜ [1;34m/workspaces/cis190-codespace/labs/final [0;36m([1;31mmain[0;36m) [0m$ cat data/aircraft/configs/n123ab/config_2.ini32.ini[1P.ini
+[mission]
+mission_id = MISS-4901
+objective = Delivery
+start_time = 17:30
+duration_minutes = 120
+
+[drone]
+tail_number = n123ab
+max_altitude = 300005000
+max_speed = 250
+payload_capacity = 700
+
+[camera]
+resolution = 1080p
+frame_rate = 24
+infrared = True
+lidar = False
+
+[communication]
+frequency = 5.18
+encryption = AES-256
+
+[logging]
+log_level = ERROR
+log_file = /data/logs/n123ab-MISS-4901.log
+
+[waypoints]
+waypoint_1 = -34.760137, 1.853969, 244
+waypoint_2 = 15.502031, 93.221997, 1813
+waypoint_3 = 42.621715, 7.335771, 1396
+waypoint_4 = 71.632636, -101.032309, 1479
+waypoint_5 = 85.553904, 81.119861, 620
+waypoint_6 = -47.409775, -115.736535, 996
+waypoint_7 = 44.387758, 74.291912, 1724
+waypoint_8 = -84.916736, -71.129553, 1045
+waypoint_9 = 84.638587, 154.381035, 1688
+waypoint_10 = 55.323739, -160.917301, 1267
+
+[0;32m@crtrauger [0m➜ [1;34m/workspaces/cis190-codespace/labs/final [0;36m([1;31mmain[0;36m) [0m$ cat data/aircraft/configs/n123ab/config_3.ini2.ini1.inised -i 's/max_altitude = [0-9]+/max_altitude = 30000/' data/aircraft/configs/n123ab/*.ini[1@.[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+[0;32m@crtrauger [0m➜ [1;34m/workspaces/cis190-codespace/labs/final [0;36m([1;31mmain[0;36m) [0m$ sed -i 's/max_altitude = .[0-9]/max_altitude = 30000/' data/aircraft/configs/n123ab/*.ini[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[44Pcat data/aircraft/configs/n123ab/config_3.ini2.ini1.ini
+[mission]
+mission_id = MISS-8692
+objective = Mapping
+start_time = 20:15
+duration_minutes = 360
+
+[drone]
+tail_number = n123ab
+max_altitude = 300000000000
+max_speed = 300
+payload_capacity = 625
+
+[camera]
+resolution = 720p
+frame_rate = 30
+infrared = False
+lidar = True
+
+[communication]
+frequency = 5.77
+encryption = AES-128
+
+[logging]
+log_level = ERROR
+log_file = /data/logs/n123ab-MISS-8692.log
+
+[waypoints]
+waypoint_1 = -7.94085, 71.927998, 418
+waypoint_2 = -25.047837, -64.252971, 1038
+waypoint_3 = 19.013184, -96.396127, 1269
+waypoint_4 = 3.231508, -177.37585, 108
+waypoint_5 = -54.309493, -88.692402, 855
+waypoint_6 = 44.736732, 173.595894, 363
+waypoint_7 = -37.46829, -70.535238, 114
+waypoint_8 = 34.357269, 176.244412, 1701
+waypoint_9 = -68.980644, -162.020635, 1500
+waypoint_10 = -66.547623, -139.624019, 1760
+
+[0;32m@crtrauger [0m➜ [1;34m/workspaces/cis190-codespace/labs/final [0;36m([1;31mmain[0;36m) [0m$ cat data/aircraft/configs/n123ab/config_1.inised -i 's/max_altitude = .[0-9]/max_altitude = 30000/' data/aircraft/configs/n123ab/*.ini[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[44Pcat data/aircraft/configs/n123ab/config_3.ini2.ini
+[mission]
+mission_id = MISS-4879
+objective = Engagement
+start_time = 02:45
+duration_minutes = 90
+
+[drone]
+tail_number = n123ab
+max_altitude = 300000000000
+max_speed = 250
+payload_capacity = 600
+
+[camera]
+resolution = 1080p
+frame_rate = 24
+infrared = True
+lidar = True
+
+[communication]
+frequency = 2.9
+encryption = None
+
+[logging]
+log_level = DEBUG
+log_file = /data/logs/n123ab-MISS-4879.log
+
+[waypoints]
+waypoint_1 = 23.695311, 8.488492, 1162
+waypoint_2 = -22.370626, 2.288185, 1719
+waypoint_3 = -60.876411, -16.316544, 628
+waypoint_4 = -73.466589, 120.994067, 879
+waypoint_5 = 76.749445, 113.738315, 1912
+waypoint_6 = -39.829873, 33.826342, 1586
+waypoint_7 = 62.622789, 42.665519, 1879
+waypoint_8 = -64.629633, 84.920533, 1069
+waypoint_9 = 9.453238, -145.110354, 211
+waypoint_10 = 81.20267, 139.251564, 1161
+
+[0;32m@crtrauger [0m➜ [1;34m/workspaces/cis190-codespace/labs/final [0;36m([1;31mmain[0;36m) [0m$ cat data/aircraft/configs/n123ab/config_2.ini1.ini2.ini1.inised -i 's/max_altitude = .[0-9]/max_altitude = 30000/' data/aircraft/configs/n123ab/*.ini[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[44Pcat data/aircraft/configs/n123ab/config_3.ini
+[mission]
+mission_id = MISS-4901
+objective = Delivery
+start_time = 17:30
+duration_minutes = 120
+
+[drone]
+tail_number = n123ab
+max_altitude = 300000005000
+max_speed = 250
+payload_capacity = 700
+
+[camera]
+resolution = 1080p
+frame_rate = 24
+infrared = True
+lidar = False
+
+[communication]
+frequency = 5.18
+encryption = AES-256
+
+[logging]
+log_level = ERROR
+log_file = /data/logs/n123ab-MISS-4901.log
+
+[waypoints]
+waypoint_1 = -34.760137, 1.853969, 244
+waypoint_2 = 15.502031, 93.221997, 1813
+waypoint_3 = 42.621715, 7.335771, 1396
+waypoint_4 = 71.632636, -101.032309, 1479
+waypoint_5 = 85.553904, 81.119861, 620
+waypoint_6 = -47.409775, -115.736535, 996
+waypoint_7 = 44.387758, 74.291912, 1724
+waypoint_8 = -84.916736, -71.129553, 1045
+waypoint_9 = 84.638587, 154.381035, 1688
+waypoint_10 = 55.323739, -160.917301, 1267
+
+[0;32m@crtrauger [0m➜ [1;34m/workspaces/cis190-codespace/labs/final [0;36m([1;31mmain[0;36m) [0m$ cat data/aircraft/configs/n123ab/config_3.ini2.ini1.inised -i 's/max_altitude = .[0-9]/max_altitude = 30000/' data/aircraft/configs/n123ab/*.ini[1P[1P[1P[1P[1P[1P[1@.[1@*[1P
+[0;32m@crtrauger [0m➜ [1;34m/workspaces/cis190-codespace/labs/final [0;36m([1;31mmain[0;36m) [0m$ sed -i 's/max_altitude =.*/max_altitude = 30000/' data/aircraft/configs/n123ab/*.ini[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[39Pcat data/aircraft/configs/n123ab/config_3.ini2.ini1.ini
+[mission]
+mission_id = MISS-8692
+objective = Mapping
+start_time = 20:15
+duration_minutes = 360
+
+[drone]
+tail_number = n123ab
+max_altitude = 30000
+max_speed = 300
+payload_capacity = 625
+
+[camera]
+resolution = 720p
+frame_rate = 30
+infrared = False
+lidar = True
+
+[communication]
+frequency = 5.77
+encryption = AES-128
+
+[logging]
+log_level = ERROR
+log_file = /data/logs/n123ab-MISS-8692.log
+
+[waypoints]
+waypoint_1 = -7.94085, 71.927998, 418
+waypoint_2 = -25.047837, -64.252971, 1038
+waypoint_3 = 19.013184, -96.396127, 1269
+waypoint_4 = 3.231508, -177.37585, 108
+waypoint_5 = -54.309493, -88.692402, 855
+waypoint_6 = 44.736732, 173.595894, 363
+waypoint_7 = -37.46829, -70.535238, 114
+waypoint_8 = 34.357269, 176.244412, 1701
+waypoint_9 = -68.980644, -162.020635, 1500
+waypoint_10 = -66.547623, -139.624019, 1760
+
+[0;32m@crtrauger [0m➜ [1;34m/workspaces/cis190-codespace/labs/final [0;36m([1;31mmain[0;36m) [0m$ wget https://boss.vvc.edu/tonning/classes/cis190/resources/final_logs.tgz [K
+--2024-08-15 02:17:43--  https://boss.vvc.edu/tonning/classes/cis190/resources/final_logs.tgz
+Resolving boss.vvc.edu (boss.vvc.edu)... 207.233.102.33
+Connecting to boss.vvc.edu (boss.vvc.edu)|207.233.102.33|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 10561 (10K) [application/octet-stream]
+Saving to: ‘final_logs.tgz’
+
+final_logs.tgz                                      0%[                                                                                                             ]       0  --.-KB/s               final_logs.tgz                                    100%[============================================================================================================>]  10.31K  --.-KB/s    in 0s      
+
+2024-08-15 02:17:44 (49.5 MB/s) - ‘final_logs.tgz’ saved [10561/10561]
+
+[0;32m@crtrauger [0m➜ [1;34m/workspaces/cis190-codespace/labs/final [0;36m([1;31mmain[0;36m) [0m$ tree
+[34;42m.[00m
+├── [34;42mdata[00m
+│   └── [34;42maircraft[00m
+│       └── [01;34mconfigs[00m
+│           ├── [01;34mn101gh[00m
+│           │   ├── config_1.ini
+│           │   ├── config_1a.ini
+│           │   ├── config_2.ini
+│           │   ├── config_3.ini
+│           │   ├── config_4.ini
+│           │   └── config_5.ini
+│           ├── [01;34mn112op[00m
+│           │   ├── config_1.ini
+│           │   ├── config_2.ini
+│           │   ├── config_3.ini
+│           │   ├── config_4.ini
+│           │   └── config_5.ini
+│           ├── [01;34mn123ab[00m
+│           │   ├── config_1.ini
+│           │   ├── config_2.ini
+│           │   ├── config_3.ini
+│           │   ├── config_4.ini
+│           │   └── config_5.ini
+│           ├── [01;34mn223wx[00m
+│           │   ├── config_1.ini
+│           │   ├── config_2.ini
+│           │   ├── config_3.ini
+│           │   ├── config_4.ini
+│           │   └── config_5.ini
+│           ├── [01;34mn234ij[00m
+│           │   ├── config_1.ini
+│           │   ├── config_2.ini
+│           │   ├── config_3.ini
+│           │   ├── config_4.ini
+│           │   └── config_5.ini
+│           ├── [01;34mn456cd[00m
+│           │   ├── config_1.ini
+│           │   ├── config_2.ini
+│           │   ├── config_3.ini
+│           │   ├── config_4.ini
+│           │   └── config_5.ini
+│           ├── [01;34mn567kl[00m
+│           │   ├── config_1.ini
+│           │   ├── config_2.ini
+│           │   ├── config_3.ini
+│           │   ├── config_4.ini
+│           │   └── config_5.ini
+│           ├── [01;34mn678st[00m
+│           │   ├── config_1.ini
+│           │   ├── config_2.ini
+│           │   ├── config_3.ini
+│           │   ├── config_4.ini
+│           │   └── config_5.ini
+│           ├── [01;34mn789ef[00m
+│           │   ├── config_1.ini
+│           │   ├── config_2.ini
+│           │   ├── config_3.ini
+│           │   ├── config_4.ini
+│           │   └── config_5.ini
+│           ├── [01;34mn890mn[00m
+│           │   ├── config_1.ini
+│           │   ├── config_2.ini
+│           │   ├── config_3.ini
+│           │   ├── config_4.ini
+│           │   └── config_5.ini
+│           └── tailnumbers.txt
+├── [01;31mfinal_configs.tgz[00m
+├── [01;31mfinal_logs.tgz[00m
+└── final_typescript
+
+13 directories, 55 files
+[0;32m@crtrauger [0m➜ [1;34m/workspaces/cis190-codespace/labs/final [0;36m([1;31mmain[0;36m) [0m$ tar -xvf final_logs.tgz 
+logs/
+logs/n101gh_telemetry.log
+logs/n123ab_telemetry.log
+logs/n567kl_telemetry.log
+logs/n112op_telemetry.log
+logs/n456cd_telemetry.log
+logs/n890mn_telemetry.log
+logs/n234ij_telemetry.log
+logs/n789ef_telemetry.log
+logs/n223wx_telemetry.log
+logs/n678st_telemetry.log
+[0;32m@crtrauger [0m➜ [1;34m/workspaces/cis190-codespace/labs/final [0;36m([1;31mmain[0;36m) [0m$ mv logs/ data/aircraft/
+[0;32m@crtrauger [0m➜ [1;34m/workspaces/cis190-codespace/labs/final [0;36m([1;31mmain[0;36m) [0m$ tree
+[34;42m.[00m
+├── [34;42mdata[00m
+│   └── [34;42maircraft[00m
+│       ├── [01;34mconfigs[00m
+│       │   ├── [01;34mn101gh[00m
+│       │   │   ├── config_1.ini
+│       │   │   ├── config_1a.ini
+│       │   │   ├── config_2.ini
+│       │   │   ├── config_3.ini
+│       │   │   ├── config_4.ini
+│       │   │   └── config_5.ini
+│       │   ├── [01;34mn112op[00m
+│       │   │   ├── config_1.ini
+│       │   │   ├── config_2.ini
+│       │   │   ├── config_3.ini
+│       │   │   ├── config_4.ini
+│       │   │   └── config_5.ini
+│       │   ├── [01;34mn123ab[00m
+│       │   │   ├── config_1.ini
+│       │   │   ├── config_2.ini
+│       │   │   ├── config_3.ini
+│       │   │   ├── config_4.ini
+│       │   │   └── config_5.ini
+│       │   ├── [01;34mn223wx[00m
+│       │   │   ├── config_1.ini
+│       │   │   ├── config_2.ini
+│       │   │   ├── config_3.ini
+│       │   │   ├── config_4.ini
+│       │   │   └── config_5.ini
+│       │   ├── [01;34mn234ij[00m
+│       │   │   ├── config_1.ini
+│       │   │   ├── config_2.ini
+│       │   │   ├── config_3.ini
+│       │   │   ├── config_4.ini
+│       │   │   └── config_5.ini
+│       │   ├── [01;34mn456cd[00m
+│       │   │   ├── config_1.ini
+│       │   │   ├── config_2.ini
+│       │   │   ├── config_3.ini
+│       │   │   ├── config_4.ini
+│       │   │   └── config_5.ini
+│       │   ├── [01;34mn567kl[00m
+│       │   │   ├── config_1.ini
+│       │   │   ├── config_2.ini
+│       │   │   ├── config_3.ini
+│       │   │   ├── config_4.ini
+│       │   │   └── config_5.ini
+│       │   ├── [01;34mn678st[00m
+│       │   │   ├── config_1.ini
+│       │   │   ├── config_2.ini
+│       │   │   ├── config_3.ini
+│       │   │   ├── config_4.ini
+│       │   │   └── config_5.ini
+│       │   ├── [01;34mn789ef[00m
+│       │   │   ├── config_1.ini
+│       │   │   ├── config_2.ini
+│       │   │   ├── config_3.ini
+│       │   │   ├── config_4.ini
+│       │   │   └── config_5.ini
+│       │   ├── [01;34mn890mn[00m
+│       │   │   ├── config_1.ini
+│       │   │   ├── config_2.ini
+│       │   │   ├── config_3.ini
+│       │   │   ├── config_4.ini
+│       │   │   └── config_5.ini
+│       │   └── tailnumbers.txt
+│       └── [01;34mlogs[00m
+│           ├── n101gh_telemetry.log
+│           ├── n112op_telemetry.log
+│           ├── n123ab_telemetry.log
+│           ├── n223wx_telemetry.log
+│           ├── n234ij_telemetry.log
+│           ├── n456cd_telemetry.log
+│           ├── n567kl_telemetry.log
+│           ├── n678st_telemetry.log
+│           ├── n789ef_telemetry.log
+│           └── n890mn_telemetry.log
+├── [01;31mfinal_configs.tgz[00m
+├── [01;31mfinal_logs.tgz[00m
+└── final_typescript
+
+14 directories, 65 files
+[0;32m@crtrauger [0m➜ [1;34m/workspaces/cis190-codespace/labs/final [0;36m([1;31mmain[0;36m) [0m$ grep -r GPS data/aircraft/logs/* > data/aircraft/logs/gps_summary.txt
+[0;32m@crtrauger [0m➜ [1;34m/workspaces/cis190-codespace/labs/final [0;36m([1;31mmain[0;36m) [0m$ cat data/aircraft/logs/gps_summary.txt 
+data/aircraft/logs/n101gh_telemetry.log:[2024-06-26 14:33:10] GPS: Latitude: 34.0524, Longitude: -118.2435
+data/aircraft/logs/n101gh_telemetry.log:[2024-06-26 14:34:10] GPS: Latitude: 34.0526, Longitude: -118.2433
+data/aircraft/logs/n101gh_telemetry.log:[2024-06-26 14:35:10] GPS: Latitude: 34.0528, Longitude: -118.2430
+data/aircraft/logs/n101gh_telemetry.log:[2024-06-26 14:36:10] GPS: Latitude: 34.0531, Longitude: -118.2426
+data/aircraft/logs/n101gh_telemetry.log:[2024-06-26 14:37:10] GPS: Latitude: 34.0533, Longitude: -118.2424
+data/aircraft/logs/n101gh_telemetry.log:[2024-06-26 14:38:10] GPS: Latitude: 34.0537, Longitude: -118.2423
+data/aircraft/logs/n101gh_telemetry.log:[2024-06-26 14:39:10] GPS: Latitude: 34.0542, Longitude: -118.2420
+data/aircraft/logs/n101gh_telemetry.log:[2024-06-26 14:40:10] GPS: Latitude: 34.0544, Longitude: -118.2419
+data/aircraft/logs/n101gh_telemetry.log:[2024-06-26 14:41:10] GPS: Latitude: 34.0546, Longitude: -118.2417
+data/aircraft/logs/n101gh_telemetry.log:[2024-06-26 14:42:10] GPS: Latitude: 34.0548, Longitude: -118.2413
+data/aircraft/logs/n101gh_telemetry.log:[2024-06-26 14:43:10] GPS: Latitude: 34.0552, Longitude: -118.2410
+data/aircraft/logs/n101gh_telemetry.log:[2024-06-26 14:44:10] GPS: Latitude: 34.0554, Longitude: -118.2406
+data/aircraft/logs/n101gh_telemetry.log:[2024-06-26 14:45:10] GPS: Latitude: 34.0558, Longitude: -118.2405
+data/aircraft/logs/n101gh_telemetry.log:[2024-06-26 14:46:10] GPS: Latitude: 34.0563, Longitude: -118.2401
+data/aircraft/logs/n101gh_telemetry.log:[2024-06-26 14:47:10] GPS: Latitude: 34.0567, Longitude: -118.2399
+data/aircraft/logs/n101gh_telemetry.log:[2024-06-26 14:48:10] GPS: Latitude: 34.0569, Longitude: -118.2398
+data/aircraft/logs/n101gh_telemetry.log:[2024-06-26 14:49:10] GPS: Latitude: 34.0572, Longitude: -118.2393
+data/aircraft/logs/n101gh_telemetry.log:[2024-06-26 14:50:10] GPS: Latitude: 34.0575, Longitude: -118.2390
+data/aircraft/logs/n101gh_telemetry.log:[2024-06-26 14:51:10] GPS: Latitude: 34.0577, Longitude: -118.2388
+data/aircraft/logs/n101gh_telemetry.log:[2024-06-26 14:52:10] GPS: Latitude: 34.0580, Longitude: -118.2383
+data/aircraft/logs/n101gh_telemetry.log:[2024-06-26 14:53:10] GPS: Latitude: 34.0584, Longitude: -118.2380
+data/aircraft/logs/n101gh_telemetry.log:[2024-06-26 14:54:10] GPS: Latitude: 34.0588, Longitude: -118.2376
+data/aircraft/logs/n101gh_telemetry.log:[2024-06-26 14:55:10] GPS: Latitude: 34.0592, Longitude: -118.2372
+data/aircraft/logs/n101gh_telemetry.log:[2024-06-26 14:56:10] GPS: Latitude: 34.0595, Longitude: -118.2369
+data/aircraft/logs/n101gh_telemetry.log:[2024-06-26 14:57:10] GPS: Latitude: 34.0596, Longitude: -118.2366
+data/aircraft/logs/n101gh_telemetry.log:[2024-06-26 14:58:10] GPS: Latitude: 34.0601, Longitude: -118.2364
+data/aircraft/logs/n101gh_telemetry.log:[2024-06-26 14:59:10] GPS: Latitude: 34.0605, Longitude: -118.2359
+data/aircraft/logs/n101gh_telemetry.log:[2024-06-26 15:00:10] GPS: Latitude: 34.0606, Longitude: -118.2357
+data/aircraft/logs/n101gh_telemetry.log:[2024-06-26 15:01:10] GPS: Latitude: 34.0610, Longitude: -118.2354
+data/aircraft/logs/n101gh_telemetry.log:[2024-06-26 15:02:10] GPS: Latitude: 34.0613, Longitude: -118.2351
+data/aircraft/logs/n101gh_telemetry.log:[2024-06-26 15:03:10] GPS: Latitude: 34.0608, Longitude: -118.2353
+data/aircraft/logs/n101gh_telemetry.log:[2024-06-26 15:04:10] GPS: Latitude: 34.0604, Longitude: -118.2357
+data/aircraft/logs/n101gh_telemetry.log:[2024-06-26 15:05:10] GPS: Latitude: 34.0600, Longitude: -118.2360
+data/aircraft/logs/n101gh_telemetry.log:[2024-06-26 15:06:10] GPS: Latitude: 34.0596, Longitude: -118.2363
+data/aircraft/logs/n101gh_telemetry.log:[2024-06-26 15:07:10] GPS: Latitude: 34.0592, Longitude: -118.2367
+data/aircraft/logs/n112op_telemetry.log:[2024-06-26 14:33:10] GPS: Latitude: 34.0525, Longitude: -118.2434
+data/aircraft/logs/n112op_telemetry.log:[2024-06-26 14:34:10] GPS: Latitude: 34.0527, Longitude: -118.2432
+data/aircraft/logs/n112op_telemetry.log:[2024-06-26 14:35:10] GPS: Latitude: 34.0529, Longitude: -118.2428
+data/aircraft/logs/n112op_telemetry.log:[2024-06-26 14:36:10] GPS: Latitude: 34.0533, Longitude: -118.2424
+data/aircraft/logs/n112op_telemetry.log:[2024-06-26 14:37:10] GPS: Latitude: 34.0535, Longitude: -118.2419
+data/aircraft/logs/n112op_telemetry.log:[2024-06-26 14:38:10] GPS: Latitude: 34.0536, Longitude: -118.2415
+data/aircraft/logs/n112op_telemetry.log:[2024-06-26 14:39:10] GPS: Latitude: 34.0539, Longitude: -118.2410
+data/aircraft/logs/n112op_telemetry.log:[2024-06-26 14:40:10] GPS: Latitude: 34.0543, Longitude: -118.2408
+data/aircraft/logs/n112op_telemetry.log:[2024-06-26 14:41:10] GPS: Latitude: 34.0548, Longitude: -118.2403
+data/aircraft/logs/n112op_telemetry.log:[2024-06-26 14:42:10] GPS: Latitude: 34.0551, Longitude: -118.2399
+data/aircraft/logs/n112op_telemetry.log:[2024-06-26 14:43:10] GPS: Latitude: 34.0554, Longitude: -118.2396
+data/aircraft/logs/n112op_telemetry.log:[2024-06-26 14:44:10] GPS: Latitude: 34.0558, Longitude: -118.2393
+data/aircraft/logs/n112op_telemetry.log:[2024-06-26 14:45:10] GPS: Latitude: 34.0560, Longitude: -118.2389
+data/aircraft/logs/n112op_telemetry.log:[2024-06-26 14:46:10] GPS: Latitude: 34.0565, Longitude: -118.2385
+data/aircraft/logs/n112op_telemetry.log:[2024-06-26 14:47:10] GPS: Latitude: 34.0568, Longitude: -118.2380
+data/aircraft/logs/n112op_telemetry.log:[2024-06-26 14:48:10] GPS: Latitude: 34.0571, Longitude: -118.2376
+data/aircraft/logs/n112op_telemetry.log:[2024-06-26 14:49:10] GPS: Latitude: 34.0573, Longitude: -118.2372
+data/aircraft/logs/n112op_telemetry.log:[2024-06-26 14:50:10] GPS: Latitude: 34.0576, Longitude: -118.2371
+data/aircraft/logs/n112op_telemetry.log:[2024-06-26 14:51:10] GPS: Latitude: 34.0580, Longitude: -118.2368
+data/aircraft/logs/n112op_telemetry.log:[2024-06-26 14:52:10] GPS: Latitude: 34.0582, Longitude: -118.2365
+data/aircraft/logs/n112op_telemetry.log:[2024-06-26 14:53:10] GPS: Latitude: 34.0583, Longitude: -118.2360
+data/aircraft/logs/n112op_telemetry.log:[2024-06-26 14:54:10] GPS: Latitude: 34.0585, Longitude: -118.2358
+data/aircraft/logs/n112op_telemetry.log:[2024-06-26 14:55:10] GPS: Latitude: 34.0588, Longitude: -118.2356
+data/aircraft/logs/n112op_telemetry.log:[2024-06-26 14:56:10] GPS: Latitude: 34.0591, Longitude: -118.2354
+data/aircraft/logs/n112op_telemetry.log:[2024-06-26 14:57:10] GPS: Latitude: 34.0593, Longitude: -118.2350
+data/aircraft/logs/n112op_telemetry.log:[2024-06-26 14:58:10] GPS: Latitude: 34.0596, Longitude: -118.2348
+data/aircraft/logs/n112op_telemetry.log:[2024-06-26 14:59:10] GPS: Latitude: 34.0598, Longitude: -118.2347
+data/aircraft/logs/n112op_telemetry.log:[2024-06-26 15:00:10] GPS: Latitude: 34.0603, Longitude: -118.2345
+data/aircraft/logs/n112op_telemetry.log:[2024-06-26 15:01:10] GPS: Latitude: 34.0606, Longitude: -118.2341
+data/aircraft/logs/n112op_telemetry.log:[2024-06-26 15:02:10] GPS: Latitude: 34.0610, Longitude: -118.2338
+data/aircraft/logs/n112op_telemetry.log:[2024-06-26 15:03:10] GPS: Latitude: 34.0608, Longitude: -118.2340
+data/aircraft/logs/n112op_telemetry.log:[2024-06-26 15:04:10] GPS: Latitude: 34.0604, Longitude: -118.2342
+data/aircraft/logs/n112op_telemetry.log:[2024-06-26 15:05:10] GPS: Latitude: 34.0600, Longitude: -118.2344
+data/aircraft/logs/n112op_telemetry.log:[2024-06-26 15:06:10] GPS: Latitude: 34.0598, Longitude: -118.2347
+data/aircraft/logs/n112op_telemetry.log:[2024-06-26 15:07:10] GPS: Latitude: 34.0595, Longitude: -118.2349
+data/aircraft/logs/n123ab_telemetry.log:[2024-06-26 14:33:10] GPS: Latitude: 34.0524, Longitude: -118.2434
+data/aircraft/logs/n123ab_telemetry.log:[2024-06-26 14:34:10] GPS: Latitude: 34.0528, Longitude: -118.2430
+data/aircraft/logs/n123ab_telemetry.log:[2024-06-26 14:35:10] GPS: Latitude: 34.0532, Longitude: -118.2426
+data/aircraft/logs/n123ab_telemetry.log:[2024-06-26 14:36:10] GPS: Latitude: 34.0536, Longitude: -118.2425
+data/aircraft/logs/n123ab_telemetry.log:[2024-06-26 14:37:10] GPS: Latitude: 34.0538, Longitude: -118.2421
+data/aircraft/logs/n123ab_telemetry.log:[2024-06-26 14:38:10] GPS: Latitude: 34.0541, Longitude: -118.2416
+data/aircraft/logs/n123ab_telemetry.log:[2024-06-26 14:39:10] GPS: Latitude: 34.0543, Longitude: -118.2414
+data/aircraft/logs/n123ab_telemetry.log:[2024-06-26 14:40:10] GPS: Latitude: 34.0547, Longitude: -118.2410
+data/aircraft/logs/n123ab_telemetry.log:[2024-06-26 14:41:10] GPS: Latitude: 34.0550, Longitude: -118.2407
+data/aircraft/logs/n123ab_telemetry.log:[2024-06-26 14:42:10] GPS: Latitude: 34.0554, Longitude: -118.2405
+data/aircraft/logs/n123ab_telemetry.log:[2024-06-26 14:43:10] GPS: Latitude: 34.0555, Longitude: -118.2400
+data/aircraft/logs/n123ab_telemetry.log:[2024-06-26 14:44:10] GPS: Latitude: 34.0558, Longitude: -118.2399
+data/aircraft/logs/n123ab_telemetry.log:[2024-06-26 14:45:10] GPS: Latitude: 34.0559, Longitude: -118.2395
+data/aircraft/logs/n123ab_telemetry.log:[2024-06-26 14:46:10] GPS: Latitude: 34.0563, Longitude: -118.2391
+data/aircraft/logs/n123ab_telemetry.log:[2024-06-26 14:47:10] GPS: Latitude: 34.0564, Longitude: -118.2390
+data/aircraft/logs/n123ab_telemetry.log:[2024-06-26 14:48:10] GPS: Latitude: 34.0568, Longitude: -118.2389
+data/aircraft/logs/n123ab_telemetry.log:[2024-06-26 14:49:10] GPS: Latitude: 34.0570, Longitude: -118.2387
+data/aircraft/logs/n123ab_telemetry.log:[2024-06-26 14:50:10] GPS: Latitude: 34.0575, Longitude: -118.2383
+data/aircraft/logs/n123ab_telemetry.log:[2024-06-26 14:51:10] GPS: Latitude: 34.0577, Longitude: -118.2378
+data/aircraft/logs/n123ab_telemetry.log:[2024-06-26 14:52:10] GPS: Latitude: 34.0581, Longitude: -118.2377
+data/aircraft/logs/n123ab_telemetry.log:[2024-06-26 14:53:10] GPS: Latitude: 34.0584, Longitude: -118.2375
+data/aircraft/logs/n123ab_telemetry.log:[2024-06-26 14:54:10] GPS: Latitude: 34.0588, Longitude: -118.2371
+data/aircraft/logs/n123ab_telemetry.log:[2024-06-26 14:55:10] GPS: Latitude: 34.0592, Longitude: -118.2368
+data/aircraft/logs/n123ab_telemetry.log:[2024-06-26 14:56:10] GPS: Latitude: 34.0597, Longitude: -118.2364
+data/aircraft/logs/n123ab_telemetry.log:[2024-06-26 14:57:10] GPS: Latitude: 34.0600, Longitude: -118.2360
+data/aircraft/logs/n123ab_telemetry.log:[2024-06-26 14:58:10] GPS: Latitude: 34.0601, Longitude: -118.2356
+data/aircraft/logs/n123ab_telemetry.log:[2024-06-26 14:59:10] GPS: Latitude: 34.0605, Longitude: -118.2354
+data/aircraft/logs/n123ab_telemetry.log:[2024-06-26 15:00:10] GPS: Latitude: 34.0609, Longitude: -118.2349
+data/aircraft/logs/n123ab_telemetry.log:[2024-06-26 15:01:10] GPS: Latitude: 34.0610, Longitude: -118.2346
+data/aircraft/logs/n123ab_telemetry.log:[2024-06-26 15:02:10] GPS: Latitude: 34.0614, Longitude: -118.2342
+data/aircraft/logs/n123ab_telemetry.log:[2024-06-26 15:03:10] GPS: Latitude: 34.0609, Longitude: -118.2346
+data/aircraft/logs/n123ab_telemetry.log:[2024-06-26 15:04:10] GPS: Latitude: 34.0607, Longitude: -118.2349
+data/aircraft/logs/n123ab_telemetry.log:[2024-06-26 15:05:10] GPS: Latitude: 34.0604, Longitude: -118.2350
+data/aircraft/logs/n123ab_telemetry.log:[2024-06-26 15:06:10] GPS: Latitude: 34.0600, Longitude: -118.2355
+data/aircraft/logs/n123ab_telemetry.log:[2024-06-26 15:07:10] GPS: Latitude: 34.0595, Longitude: -118.2359
+data/aircraft/logs/n223wx_telemetry.log:[2024-06-26 14:33:10] GPS: Latitude: 34.0525, Longitude: -118.2436
+data/aircraft/logs/n223wx_telemetry.log:[2024-06-26 14:34:10] GPS: Latitude: 34.0528, Longitude: -118.2431
+data/aircraft/logs/n223wx_telemetry.log:[2024-06-26 14:35:10] GPS: Latitude: 34.0532, Longitude: -118.2428
+data/aircraft/logs/n223wx_telemetry.log:[2024-06-26 14:36:10] GPS: Latitude: 34.0535, Longitude: -118.2423
+data/aircraft/logs/n223wx_telemetry.log:[2024-06-26 14:37:10] GPS: Latitude: 34.0538, Longitude: -118.2420
+data/aircraft/logs/n223wx_telemetry.log:[2024-06-26 14:38:10] GPS: Latitude: 34.0541, Longitude: -118.2416
+data/aircraft/logs/n223wx_telemetry.log:[2024-06-26 14:39:10] GPS: Latitude: 34.0546, Longitude: -118.2413
+data/aircraft/logs/n223wx_telemetry.log:[2024-06-26 14:40:10] GPS: Latitude: 34.0548, Longitude: -118.2409
+data/aircraft/logs/n223wx_telemetry.log:[2024-06-26 14:41:10] GPS: Latitude: 34.0549, Longitude: -118.2404
+data/aircraft/logs/n223wx_telemetry.log:[2024-06-26 14:42:10] GPS: Latitude: 34.0554, Longitude: -118.2401
+data/aircraft/logs/n223wx_telemetry.log:[2024-06-26 14:43:10] GPS: Latitude: 34.0556, Longitude: -118.2399
+data/aircraft/logs/n223wx_telemetry.log:[2024-06-26 14:44:10] GPS: Latitude: 34.0558, Longitude: -118.2398
+data/aircraft/logs/n223wx_telemetry.log:[2024-06-26 14:45:10] GPS: Latitude: 34.0560, Longitude: -118.2393
+data/aircraft/logs/n223wx_telemetry.log:[2024-06-26 14:46:10] GPS: Latitude: 34.0563, Longitude: -118.2389
+data/aircraft/logs/n223wx_telemetry.log:[2024-06-26 14:47:10] GPS: Latitude: 34.0565, Longitude: -118.2387
+data/aircraft/logs/n223wx_telemetry.log:[2024-06-26 14:48:10] GPS: Latitude: 34.0567, Longitude: -118.2383
+data/aircraft/logs/n223wx_telemetry.log:[2024-06-26 14:49:10] GPS: Latitude: 34.0569, Longitude: -118.2381
+data/aircraft/logs/n223wx_telemetry.log:[2024-06-26 14:50:10] GPS: Latitude: 34.0574, Longitude: -118.2376
+data/aircraft/logs/n223wx_telemetry.log:[2024-06-26 14:51:10] GPS: Latitude: 34.0577, Longitude: -118.2373
+data/aircraft/logs/n223wx_telemetry.log:[2024-06-26 14:52:10] GPS: Latitude: 34.0581, Longitude: -118.2370
+data/aircraft/logs/n223wx_telemetry.log:[2024-06-26 14:53:10] GPS: Latitude: 34.0585, Longitude: -118.2368
+data/aircraft/logs/n223wx_telemetry.log:[2024-06-26 14:54:10] GPS: Latitude: 34.0588, Longitude: -118.2366
+data/aircraft/logs/n223wx_telemetry.log:[2024-06-26 14:55:10] GPS: Latitude: 34.0591, Longitude: -118.2365
+data/aircraft/logs/n223wx_telemetry.log:[2024-06-26 14:56:10] GPS: Latitude: 34.0594, Longitude: -118.2361
+data/aircraft/logs/n223wx_telemetry.log:[2024-06-26 14:57:10] GPS: Latitude: 34.0596, Longitude: -118.2357
+data/aircraft/logs/n223wx_telemetry.log:[2024-06-26 14:58:10] GPS: Latitude: 34.0597, Longitude: -118.2353
+data/aircraft/logs/n223wx_telemetry.log:[2024-06-26 14:59:10] GPS: Latitude: 34.0602, Longitude: -118.2352
+data/aircraft/logs/n223wx_telemetry.log:[2024-06-26 15:00:10] GPS: Latitude: 34.0605, Longitude: -118.2349
+data/aircraft/logs/n223wx_telemetry.log:[2024-06-26 15:01:10] GPS: Latitude: 34.0609, Longitude: -118.2347
+data/aircraft/logs/n223wx_telemetry.log:[2024-06-26 15:02:10] GPS: Latitude: 34.0611, Longitude: -118.2344
+data/aircraft/logs/n223wx_telemetry.log:[2024-06-26 15:03:10] GPS: Latitude: 34.0607, Longitude: -118.2347
+data/aircraft/logs/n223wx_telemetry.log:[2024-06-26 15:04:10] GPS: Latitude: 34.0604, Longitude: -118.2351
+data/aircraft/logs/n223wx_telemetry.log:[2024-06-26 15:05:10] GPS: Latitude: 34.0602, Longitude: -118.2353
+data/aircraft/logs/n223wx_telemetry.log:[2024-06-26 15:06:10] GPS: Latitude: 34.0598, Longitude: -118.2354
+data/aircraft/logs/n223wx_telemetry.log:[2024-06-26 15:07:10] GPS: Latitude: 34.0593, Longitude: -118.2357
+data/aircraft/logs/n234ij_telemetry.log:[2024-06-26 14:33:10] GPS: Latitude: 34.0527, Longitude: -118.2432
+data/aircraft/logs/n234ij_telemetry.log:[2024-06-26 14:34:10] GPS: Latitude: 34.0528, Longitude: -118.2430
+data/aircraft/logs/n234ij_telemetry.log:[2024-06-26 14:35:10] GPS: Latitude: 34.0530, Longitude: -118.2428
+data/aircraft/logs/n234ij_telemetry.log:[2024-06-26 14:36:10] GPS: Latitude: 34.0534, Longitude: -118.2425
+data/aircraft/logs/n234ij_telemetry.log:[2024-06-26 14:37:10] GPS: Latitude: 34.0537, Longitude: -118.2421
+data/aircraft/logs/n234ij_telemetry.log:[2024-06-26 14:38:10] GPS: Latitude: 34.0540, Longitude: -118.2417
+data/aircraft/logs/n234ij_telemetry.log:[2024-06-26 14:39:10] GPS: Latitude: 34.0544, Longitude: -118.2415
+data/aircraft/logs/n234ij_telemetry.log:[2024-06-26 14:40:10] GPS: Latitude: 34.0546, Longitude: -118.2412
+data/aircraft/logs/n234ij_telemetry.log:[2024-06-26 14:41:10] GPS: Latitude: 34.0551, Longitude: -118.2407
+data/aircraft/logs/n234ij_telemetry.log:[2024-06-26 14:42:10] GPS: Latitude: 34.0553, Longitude: -118.2405
+data/aircraft/logs/n234ij_telemetry.log:[2024-06-26 14:43:10] GPS: Latitude: 34.0555, Longitude: -118.2404
+data/aircraft/logs/n234ij_telemetry.log:[2024-06-26 14:44:10] GPS: Latitude: 34.0556, Longitude: -118.2399
+data/aircraft/logs/n234ij_telemetry.log:[2024-06-26 14:45:10] GPS: Latitude: 34.0558, Longitude: -118.2397
+data/aircraft/logs/n234ij_telemetry.log:[2024-06-26 14:46:10] GPS: Latitude: 34.0560, Longitude: -118.2392
+data/aircraft/logs/n234ij_telemetry.log:[2024-06-26 14:47:10] GPS: Latitude: 34.0564, Longitude: -118.2389
+data/aircraft/logs/n234ij_telemetry.log:[2024-06-26 14:48:10] GPS: Latitude: 34.0566, Longitude: -118.2387
+data/aircraft/logs/n234ij_telemetry.log:[2024-06-26 14:49:10] GPS: Latitude: 34.0571, Longitude: -118.2385
+data/aircraft/logs/n234ij_telemetry.log:[2024-06-26 14:50:10] GPS: Latitude: 34.0572, Longitude: -118.2382
+data/aircraft/logs/n234ij_telemetry.log:[2024-06-26 14:51:10] GPS: Latitude: 34.0574, Longitude: -118.2378
+data/aircraft/logs/n234ij_telemetry.log:[2024-06-26 14:52:10] GPS: Latitude: 34.0577, Longitude: -118.2374
+data/aircraft/logs/n234ij_telemetry.log:[2024-06-26 14:53:10] GPS: Latitude: 34.0582, Longitude: -118.2370
+data/aircraft/logs/n234ij_telemetry.log:[2024-06-26 14:54:10] GPS: Latitude: 34.0583, Longitude: -118.2369
+data/aircraft/logs/n234ij_telemetry.log:[2024-06-26 14:55:10] GPS: Latitude: 34.0588, Longitude: -118.2364
+data/aircraft/logs/n234ij_telemetry.log:[2024-06-26 14:56:10] GPS: Latitude: 34.0589, Longitude: -118.2361
+data/aircraft/logs/n234ij_telemetry.log:[2024-06-26 14:57:10] GPS: Latitude: 34.0592, Longitude: -118.2356
+data/aircraft/logs/n234ij_telemetry.log:[2024-06-26 14:58:10] GPS: Latitude: 34.0595, Longitude: -118.2351
+data/aircraft/logs/n234ij_telemetry.log:[2024-06-26 14:59:10] GPS: Latitude: 34.0598, Longitude: -118.2349
+data/aircraft/logs/n234ij_telemetry.log:[2024-06-26 15:00:10] GPS: Latitude: 34.0603, Longitude: -118.2347
+data/aircraft/logs/n234ij_telemetry.log:[2024-06-26 15:01:10] GPS: Latitude: 34.0607, Longitude: -118.2343
+data/aircraft/logs/n234ij_telemetry.log:[2024-06-26 15:02:10] GPS: Latitude: 34.0610, Longitude: -118.2339
+data/aircraft/logs/n234ij_telemetry.log:[2024-06-26 15:03:10] GPS: Latitude: 34.0609, Longitude: -118.2344
+data/aircraft/logs/n234ij_telemetry.log:[2024-06-26 15:04:10] GPS: Latitude: 34.0607, Longitude: -118.2345
+data/aircraft/logs/n234ij_telemetry.log:[2024-06-26 15:05:10] GPS: Latitude: 34.0605, Longitude: -118.2346
+data/aircraft/logs/n234ij_telemetry.log:[2024-06-26 15:06:10] GPS: Latitude: 34.0604, Longitude: -118.2350
+data/aircraft/logs/n234ij_telemetry.log:[2024-06-26 15:07:10] GPS: Latitude: 34.0599, Longitude: -118.2355
+data/aircraft/logs/n456cd_telemetry.log:[2024-06-26 14:33:10] GPS: Latitude: 34.0524, Longitude: -118.2434
+data/aircraft/logs/n456cd_telemetry.log:[2024-06-26 14:34:10] GPS: Latitude: 34.0528, Longitude: -118.2433
+data/aircraft/logs/n456cd_telemetry.log:[2024-06-26 14:35:10] GPS: Latitude: 34.0532, Longitude: -118.2430
+data/aircraft/logs/n456cd_telemetry.log:[2024-06-26 14:36:10] GPS: Latitude: 34.0537, Longitude: -118.2427
+data/aircraft/logs/n456cd_telemetry.log:[2024-06-26 14:37:10] GPS: Latitude: 34.0538, Longitude: -118.2426
+data/aircraft/logs/n456cd_telemetry.log:[2024-06-26 14:38:10] GPS: Latitude: 34.0540, Longitude: -118.2421
+data/aircraft/logs/n456cd_telemetry.log:[2024-06-26 14:39:10] GPS: Latitude: 34.0544, Longitude: -118.2419
+data/aircraft/logs/n456cd_telemetry.log:[2024-06-26 14:40:10] GPS: Latitude: 34.0548, Longitude: -118.2417
+data/aircraft/logs/n456cd_telemetry.log:[2024-06-26 14:41:10] GPS: Latitude: 34.0551, Longitude: -118.2413
+data/aircraft/logs/n456cd_telemetry.log:[2024-06-26 14:42:10] GPS: Latitude: 34.0555, Longitude: -118.2411
+data/aircraft/logs/n456cd_telemetry.log:[2024-06-26 14:43:10] GPS: Latitude: 34.0558, Longitude: -118.2408
+data/aircraft/logs/n456cd_telemetry.log:[2024-06-26 14:44:10] GPS: Latitude: 34.0561, Longitude: -118.2404
+data/aircraft/logs/n456cd_telemetry.log:[2024-06-26 14:45:10] GPS: Latitude: 34.0563, Longitude: -118.2402
+data/aircraft/logs/n456cd_telemetry.log:[2024-06-26 14:46:10] GPS: Latitude: 34.0567, Longitude: -118.2400
+data/aircraft/logs/n456cd_telemetry.log:[2024-06-26 14:47:10] GPS: Latitude: 34.0569, Longitude: -118.2398
+data/aircraft/logs/n456cd_telemetry.log:[2024-06-26 14:48:10] GPS: Latitude: 34.0571, Longitude: -118.2394
+data/aircraft/logs/n456cd_telemetry.log:[2024-06-26 14:49:10] GPS: Latitude: 34.0572, Longitude: -118.2391
+data/aircraft/logs/n456cd_telemetry.log:[2024-06-26 14:50:10] GPS: Latitude: 34.0574, Longitude: -118.2388
+data/aircraft/logs/n456cd_telemetry.log:[2024-06-26 14:51:10] GPS: Latitude: 34.0576, Longitude: -118.2385
+data/aircraft/logs/n456cd_telemetry.log:[2024-06-26 14:52:10] GPS: Latitude: 34.0581, Longitude: -118.2383
+data/aircraft/logs/n456cd_telemetry.log:[2024-06-26 14:53:10] GPS: Latitude: 34.0584, Longitude: -118.2380
+data/aircraft/logs/n456cd_telemetry.log:[2024-06-26 14:54:10] GPS: Latitude: 34.0586, Longitude: -118.2377
+data/aircraft/logs/n456cd_telemetry.log:[2024-06-26 14:55:10] GPS: Latitude: 34.0591, Longitude: -118.2372
+data/aircraft/logs/n456cd_telemetry.log:[2024-06-26 14:56:10] GPS: Latitude: 34.0594, Longitude: -118.2369
+data/aircraft/logs/n456cd_telemetry.log:[2024-06-26 14:57:10] GPS: Latitude: 34.0598, Longitude: -118.2367
+data/aircraft/logs/n456cd_telemetry.log:[2024-06-26 14:58:10] GPS: Latitude: 34.0603, Longitude: -118.2362
+data/aircraft/logs/n456cd_telemetry.log:[2024-06-26 14:59:10] GPS: Latitude: 34.0605, Longitude: -118.2359
+data/aircraft/logs/n456cd_telemetry.log:[2024-06-26 15:00:10] GPS: Latitude: 34.0609, Longitude: -118.2356
+data/aircraft/logs/n456cd_telemetry.log:[2024-06-26 15:01:10] GPS: Latitude: 34.0614, Longitude: -118.2351
+data/aircraft/logs/n456cd_telemetry.log:[2024-06-26 15:02:10] GPS: Latitude: 34.0617, Longitude: -118.2348
+data/aircraft/logs/n456cd_telemetry.log:[2024-06-26 15:03:10] GPS: Latitude: 34.0614, Longitude: -118.2350
+data/aircraft/logs/n456cd_telemetry.log:[2024-06-26 15:04:10] GPS: Latitude: 34.0610, Longitude: -118.2353
+data/aircraft/logs/n456cd_telemetry.log:[2024-06-26 15:05:10] GPS: Latitude: 34.0607, Longitude: -118.2358
+data/aircraft/logs/n456cd_telemetry.log:[2024-06-26 15:06:10] GPS: Latitude: 34.0606, Longitude: -118.2360
+data/aircraft/logs/n456cd_telemetry.log:[2024-06-26 15:07:10] GPS: Latitude: 34.0603, Longitude: -118.2362
+data/aircraft/logs/n567kl_telemetry.log:[2024-06-26 14:33:10] GPS: Latitude: 34.0527, Longitude: -118.2436
+data/aircraft/logs/n567kl_telemetry.log:[2024-06-26 14:34:10] GPS: Latitude: 34.0529, Longitude: -118.2433
+data/aircraft/logs/n567kl_telemetry.log:[2024-06-26 14:35:10] GPS: Latitude: 34.0533, Longitude: -118.2431
+data/aircraft/logs/n567kl_telemetry.log:[2024-06-26 14:36:10] GPS: Latitude: 34.0537, Longitude: -118.2426
+data/aircraft/logs/n567kl_telemetry.log:[2024-06-26 14:37:10] GPS: Latitude: 34.0541, Longitude: -118.2424
+data/aircraft/logs/n567kl_telemetry.log:[2024-06-26 14:38:10] GPS: Latitude: 34.0545, Longitude: -118.2422
+data/aircraft/logs/n567kl_telemetry.log:[2024-06-26 14:39:10] GPS: Latitude: 34.0549, Longitude: -118.2418
+data/aircraft/logs/n567kl_telemetry.log:[2024-06-26 14:40:10] GPS: Latitude: 34.0553, Longitude: -118.2414
+data/aircraft/logs/n567kl_telemetry.log:[2024-06-26 14:41:10] GPS: Latitude: 34.0556, Longitude: -118.2412
+data/aircraft/logs/n567kl_telemetry.log:[2024-06-26 14:42:10] GPS: Latitude: 34.0558, Longitude: -118.2409
+data/aircraft/logs/n567kl_telemetry.log:[2024-06-26 14:43:10] GPS: Latitude: 34.0560, Longitude: -118.2406
+data/aircraft/logs/n567kl_telemetry.log:[2024-06-26 14:44:10] GPS: Latitude: 34.0563, Longitude: -118.2403
+data/aircraft/logs/n567kl_telemetry.log:[2024-06-26 14:45:10] GPS: Latitude: 34.0567, Longitude: -118.2400
+data/aircraft/logs/n567kl_telemetry.log:[2024-06-26 14:46:10] GPS: Latitude: 34.0571, Longitude: -118.2396
+data/aircraft/logs/n567kl_telemetry.log:[2024-06-26 14:47:10] GPS: Latitude: 34.0573, Longitude: -118.2392
+data/aircraft/logs/n567kl_telemetry.log:[2024-06-26 14:48:10] GPS: Latitude: 34.0574, Longitude: -118.2389
+data/aircraft/logs/n567kl_telemetry.log:[2024-06-26 14:49:10] GPS: Latitude: 34.0578, Longitude: -118.2386
+data/aircraft/logs/n567kl_telemetry.log:[2024-06-26 14:50:10] GPS: Latitude: 34.0582, Longitude: -118.2382
+data/aircraft/logs/n567kl_telemetry.log:[2024-06-26 14:51:10] GPS: Latitude: 34.0586, Longitude: -118.2378
+data/aircraft/logs/n567kl_telemetry.log:[2024-06-26 14:52:10] GPS: Latitude: 34.0588, Longitude: -118.2376
+data/aircraft/logs/n567kl_telemetry.log:[2024-06-26 14:53:10] GPS: Latitude: 34.0589, Longitude: -118.2372
+data/aircraft/logs/n567kl_telemetry.log:[2024-06-26 14:54:10] GPS: Latitude: 34.0591, Longitude: -118.2368
+data/aircraft/logs/n567kl_telemetry.log:[2024-06-26 14:55:10] GPS: Latitude: 34.0594, Longitude: -118.2365
+data/aircraft/logs/n567kl_telemetry.log:[2024-06-26 14:56:10] GPS: Latitude: 34.0595, Longitude: -118.2364
+data/aircraft/logs/n567kl_telemetry.log:[2024-06-26 14:57:10] GPS: Latitude: 34.0596, Longitude: -118.2359
+data/aircraft/logs/n567kl_telemetry.log:[2024-06-26 14:58:10] GPS: Latitude: 34.0601, Longitude: -118.2355
+data/aircraft/logs/n567kl_telemetry.log:[2024-06-26 14:59:10] GPS: Latitude: 34.0604, Longitude: -118.2352
+data/aircraft/logs/n567kl_telemetry.log:[2024-06-26 15:00:10] GPS: Latitude: 34.0608, Longitude: -118.2349
+data/aircraft/logs/n567kl_telemetry.log:[2024-06-26 15:01:10] GPS: Latitude: 34.0609, Longitude: -118.2347
+data/aircraft/logs/n567kl_telemetry.log:[2024-06-26 15:02:10] GPS: Latitude: 34.0610, Longitude: -118.2344
+data/aircraft/logs/n567kl_telemetry.log:[2024-06-26 15:03:10] GPS: Latitude: 34.0608, Longitude: -118.2349
+data/aircraft/logs/n567kl_telemetry.log:[2024-06-26 15:04:10] GPS: Latitude: 34.0606, Longitude: -118.2350
+data/aircraft/logs/n567kl_telemetry.log:[2024-06-26 15:05:10] GPS: Latitude: 34.0603, Longitude: -118.2354
+data/aircraft/logs/n567kl_telemetry.log:[2024-06-26 15:06:10] GPS: Latitude: 34.0598, Longitude: -118.2358
+data/aircraft/logs/n567kl_telemetry.log:[2024-06-26 15:07:10] GPS: Latitude: 34.0593, Longitude: -118.2361
+data/aircraft/logs/n678st_telemetry.log:[2024-06-26 14:33:10] GPS: Latitude: 34.0526, Longitude: -118.2434
+data/aircraft/logs/n678st_telemetry.log:[2024-06-26 14:34:10] GPS: Latitude: 34.0528, Longitude: -118.2431
+data/aircraft/logs/n678st_telemetry.log:[2024-06-26 14:35:10] GPS: Latitude: 34.0530, Longitude: -118.2428
+data/aircraft/logs/n678st_telemetry.log:[2024-06-26 14:36:10] GPS: Latitude: 34.0533, Longitude: -118.2425
+data/aircraft/logs/n678st_telemetry.log:[2024-06-26 14:37:10] GPS: Latitude: 34.0535, Longitude: -118.2422
+data/aircraft/logs/n678st_telemetry.log:[2024-06-26 14:38:10] GPS: Latitude: 34.0538, Longitude: -118.2420
+data/aircraft/logs/n678st_telemetry.log:[2024-06-26 14:39:10] GPS: Latitude: 34.0541, Longitude: -118.2418
+data/aircraft/logs/n678st_telemetry.log:[2024-06-26 14:40:10] GPS: Latitude: 34.0543, Longitude: -118.2414
+data/aircraft/logs/n678st_telemetry.log:[2024-06-26 14:41:10] GPS: Latitude: 34.0545, Longitude: -118.2410
+data/aircraft/logs/n678st_telemetry.log:[2024-06-26 14:42:10] GPS: Latitude: 34.0547, Longitude: -118.2408
+data/aircraft/logs/n678st_telemetry.log:[2024-06-26 14:43:10] GPS: Latitude: 34.0549, Longitude: -118.2407
+data/aircraft/logs/n678st_telemetry.log:[2024-06-26 14:44:10] GPS: Latitude: 34.0550, Longitude: -118.2405
+data/aircraft/logs/n678st_telemetry.log:[2024-06-26 14:45:10] GPS: Latitude: 34.0554, Longitude: -118.2403
+data/aircraft/logs/n678st_telemetry.log:[2024-06-26 14:46:10] GPS: Latitude: 34.0555, Longitude: -118.2401
+data/aircraft/logs/n678st_telemetry.log:[2024-06-26 14:47:10] GPS: Latitude: 34.0560, Longitude: -118.2398
+data/aircraft/logs/n678st_telemetry.log:[2024-06-26 14:48:10] GPS: Latitude: 34.0561, Longitude: -118.2393
+data/aircraft/logs/n678st_telemetry.log:[2024-06-26 14:49:10] GPS: Latitude: 34.0564, Longitude: -118.2391
+data/aircraft/logs/n678st_telemetry.log:[2024-06-26 14:50:10] GPS: Latitude: 34.0567, Longitude: -118.2388
+data/aircraft/logs/n678st_telemetry.log:[2024-06-26 14:51:10] GPS: Latitude: 34.0571, Longitude: -118.2387
+data/aircraft/logs/n678st_telemetry.log:[2024-06-26 14:52:10] GPS: Latitude: 34.0576, Longitude: -118.2386
+data/aircraft/logs/n678st_telemetry.log:[2024-06-26 14:53:10] GPS: Latitude: 34.0581, Longitude: -118.2381
+data/aircraft/logs/n678st_telemetry.log:[2024-06-26 14:54:10] GPS: Latitude: 34.0584, Longitude: -118.2379
+data/aircraft/logs/n678st_telemetry.log:[2024-06-26 14:55:10] GPS: Latitude: 34.0588, Longitude: -118.2377
+data/aircraft/logs/n678st_telemetry.log:[2024-06-26 14:56:10] GPS: Latitude: 34.0589, Longitude: -118.2376
+data/aircraft/logs/n678st_telemetry.log:[2024-06-26 14:57:10] GPS: Latitude: 34.0591, Longitude: -118.2372
+data/aircraft/logs/n678st_telemetry.log:[2024-06-26 14:58:10] GPS: Latitude: 34.0593, Longitude: -118.2370
+data/aircraft/logs/n678st_telemetry.log:[2024-06-26 14:59:10] GPS: Latitude: 34.0596, Longitude: -118.2365
+data/aircraft/logs/n678st_telemetry.log:[2024-06-26 15:00:10] GPS: Latitude: 34.0600, Longitude: -118.2361
+data/aircraft/logs/n678st_telemetry.log:[2024-06-26 15:01:10] GPS: Latitude: 34.0603, Longitude: -118.2358
+data/aircraft/logs/n678st_telemetry.log:[2024-06-26 15:02:10] GPS: Latitude: 34.0608, Longitude: -118.2354
+data/aircraft/logs/n678st_telemetry.log:[2024-06-26 15:03:10] GPS: Latitude: 34.0607, Longitude: -118.2358
+data/aircraft/logs/n678st_telemetry.log:[2024-06-26 15:04:10] GPS: Latitude: 34.0604, Longitude: -118.2361
+data/aircraft/logs/n678st_telemetry.log:[2024-06-26 15:05:10] GPS: Latitude: 34.0601, Longitude: -118.2364
+data/aircraft/logs/n678st_telemetry.log:[2024-06-26 15:06:10] GPS: Latitude: 34.0596, Longitude: -118.2365
+data/aircraft/logs/n678st_telemetry.log:[2024-06-26 15:07:10] GPS: Latitude: 34.0594, Longitude: -118.2368
+data/aircraft/logs/n789ef_telemetry.log:[2024-06-26 14:33:10] GPS: Latitude: 34.0526, Longitude: -118.2434
+data/aircraft/logs/n789ef_telemetry.log:[2024-06-26 14:34:10] GPS: Latitude: 34.0528, Longitude: -118.2432
+data/aircraft/logs/n789ef_telemetry.log:[2024-06-26 14:35:10] GPS: Latitude: 34.0530, Longitude: -118.2431
+data/aircraft/logs/n789ef_telemetry.log:[2024-06-26 14:36:10] GPS: Latitude: 34.0533, Longitude: -118.2429
+data/aircraft/logs/n789ef_telemetry.log:[2024-06-26 14:37:10] GPS: Latitude: 34.0537, Longitude: -118.2426
+data/aircraft/logs/n789ef_telemetry.log:[2024-06-26 14:38:10] GPS: Latitude: 34.0542, Longitude: -118.2424
+data/aircraft/logs/n789ef_telemetry.log:[2024-06-26 14:39:10] GPS: Latitude: 34.0543, Longitude: -118.2420
+data/aircraft/logs/n789ef_telemetry.log:[2024-06-26 14:40:10] GPS: Latitude: 34.0548, Longitude: -118.2418
+data/aircraft/logs/n789ef_telemetry.log:[2024-06-26 14:41:10] GPS: Latitude: 34.0551, Longitude: -118.2414
+data/aircraft/logs/n789ef_telemetry.log:[2024-06-26 14:42:10] GPS: Latitude: 34.0552, Longitude: -118.2411
+data/aircraft/logs/n789ef_telemetry.log:[2024-06-26 14:43:10] GPS: Latitude: 34.0553, Longitude: -118.2406
+data/aircraft/logs/n789ef_telemetry.log:[2024-06-26 14:44:10] GPS: Latitude: 34.0557, Longitude: -118.2405
+data/aircraft/logs/n789ef_telemetry.log:[2024-06-26 14:45:10] GPS: Latitude: 34.0559, Longitude: -118.2403
+data/aircraft/logs/n789ef_telemetry.log:[2024-06-26 14:46:10] GPS: Latitude: 34.0561, Longitude: -118.2400
+data/aircraft/logs/n789ef_telemetry.log:[2024-06-26 14:47:10] GPS: Latitude: 34.0563, Longitude: -118.2398
+data/aircraft/logs/n789ef_telemetry.log:[2024-06-26 14:48:10] GPS: Latitude: 34.0566, Longitude: -118.2397
+data/aircraft/logs/n789ef_telemetry.log:[2024-06-26 14:49:10] GPS: Latitude: 34.0570, Longitude: -118.2393
+data/aircraft/logs/n789ef_telemetry.log:[2024-06-26 14:50:10] GPS: Latitude: 34.0574, Longitude: -118.2392
+data/aircraft/logs/n789ef_telemetry.log:[2024-06-26 14:51:10] GPS: Latitude: 34.0578, Longitude: -118.2390
+data/aircraft/logs/n789ef_telemetry.log:[2024-06-26 14:52:10] GPS: Latitude: 34.0580, Longitude: -118.2387
+data/aircraft/logs/n789ef_telemetry.log:[2024-06-26 14:53:10] GPS: Latitude: 34.0583, Longitude: -118.2385
+data/aircraft/logs/n789ef_telemetry.log:[2024-06-26 14:54:10] GPS: Latitude: 34.0586, Longitude: -118.2382
+data/aircraft/logs/n789ef_telemetry.log:[2024-06-26 14:55:10] GPS: Latitude: 34.0590, Longitude: -118.2377
+data/aircraft/logs/n789ef_telemetry.log:[2024-06-26 14:56:10] GPS: Latitude: 34.0595, Longitude: -118.2373
+data/aircraft/logs/n789ef_telemetry.log:[2024-06-26 14:57:10] GPS: Latitude: 34.0598, Longitude: -118.2369
+data/aircraft/logs/n789ef_telemetry.log:[2024-06-26 14:58:10] GPS: Latitude: 34.0601, Longitude: -118.2366
+data/aircraft/logs/n789ef_telemetry.log:[2024-06-26 14:59:10] GPS: Latitude: 34.0606, Longitude: -118.2361
+data/aircraft/logs/n789ef_telemetry.log:[2024-06-26 15:00:10] GPS: Latitude: 34.0609, Longitude: -118.2358
+data/aircraft/logs/n789ef_telemetry.log:[2024-06-26 15:01:10] GPS: Latitude: 34.0611, Longitude: -118.2357
+data/aircraft/logs/n789ef_telemetry.log:[2024-06-26 15:02:10] GPS: Latitude: 34.0613, Longitude: -118.2352
+data/aircraft/logs/n789ef_telemetry.log:[2024-06-26 15:03:10] GPS: Latitude: 34.0612, Longitude: -118.2357
+data/aircraft/logs/n789ef_telemetry.log:[2024-06-26 15:04:10] GPS: Latitude: 34.0610, Longitude: -118.2359
+data/aircraft/logs/n789ef_telemetry.log:[2024-06-26 15:05:10] GPS: Latitude: 34.0607, Longitude: -118.2361
+data/aircraft/logs/n789ef_telemetry.log:[2024-06-26 15:06:10] GPS: Latitude: 34.0605, Longitude: -118.2363
+data/aircraft/logs/n789ef_telemetry.log:[2024-06-26 15:07:10] GPS: Latitude: 34.0603, Longitude: -118.2365
+data/aircraft/logs/n890mn_telemetry.log:[2024-06-26 14:33:10] GPS: Latitude: 34.0526, Longitude: -118.2432
+data/aircraft/logs/n890mn_telemetry.log:[2024-06-26 14:34:10] GPS: Latitude: 34.0529, Longitude: -118.2430
+data/aircraft/logs/n890mn_telemetry.log:[2024-06-26 14:35:10] GPS: Latitude: 34.0531, Longitude: -118.2428
+data/aircraft/logs/n890mn_telemetry.log:[2024-06-26 14:36:10] GPS: Latitude: 34.0536, Longitude: -118.2425
+data/aircraft/logs/n890mn_telemetry.log:[2024-06-26 14:37:10] GPS: Latitude: 34.0541, Longitude: -118.2421
+data/aircraft/logs/n890mn_telemetry.log:[2024-06-26 14:38:10] GPS: Latitude: 34.0544, Longitude: -118.2419
+data/aircraft/logs/n890mn_telemetry.log:[2024-06-26 14:39:10] GPS: Latitude: 34.0548, Longitude: -118.2415
+data/aircraft/logs/n890mn_telemetry.log:[2024-06-26 14:40:10] GPS: Latitude: 34.0553, Longitude: -118.2414
+data/aircraft/logs/n890mn_telemetry.log:[2024-06-26 14:41:10] GPS: Latitude: 34.0555, Longitude: -118.2411
+data/aircraft/logs/n890mn_telemetry.log:[2024-06-26 14:42:10] GPS: Latitude: 34.0558, Longitude: -118.2409
+data/aircraft/logs/n890mn_telemetry.log:[2024-06-26 14:43:10] GPS: Latitude: 34.0561, Longitude: -118.2406
+data/aircraft/logs/n890mn_telemetry.log:[2024-06-26 14:44:10] GPS: Latitude: 34.0566, Longitude: -118.2405
+data/aircraft/logs/n890mn_telemetry.log:[2024-06-26 14:45:10] GPS: Latitude: 34.0567, Longitude: -118.2402
+data/aircraft/logs/n890mn_telemetry.log:[2024-06-26 14:46:10] GPS: Latitude: 34.0571, Longitude: -118.2399
+data/aircraft/logs/n890mn_telemetry.log:[2024-06-26 14:47:10] GPS: Latitude: 34.0574, Longitude: -118.2396
+data/aircraft/logs/n890mn_telemetry.log:[2024-06-26 14:48:10] GPS: Latitude: 34.0575, Longitude: -118.2393
+data/aircraft/logs/n890mn_telemetry.log:[2024-06-26 14:49:10] GPS: Latitude: 34.0576, Longitude: -118.2390
+data/aircraft/logs/n890mn_telemetry.log:[2024-06-26 14:50:10] GPS: Latitude: 34.0580, Longitude: -118.2386
+data/aircraft/logs/n890mn_telemetry.log:[2024-06-26 14:51:10] GPS: Latitude: 34.0583, Longitude: -118.2384
+data/aircraft/logs/n890mn_telemetry.log:[2024-06-26 14:52:10] GPS: Latitude: 34.0585, Longitude: -118.2380
+data/aircraft/logs/n890mn_telemetry.log:[2024-06-26 14:53:10] GPS: Latitude: 34.0589, Longitude: -118.2376
+data/aircraft/logs/n890mn_telemetry.log:[2024-06-26 14:54:10] GPS: Latitude: 34.0591, Longitude: -118.2374
+data/aircraft/logs/n890mn_telemetry.log:[2024-06-26 14:55:10] GPS: Latitude: 34.0595, Longitude: -118.2370
+data/aircraft/logs/n890mn_telemetry.log:[2024-06-26 14:56:10] GPS: Latitude: 34.0596, Longitude: -118.2368
+data/aircraft/logs/n890mn_telemetry.log:[2024-06-26 14:57:10] GPS: Latitude: 34.0597, Longitude: -118.2366
+data/aircraft/logs/n890mn_telemetry.log:[2024-06-26 14:58:10] GPS: Latitude: 34.0602, Longitude: -118.2364
+data/aircraft/logs/n890mn_telemetry.log:[2024-06-26 14:59:10] GPS: Latitude: 34.0605, Longitude: -118.2359
+data/aircraft/logs/n890mn_telemetry.log:[2024-06-26 15:00:10] GPS: Latitude: 34.0609, Longitude: -118.2357
+data/aircraft/logs/n890mn_telemetry.log:[2024-06-26 15:01:10] GPS: Latitude: 34.0614, Longitude: -118.2353
+data/aircraft/logs/n890mn_telemetry.log:[2024-06-26 15:02:10] GPS: Latitude: 34.0615, Longitude: -118.2352
+data/aircraft/logs/n890mn_telemetry.log:[2024-06-26 15:03:10] GPS: Latitude: 34.0613, Longitude: -118.2356
+data/aircraft/logs/n890mn_telemetry.log:[2024-06-26 15:04:10] GPS: Latitude: 34.0610, Longitude: -118.2361
+data/aircraft/logs/n890mn_telemetry.log:[2024-06-26 15:05:10] GPS: Latitude: 34.0607, Longitude: -118.2363
+data/aircraft/logs/n890mn_telemetry.log:[2024-06-26 15:06:10] GPS: Latitude: 34.0602, Longitude: -118.2366
+data/aircraft/logs/n890mn_telemetry.log:[2024-06-26 15:07:10] GPS: Latitude: 34.0599, Longitude: -118.2370
+[0;32m@crtrauger [0m➜ [1;34m/workspaces/cis190-codespace/labs/final [0;36m([1;31mmain[0;36m) [0m$ cat data/aircraft/logs/gps_summary.txt grep -r GPS data/aircraft/logs/* > data/aircraft/logs/gps_summary.txt[1P[1P[1P[1@B[1@A[1@T[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1Pps_summary.txt[1Ps_summary.txt[1P_summary.txtb_summary.txta_summary.txtt_summary.txt
+^[[A[0;32m@crtrauger [0m➜ [1;34m/workspaces/cis190-codespace/labs/final [0;36m([1;31mmain[0;36m) [0m$ grep -r BAT data/aircraft/logs/* > data/aircraft/logs/bat_summary.txt[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Kgrep -r BAT data/aircraft/logs/* > data/aircraft/logs/bat_summary.txt[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[30Pcat data/aircraft/logs/gps_summary.txt [1P[1P[1P[1@b[1@a[1@t
+data/aircraft/logs/n101gh_telemetry.log:[2024-06-26 14:33:10] BAT: 99.3 %
+data/aircraft/logs/n101gh_telemetry.log:[2024-06-26 14:34:10] BAT: 98.4 %
+data/aircraft/logs/n101gh_telemetry.log:[2024-06-26 14:35:10] BAT: 97.8 %
+data/aircraft/logs/n101gh_telemetry.log:[2024-06-26 14:36:10] BAT: 96.9 %
+data/aircraft/logs/n101gh_telemetry.log:[2024-06-26 14:37:10] BAT: 96.0 %
+data/aircraft/logs/n101gh_telemetry.log:[2024-06-26 14:38:10] BAT: 95.3 %
+data/aircraft/logs/n101gh_telemetry.log:[2024-06-26 14:39:10] BAT: 94.6 %
+data/aircraft/logs/n101gh_telemetry.log:[2024-06-26 14:40:10] BAT: 93.9 %
+data/aircraft/logs/n101gh_telemetry.log:[2024-06-26 14:41:10] BAT: 93.2 %
+data/aircraft/logs/n101gh_telemetry.log:[2024-06-26 14:42:10] BAT: 92.5 %
+data/aircraft/logs/n101gh_telemetry.log:[2024-06-26 14:43:10] BAT: 91.9 %
+data/aircraft/logs/n101gh_telemetry.log:[2024-06-26 14:44:10] BAT: 91.0 %
+data/aircraft/logs/n101gh_telemetry.log:[2024-06-26 14:45:10] BAT: 90.4 %
+data/aircraft/logs/n101gh_telemetry.log:[2024-06-26 14:46:10] BAT: 89.8 %
+data/aircraft/logs/n101gh_telemetry.log:[2024-06-26 14:47:10] BAT: 88.9 %
+data/aircraft/logs/n101gh_telemetry.log:[2024-06-26 14:48:10] BAT: 88.1 %
+data/aircraft/logs/n101gh_telemetry.log:[2024-06-26 14:49:10] BAT: 87.5 %
+data/aircraft/logs/n101gh_telemetry.log:[2024-06-26 14:50:10] BAT: 86.6 %
+data/aircraft/logs/n101gh_telemetry.log:[2024-06-26 14:51:10] BAT: 85.6 %
+data/aircraft/logs/n101gh_telemetry.log:[2024-06-26 14:52:10] BAT: 85.1 %
+data/aircraft/logs/n101gh_telemetry.log:[2024-06-26 14:53:10] BAT: 84.4 %
+data/aircraft/logs/n101gh_telemetry.log:[2024-06-26 14:54:10] BAT: 83.7 %
+data/aircraft/logs/n101gh_telemetry.log:[2024-06-26 14:55:10] BAT: 82.9 %
+data/aircraft/logs/n101gh_telemetry.log:[2024-06-26 14:56:10] BAT: 82.1 %
+data/aircraft/logs/n101gh_telemetry.log:[2024-06-26 14:57:10] BAT: 81.4 %
+data/aircraft/logs/n101gh_telemetry.log:[2024-06-26 14:58:10] BAT: 80.6 %
+data/aircraft/logs/n101gh_telemetry.log:[2024-06-26 14:59:10] BAT: 79.8 %
+data/aircraft/logs/n101gh_telemetry.log:[2024-06-26 15:00:10] BAT: 78.9 %
+data/aircraft/logs/n101gh_telemetry.log:[2024-06-26 15:01:10] BAT: 77.9 %
+data/aircraft/logs/n101gh_telemetry.log:[2024-06-26 15:02:10] BAT: 77.3 %
+data/aircraft/logs/n101gh_telemetry.log:[2024-06-26 15:03:10] BAT: 76.4%
+data/aircraft/logs/n101gh_telemetry.log:[2024-06-26 15:04:10] BAT: 75.6%
+data/aircraft/logs/n101gh_telemetry.log:[2024-06-26 15:05:10] BAT: 74.9%
+data/aircraft/logs/n101gh_telemetry.log:[2024-06-26 15:06:10] BAT: 74.2%
+data/aircraft/logs/n101gh_telemetry.log:[2024-06-26 15:07:10] BAT: 73.7%
+data/aircraft/logs/n112op_telemetry.log:[2024-06-26 14:33:10] BAT: 99.5 %
+data/aircraft/logs/n112op_telemetry.log:[2024-06-26 14:34:10] BAT: 98.8 %
+data/aircraft/logs/n112op_telemetry.log:[2024-06-26 14:35:10] BAT: 98.2 %
+data/aircraft/logs/n112op_telemetry.log:[2024-06-26 14:36:10] BAT: 97.5 %
+data/aircraft/logs/n112op_telemetry.log:[2024-06-26 14:37:10] BAT: 96.9 %
+data/aircraft/logs/n112op_telemetry.log:[2024-06-26 14:38:10] BAT: 96.2 %
+data/aircraft/logs/n112op_telemetry.log:[2024-06-26 14:39:10] BAT: 95.4 %
+data/aircraft/logs/n112op_telemetry.log:[2024-06-26 14:40:10] BAT: 94.8 %
+data/aircraft/logs/n112op_telemetry.log:[2024-06-26 14:41:10] BAT: 94.2 %
+data/aircraft/logs/n112op_telemetry.log:[2024-06-26 14:42:10] BAT: 93.3 %
+data/aircraft/logs/n112op_telemetry.log:[2024-06-26 14:43:10] BAT: 92.5 %
+data/aircraft/logs/n112op_telemetry.log:[2024-06-26 14:44:10] BAT: 91.8 %
+data/aircraft/logs/n112op_telemetry.log:[2024-06-26 14:45:10] BAT: 90.9 %
+data/aircraft/logs/n112op_telemetry.log:[2024-06-26 14:46:10] BAT: 90.2 %
+data/aircraft/logs/n112op_telemetry.log:[2024-06-26 14:47:10] BAT: 89.4 %
+data/aircraft/logs/n112op_telemetry.log:[2024-06-26 14:48:10] BAT: 88.8 %
+data/aircraft/logs/n112op_telemetry.log:[2024-06-26 14:49:10] BAT: 88.1 %
+data/aircraft/logs/n112op_telemetry.log:[2024-06-26 14:50:10] BAT: 87.4 %
+data/aircraft/logs/n112op_telemetry.log:[2024-06-26 14:51:10] BAT: 86.6 %
+data/aircraft/logs/n112op_telemetry.log:[2024-06-26 14:52:10] BAT: 86.1 %
+data/aircraft/logs/n112op_telemetry.log:[2024-06-26 14:53:10] BAT: 85.2 %
+data/aircraft/logs/n112op_telemetry.log:[2024-06-26 14:54:10] BAT: 84.7 %
+data/aircraft/logs/n112op_telemetry.log:[2024-06-26 14:55:10] BAT: 83.8 %
+data/aircraft/logs/n112op_telemetry.log:[2024-06-26 14:56:10] BAT: 83.3 %
+data/aircraft/logs/n112op_telemetry.log:[2024-06-26 14:57:10] BAT: 82.7 %
+data/aircraft/logs/n112op_telemetry.log:[2024-06-26 14:58:10] BAT: 81.8 %
+data/aircraft/logs/n112op_telemetry.log:[2024-06-26 14:59:10] BAT: 81.2 %
+data/aircraft/logs/n112op_telemetry.log:[2024-06-26 15:00:10] BAT: 80.7 %
+data/aircraft/logs/n112op_telemetry.log:[2024-06-26 15:01:10] BAT: 80.0 %
+data/aircraft/logs/n112op_telemetry.log:[2024-06-26 15:02:10] BAT: 79.3 %
+data/aircraft/logs/n112op_telemetry.log:[2024-06-26 15:03:10] BAT: 78.4%
+data/aircraft/logs/n112op_telemetry.log:[2024-06-26 15:04:10] BAT: 77.5%
+data/aircraft/logs/n112op_telemetry.log:[2024-06-26 15:05:10] BAT: 76.6%
+data/aircraft/logs/n112op_telemetry.log:[2024-06-26 15:06:10] BAT: 75.8%
+data/aircraft/logs/n112op_telemetry.log:[2024-06-26 15:07:10] BAT: 75.2%
+data/aircraft/logs/n123ab_telemetry.log:[2024-06-26 14:33:10] BAT: 99.2 %
+data/aircraft/logs/n123ab_telemetry.log:[2024-06-26 14:34:10] BAT: 98.4 %
+data/aircraft/logs/n123ab_telemetry.log:[2024-06-26 14:35:10] BAT: 97.6 %
+data/aircraft/logs/n123ab_telemetry.log:[2024-06-26 14:36:10] BAT: 96.7 %
+data/aircraft/logs/n123ab_telemetry.log:[2024-06-26 14:37:10] BAT: 96.0 %
+data/aircraft/logs/n123ab_telemetry.log:[2024-06-26 14:38:10] BAT: 95.3 %
+data/aircraft/logs/n123ab_telemetry.log:[2024-06-26 14:39:10] BAT: 94.6 %
+data/aircraft/logs/n123ab_telemetry.log:[2024-06-26 14:40:10] BAT: 93.9 %
+data/aircraft/logs/n123ab_telemetry.log:[2024-06-26 14:41:10] BAT: 93.0 %
+data/aircraft/logs/n123ab_telemetry.log:[2024-06-26 14:42:10] BAT: 92.4 %
+data/aircraft/logs/n123ab_telemetry.log:[2024-06-26 14:43:10] BAT: 91.7 %
+data/aircraft/logs/n123ab_telemetry.log:[2024-06-26 14:44:10] BAT: 91.0 %
+data/aircraft/logs/n123ab_telemetry.log:[2024-06-26 14:45:10] BAT: 90.0 %
+data/aircraft/logs/n123ab_telemetry.log:[2024-06-26 14:46:10] BAT: 89.3 %
+data/aircraft/logs/n123ab_telemetry.log:[2024-06-26 14:47:10] BAT: 88.7 %
+data/aircraft/logs/n123ab_telemetry.log:[2024-06-26 14:48:10] BAT: 87.9 %
+data/aircraft/logs/n123ab_telemetry.log:[2024-06-26 14:49:10] BAT: 87.2 %
+data/aircraft/logs/n123ab_telemetry.log:[2024-06-26 14:50:10] BAT: 86.3 %
+data/aircraft/logs/n123ab_telemetry.log:[2024-06-26 14:51:10] BAT: 85.3 %
+data/aircraft/logs/n123ab_telemetry.log:[2024-06-26 14:52:10] BAT: 84.7 %
+data/aircraft/logs/n123ab_telemetry.log:[2024-06-26 14:53:10] BAT: 84.0 %
+data/aircraft/logs/n123ab_telemetry.log:[2024-06-26 14:54:10] BAT: 83.0 %
+data/aircraft/logs/n123ab_telemetry.log:[2024-06-26 14:55:10] BAT: 82.3 %
+data/aircraft/logs/n123ab_telemetry.log:[2024-06-26 14:56:10] BAT: 81.5 %
+data/aircraft/logs/n123ab_telemetry.log:[2024-06-26 14:57:10] BAT: 80.7 %
+data/aircraft/logs/n123ab_telemetry.log:[2024-06-26 14:58:10] BAT: 79.9 %
+data/aircraft/logs/n123ab_telemetry.log:[2024-06-26 14:59:10] BAT: 79.4 %
+data/aircraft/logs/n123ab_telemetry.log:[2024-06-26 15:00:10] BAT: 78.5 %
+data/aircraft/logs/n123ab_telemetry.log:[2024-06-26 15:01:10] BAT: 78.0 %
+data/aircraft/logs/n123ab_telemetry.log:[2024-06-26 15:02:10] BAT: 77.5 %
+data/aircraft/logs/n123ab_telemetry.log:[2024-06-26 15:03:10] BAT: 77.0%
+data/aircraft/logs/n123ab_telemetry.log:[2024-06-26 15:04:10] BAT: 76.1%
+data/aircraft/logs/n123ab_telemetry.log:[2024-06-26 15:05:10] BAT: 75.4%
+data/aircraft/logs/n123ab_telemetry.log:[2024-06-26 15:06:10] BAT: 74.9%
+data/aircraft/logs/n123ab_telemetry.log:[2024-06-26 15:07:10] BAT: 74.1%
+data/aircraft/logs/n223wx_telemetry.log:[2024-06-26 14:33:10] BAT: 99.3 %
+data/aircraft/logs/n223wx_telemetry.log:[2024-06-26 14:34:10] BAT: 98.4 %
+data/aircraft/logs/n223wx_telemetry.log:[2024-06-26 14:35:10] BAT: 97.6 %
+data/aircraft/logs/n223wx_telemetry.log:[2024-06-26 14:36:10] BAT: 97.1 %
+data/aircraft/logs/n223wx_telemetry.log:[2024-06-26 14:37:10] BAT: 96.4 %
+data/aircraft/logs/n223wx_telemetry.log:[2024-06-26 14:38:10] BAT: 95.7 %
+data/aircraft/logs/n223wx_telemetry.log:[2024-06-26 14:39:10] BAT: 95.0 %
+data/aircraft/logs/n223wx_telemetry.log:[2024-06-26 14:40:10] BAT: 94.0 %
+data/aircraft/logs/n223wx_telemetry.log:[2024-06-26 14:41:10] BAT: 93.3 %
+data/aircraft/logs/n223wx_telemetry.log:[2024-06-26 14:42:10] BAT: 92.7 %
+data/aircraft/logs/n223wx_telemetry.log:[2024-06-26 14:43:10] BAT: 91.9 %
+data/aircraft/logs/n223wx_telemetry.log:[2024-06-26 14:44:10] BAT: 91.0 %
+data/aircraft/logs/n223wx_telemetry.log:[2024-06-26 14:45:10] BAT: 90.3 %
+data/aircraft/logs/n223wx_telemetry.log:[2024-06-26 14:46:10] BAT: 89.7 %
+data/aircraft/logs/n223wx_telemetry.log:[2024-06-26 14:47:10] BAT: 88.9 %
+data/aircraft/logs/n223wx_telemetry.log:[2024-06-26 14:48:10] BAT: 88.4 %
+data/aircraft/logs/n223wx_telemetry.log:[2024-06-26 14:49:10] BAT: 87.8 %
+data/aircraft/logs/n223wx_telemetry.log:[2024-06-26 14:50:10] BAT: 87.2 %
+data/aircraft/logs/n223wx_telemetry.log:[2024-06-26 14:51:10] BAT: 86.4 %
+data/aircraft/logs/n223wx_telemetry.log:[2024-06-26 14:52:10] BAT: 85.6 %
+data/aircraft/logs/n223wx_telemetry.log:[2024-06-26 14:53:10] BAT: 84.7 %
+data/aircraft/logs/n223wx_telemetry.log:[2024-06-26 14:54:10] BAT: 84.0 %
+data/aircraft/logs/n223wx_telemetry.log:[2024-06-26 14:55:10] BAT: 83.1 %
+data/aircraft/logs/n223wx_telemetry.log:[2024-06-26 14:56:10] BAT: 82.5 %
+data/aircraft/logs/n223wx_telemetry.log:[2024-06-26 14:57:10] BAT: 81.8 %
+data/aircraft/logs/n223wx_telemetry.log:[2024-06-26 14:58:10] BAT: 81.1 %
+data/aircraft/logs/n223wx_telemetry.log:[2024-06-26 14:59:10] BAT: 80.3 %
+data/aircraft/logs/n223wx_telemetry.log:[2024-06-26 15:00:10] BAT: 79.4 %
+data/aircraft/logs/n223wx_telemetry.log:[2024-06-26 15:01:10] BAT: 78.7 %
+data/aircraft/logs/n223wx_telemetry.log:[2024-06-26 15:02:10] BAT: 78.1 %
+data/aircraft/logs/n223wx_telemetry.log:[2024-06-26 15:03:10] BAT: 77.5%
+data/aircraft/logs/n223wx_telemetry.log:[2024-06-26 15:04:10] BAT: 76.8%
+data/aircraft/logs/n223wx_telemetry.log:[2024-06-26 15:05:10] BAT: 76.1%
+data/aircraft/logs/n223wx_telemetry.log:[2024-06-26 15:06:10] BAT: 75.3%
+data/aircraft/logs/n223wx_telemetry.log:[2024-06-26 15:07:10] BAT: 74.4%
+data/aircraft/logs/n234ij_telemetry.log:[2024-06-26 14:33:10] BAT: 99.4 %
+data/aircraft/logs/n234ij_telemetry.log:[2024-06-26 14:34:10] BAT: 98.7 %
+data/aircraft/logs/n234ij_telemetry.log:[2024-06-26 14:35:10] BAT: 98.2 %
+data/aircraft/logs/n234ij_telemetry.log:[2024-06-26 14:36:10] BAT: 97.4 %
+data/aircraft/logs/n234ij_telemetry.log:[2024-06-26 14:37:10] BAT: 96.6 %
+data/aircraft/logs/n234ij_telemetry.log:[2024-06-26 14:38:10] BAT: 95.9 %
+data/aircraft/logs/n234ij_telemetry.log:[2024-06-26 14:39:10] BAT: 95.1 %
+data/aircraft/logs/n234ij_telemetry.log:[2024-06-26 14:40:10] BAT: 94.5 %
+data/aircraft/logs/n234ij_telemetry.log:[2024-06-26 14:41:10] BAT: 94.0 %
+data/aircraft/logs/n234ij_telemetry.log:[2024-06-26 14:42:10] BAT: 93.4 %
+data/aircraft/logs/n234ij_telemetry.log:[2024-06-26 14:43:10] BAT: 92.8 %
+data/aircraft/logs/n234ij_telemetry.log:[2024-06-26 14:44:10] BAT: 92.1 %
+data/aircraft/logs/n234ij_telemetry.log:[2024-06-26 14:45:10] BAT: 91.5 %
+data/aircraft/logs/n234ij_telemetry.log:[2024-06-26 14:46:10] BAT: 90.7 %
+data/aircraft/logs/n234ij_telemetry.log:[2024-06-26 14:47:10] BAT: 90.0 %
+data/aircraft/logs/n234ij_telemetry.log:[2024-06-26 14:48:10] BAT: 89.5 %
+data/aircraft/logs/n234ij_telemetry.log:[2024-06-26 14:49:10] BAT: 88.8 %
+data/aircraft/logs/n234ij_telemetry.log:[2024-06-26 14:50:10] BAT: 88.0 %
+data/aircraft/logs/n234ij_telemetry.log:[2024-06-26 14:51:10] BAT: 87.3 %
+data/aircraft/logs/n234ij_telemetry.log:[2024-06-26 14:52:10] BAT: 86.7 %
+data/aircraft/logs/n234ij_telemetry.log:[2024-06-26 14:53:10] BAT: 85.9 %
+data/aircraft/logs/n234ij_telemetry.log:[2024-06-26 14:54:10] BAT: 85.0 %
+data/aircraft/logs/n234ij_telemetry.log:[2024-06-26 14:55:10] BAT: 84.2 %
+data/aircraft/logs/n234ij_telemetry.log:[2024-06-26 14:56:10] BAT: 83.3 %
+data/aircraft/logs/n234ij_telemetry.log:[2024-06-26 14:57:10] BAT: 82.3 %
+data/aircraft/logs/n234ij_telemetry.log:[2024-06-26 14:58:10] BAT: 81.6 %
+data/aircraft/logs/n234ij_telemetry.log:[2024-06-26 14:59:10] BAT: 81.0 %
+data/aircraft/logs/n234ij_telemetry.log:[2024-06-26 15:00:10] BAT: 80.2 %
+data/aircraft/logs/n234ij_telemetry.log:[2024-06-26 15:01:10] BAT: 79.4 %
+data/aircraft/logs/n234ij_telemetry.log:[2024-06-26 15:02:10] BAT: 78.8 %
+data/aircraft/logs/n234ij_telemetry.log:[2024-06-26 15:03:10] BAT: 77.8%
+data/aircraft/logs/n234ij_telemetry.log:[2024-06-26 15:04:10] BAT: 76.9%
+data/aircraft/logs/n234ij_telemetry.log:[2024-06-26 15:05:10] BAT: 75.9%
+data/aircraft/logs/n234ij_telemetry.log:[2024-06-26 15:06:10] BAT: 75.2%
+data/aircraft/logs/n234ij_telemetry.log:[2024-06-26 15:07:10] BAT: 74.6%
+data/aircraft/logs/n456cd_telemetry.log:[2024-06-26 14:33:10] BAT: 99.4 %
+data/aircraft/logs/n456cd_telemetry.log:[2024-06-26 14:34:10] BAT: 98.9 %
+data/aircraft/logs/n456cd_telemetry.log:[2024-06-26 14:35:10] BAT: 98.3 %
+data/aircraft/logs/n456cd_telemetry.log:[2024-06-26 14:36:10] BAT: 97.7 %
+data/aircraft/logs/n456cd_telemetry.log:[2024-06-26 14:37:10] BAT: 96.9 %
+data/aircraft/logs/n456cd_telemetry.log:[2024-06-26 14:38:10] BAT: 96.0 %
+data/aircraft/logs/n456cd_telemetry.log:[2024-06-26 14:39:10] BAT: 95.3 %
+data/aircraft/logs/n456cd_telemetry.log:[2024-06-26 14:40:10] BAT: 94.8 %
+data/aircraft/logs/n456cd_telemetry.log:[2024-06-26 14:41:10] BAT: 94.0 %
+data/aircraft/logs/n456cd_telemetry.log:[2024-06-26 14:42:10] BAT: 93.0 %
+data/aircraft/logs/n456cd_telemetry.log:[2024-06-26 14:43:10] BAT: 92.2 %
+data/aircraft/logs/n456cd_telemetry.log:[2024-06-26 14:44:10] BAT: 91.5 %
+data/aircraft/logs/n456cd_telemetry.log:[2024-06-26 14:45:10] BAT: 90.9 %
+data/aircraft/logs/n456cd_telemetry.log:[2024-06-26 14:46:10] BAT: 90.2 %
+data/aircraft/logs/n456cd_telemetry.log:[2024-06-26 14:47:10] BAT: 89.3 %
+data/aircraft/logs/n456cd_telemetry.log:[2024-06-26 14:48:10] BAT: 88.4 %
+data/aircraft/logs/n456cd_telemetry.log:[2024-06-26 14:49:10] BAT: 87.5 %
+data/aircraft/logs/n456cd_telemetry.log:[2024-06-26 14:50:10] BAT: 86.5 %
+data/aircraft/logs/n456cd_telemetry.log:[2024-06-26 14:51:10] BAT: 85.7 %
+data/aircraft/logs/n456cd_telemetry.log:[2024-06-26 14:52:10] BAT: 84.8 %
+data/aircraft/logs/n456cd_telemetry.log:[2024-06-26 14:53:10] BAT: 84.3 %
+data/aircraft/logs/n456cd_telemetry.log:[2024-06-26 14:54:10] BAT: 83.5 %
+data/aircraft/logs/n456cd_telemetry.log:[2024-06-26 14:55:10] BAT: 82.7 %
+data/aircraft/logs/n456cd_telemetry.log:[2024-06-26 14:56:10] BAT: 81.8 %
+data/aircraft/logs/n456cd_telemetry.log:[2024-06-26 14:57:10] BAT: 81.1 %
+data/aircraft/logs/n456cd_telemetry.log:[2024-06-26 14:58:10] BAT: 80.3 %
+data/aircraft/logs/n456cd_telemetry.log:[2024-06-26 14:59:10] BAT: 79.6 %
+data/aircraft/logs/n456cd_telemetry.log:[2024-06-26 15:00:10] BAT: 78.6 %
+data/aircraft/logs/n456cd_telemetry.log:[2024-06-26 15:01:10] BAT: 77.8 %
+data/aircraft/logs/n456cd_telemetry.log:[2024-06-26 15:02:10] BAT: 77.1 %
+data/aircraft/logs/n456cd_telemetry.log:[2024-06-26 15:03:10] BAT: 76.4%
+data/aircraft/logs/n456cd_telemetry.log:[2024-06-26 15:04:10] BAT: 75.7%
+data/aircraft/logs/n456cd_telemetry.log:[2024-06-26 15:05:10] BAT: 74.7%
+data/aircraft/logs/n456cd_telemetry.log:[2024-06-26 15:06:10] BAT: 74.1%
+data/aircraft/logs/n456cd_telemetry.log:[2024-06-26 15:07:10] BAT: 73.5%
+data/aircraft/logs/n567kl_telemetry.log:[2024-06-26 14:33:10] BAT: 99.4 %
+data/aircraft/logs/n567kl_telemetry.log:[2024-06-26 14:34:10] BAT: 98.7 %
+data/aircraft/logs/n567kl_telemetry.log:[2024-06-26 14:35:10] BAT: 97.7 %
+data/aircraft/logs/n567kl_telemetry.log:[2024-06-26 14:36:10] BAT: 96.9 %
+data/aircraft/logs/n567kl_telemetry.log:[2024-06-26 14:37:10] BAT: 96.0 %
+data/aircraft/logs/n567kl_telemetry.log:[2024-06-26 14:38:10] BAT: 95.4 %
+data/aircraft/logs/n567kl_telemetry.log:[2024-06-26 14:39:10] BAT: 94.9 %
+data/aircraft/logs/n567kl_telemetry.log:[2024-06-26 14:40:10] BAT: 94.1 %
+data/aircraft/logs/n567kl_telemetry.log:[2024-06-26 14:41:10] BAT: 93.3 %
+data/aircraft/logs/n567kl_telemetry.log:[2024-06-26 14:42:10] BAT: 92.6 %
+data/aircraft/logs/n567kl_telemetry.log:[2024-06-26 14:43:10] BAT: 91.7 %
+data/aircraft/logs/n567kl_telemetry.log:[2024-06-26 14:44:10] BAT: 90.7 %
+data/aircraft/logs/n567kl_telemetry.log:[2024-06-26 14:45:10] BAT: 90.1 %
+data/aircraft/logs/n567kl_telemetry.log:[2024-06-26 14:46:10] BAT: 89.2 %
+data/aircraft/logs/n567kl_telemetry.log:[2024-06-26 14:47:10] BAT: 88.6 %
+data/aircraft/logs/n567kl_telemetry.log:[2024-06-26 14:48:10] BAT: 88.0 %
+data/aircraft/logs/n567kl_telemetry.log:[2024-06-26 14:49:10] BAT: 87.1 %
+data/aircraft/logs/n567kl_telemetry.log:[2024-06-26 14:50:10] BAT: 86.6 %
+data/aircraft/logs/n567kl_telemetry.log:[2024-06-26 14:51:10] BAT: 85.6 %
+data/aircraft/logs/n567kl_telemetry.log:[2024-06-26 14:52:10] BAT: 84.7 %
+data/aircraft/logs/n567kl_telemetry.log:[2024-06-26 14:53:10] BAT: 84.2 %
+data/aircraft/logs/n567kl_telemetry.log:[2024-06-26 14:54:10] BAT: 83.5 %
+data/aircraft/logs/n567kl_telemetry.log:[2024-06-26 14:55:10] BAT: 82.7 %
+data/aircraft/logs/n567kl_telemetry.log:[2024-06-26 14:56:10] BAT: 81.8 %
+data/aircraft/logs/n567kl_telemetry.log:[2024-06-26 14:57:10] BAT: 81.2 %
+data/aircraft/logs/n567kl_telemetry.log:[2024-06-26 14:58:10] BAT: 80.7 %
+data/aircraft/logs/n567kl_telemetry.log:[2024-06-26 14:59:10] BAT: 79.7 %
+data/aircraft/logs/n567kl_telemetry.log:[2024-06-26 15:00:10] BAT: 78.9 %
+data/aircraft/logs/n567kl_telemetry.log:[2024-06-26 15:01:10] BAT: 78.2 %
+data/aircraft/logs/n567kl_telemetry.log:[2024-06-26 15:02:10] BAT: 77.7 %
+data/aircraft/logs/n567kl_telemetry.log:[2024-06-26 15:03:10] BAT: 76.8%
+data/aircraft/logs/n567kl_telemetry.log:[2024-06-26 15:04:10] BAT: 75.9%
+data/aircraft/logs/n567kl_telemetry.log:[2024-06-26 15:05:10] BAT: 75.2%
+data/aircraft/logs/n567kl_telemetry.log:[2024-06-26 15:06:10] BAT: 74.4%
+data/aircraft/logs/n567kl_telemetry.log:[2024-06-26 15:07:10] BAT: 73.9%
+data/aircraft/logs/n678st_telemetry.log:[2024-06-26 14:33:10] BAT: 99.2 %
+data/aircraft/logs/n678st_telemetry.log:[2024-06-26 14:34:10] BAT: 98.7 %
+data/aircraft/logs/n678st_telemetry.log:[2024-06-26 14:35:10] BAT: 97.7 %
+data/aircraft/logs/n678st_telemetry.log:[2024-06-26 14:36:10] BAT: 97.0 %
+data/aircraft/logs/n678st_telemetry.log:[2024-06-26 14:37:10] BAT: 96.2 %
+data/aircraft/logs/n678st_telemetry.log:[2024-06-26 14:38:10] BAT: 95.7 %
+data/aircraft/logs/n678st_telemetry.log:[2024-06-26 14:39:10] BAT: 94.8 %
+data/aircraft/logs/n678st_telemetry.log:[2024-06-26 14:40:10] BAT: 94.3 %
+data/aircraft/logs/n678st_telemetry.log:[2024-06-26 14:41:10] BAT: 93.4 %
+data/aircraft/logs/n678st_telemetry.log:[2024-06-26 14:42:10] BAT: 92.8 %
+data/aircraft/logs/n678st_telemetry.log:[2024-06-26 14:43:10] BAT: 91.9 %
+data/aircraft/logs/n678st_telemetry.log:[2024-06-26 14:44:10] BAT: 91.2 %
+data/aircraft/logs/n678st_telemetry.log:[2024-06-26 14:45:10] BAT: 90.5 %
+data/aircraft/logs/n678st_telemetry.log:[2024-06-26 14:46:10] BAT: 89.9 %
+data/aircraft/logs/n678st_telemetry.log:[2024-06-26 14:47:10] BAT: 89.3 %
+data/aircraft/logs/n678st_telemetry.log:[2024-06-26 14:48:10] BAT: 88.4 %
+data/aircraft/logs/n678st_telemetry.log:[2024-06-26 14:49:10] BAT: 87.6 %
+data/aircraft/logs/n678st_telemetry.log:[2024-06-26 14:50:10] BAT: 86.8 %
+data/aircraft/logs/n678st_telemetry.log:[2024-06-26 14:51:10] BAT: 86.2 %
+data/aircraft/logs/n678st_telemetry.log:[2024-06-26 14:52:10] BAT: 85.6 %
+data/aircraft/logs/n678st_telemetry.log:[2024-06-26 14:53:10] BAT: 84.9 %
+data/aircraft/logs/n678st_telemetry.log:[2024-06-26 14:54:10] BAT: 84.3 %
+data/aircraft/logs/n678st_telemetry.log:[2024-06-26 14:55:10] BAT: 83.7 %
+data/aircraft/logs/n678st_telemetry.log:[2024-06-26 14:56:10] BAT: 83.2 %
+data/aircraft/logs/n678st_telemetry.log:[2024-06-26 14:57:10] BAT: 82.2 %
+data/aircraft/logs/n678st_telemetry.log:[2024-06-26 14:58:10] BAT: 81.5 %
+data/aircraft/logs/n678st_telemetry.log:[2024-06-26 14:59:10] BAT: 80.8 %
+data/aircraft/logs/n678st_telemetry.log:[2024-06-26 15:00:10] BAT: 80.3 %
+data/aircraft/logs/n678st_telemetry.log:[2024-06-26 15:01:10] BAT: 79.7 %
+data/aircraft/logs/n678st_telemetry.log:[2024-06-26 15:02:10] BAT: 79.0 %
+data/aircraft/logs/n678st_telemetry.log:[2024-06-26 15:03:10] BAT: 78.0%
+data/aircraft/logs/n678st_telemetry.log:[2024-06-26 15:04:10] BAT: 77.4%
+data/aircraft/logs/n678st_telemetry.log:[2024-06-26 15:05:10] BAT: 76.5%
+data/aircraft/logs/n678st_telemetry.log:[2024-06-26 15:06:10] BAT: 75.7%
+data/aircraft/logs/n678st_telemetry.log:[2024-06-26 15:07:10] BAT: 75.0%
+data/aircraft/logs/n789ef_telemetry.log:[2024-06-26 14:33:10] BAT: 99.3 %
+data/aircraft/logs/n789ef_telemetry.log:[2024-06-26 14:34:10] BAT: 98.3 %
+data/aircraft/logs/n789ef_telemetry.log:[2024-06-26 14:35:10] BAT: 97.3 %
+data/aircraft/logs/n789ef_telemetry.log:[2024-06-26 14:36:10] BAT: 96.8 %
+data/aircraft/logs/n789ef_telemetry.log:[2024-06-26 14:37:10] BAT: 96.2 %
+data/aircraft/logs/n789ef_telemetry.log:[2024-06-26 14:38:10] BAT: 95.6 %
+data/aircraft/logs/n789ef_telemetry.log:[2024-06-26 14:39:10] BAT: 94.8 %
+data/aircraft/logs/n789ef_telemetry.log:[2024-06-26 14:40:10] BAT: 94.0 %
+data/aircraft/logs/n789ef_telemetry.log:[2024-06-26 14:41:10] BAT: 93.3 %
+data/aircraft/logs/n789ef_telemetry.log:[2024-06-26 14:42:10] BAT: 92.5 %
+data/aircraft/logs/n789ef_telemetry.log:[2024-06-26 14:43:10] BAT: 92.0 %
+data/aircraft/logs/n789ef_telemetry.log:[2024-06-26 14:44:10] BAT: 91.5 %
+data/aircraft/logs/n789ef_telemetry.log:[2024-06-26 14:45:10] BAT: 90.8 %
+data/aircraft/logs/n789ef_telemetry.log:[2024-06-26 14:46:10] BAT: 89.9 %
+data/aircraft/logs/n789ef_telemetry.log:[2024-06-26 14:47:10] BAT: 89.2 %
+data/aircraft/logs/n789ef_telemetry.log:[2024-06-26 14:48:10] BAT: 88.4 %
+data/aircraft/logs/n789ef_telemetry.log:[2024-06-26 14:49:10] BAT: 87.8 %
+data/aircraft/logs/n789ef_telemetry.log:[2024-06-26 14:50:10] BAT: 87.1 %
+data/aircraft/logs/n789ef_telemetry.log:[2024-06-26 14:51:10] BAT: 86.6 %
+data/aircraft/logs/n789ef_telemetry.log:[2024-06-26 14:52:10] BAT: 86.0 %
+data/aircraft/logs/n789ef_telemetry.log:[2024-06-26 14:53:10] BAT: 85.3 %
+data/aircraft/logs/n789ef_telemetry.log:[2024-06-26 14:54:10] BAT: 84.8 %
+data/aircraft/logs/n789ef_telemetry.log:[2024-06-26 14:55:10] BAT: 84.1 %
+data/aircraft/logs/n789ef_telemetry.log:[2024-06-26 14:56:10] BAT: 83.5 %
+data/aircraft/logs/n789ef_telemetry.log:[2024-06-26 14:57:10] BAT: 82.9 %
+data/aircraft/logs/n789ef_telemetry.log:[2024-06-26 14:58:10] BAT: 82.0 %
+data/aircraft/logs/n789ef_telemetry.log:[2024-06-26 14:59:10] BAT: 81.1 %
+data/aircraft/logs/n789ef_telemetry.log:[2024-06-26 15:00:10] BAT: 80.6 %
+data/aircraft/logs/n789ef_telemetry.log:[2024-06-26 15:01:10] BAT: 79.8 %
+data/aircraft/logs/n789ef_telemetry.log:[2024-06-26 15:02:10] BAT: 79.0 %
+data/aircraft/logs/n789ef_telemetry.log:[2024-06-26 15:03:10] BAT: 78.5%
+data/aircraft/logs/n789ef_telemetry.log:[2024-06-26 15:04:10] BAT: 77.8%
+data/aircraft/logs/n789ef_telemetry.log:[2024-06-26 15:05:10] BAT: 76.9%
+data/aircraft/logs/n789ef_telemetry.log:[2024-06-26 15:06:10] BAT: 76.0%
+data/aircraft/logs/n789ef_telemetry.log:[2024-06-26 15:07:10] BAT: 75.1%
+data/aircraft/logs/n890mn_telemetry.log:[2024-06-26 14:33:10] BAT: 99.3 %
+data/aircraft/logs/n890mn_telemetry.log:[2024-06-26 14:34:10] BAT: 98.7 %
+data/aircraft/logs/n890mn_telemetry.log:[2024-06-26 14:35:10] BAT: 97.9 %
+data/aircraft/logs/n890mn_telemetry.log:[2024-06-26 14:36:10] BAT: 97.1 %
+data/aircraft/logs/n890mn_telemetry.log:[2024-06-26 14:37:10] BAT: 96.3 %
+data/aircraft/logs/n890mn_telemetry.log:[2024-06-26 14:38:10] BAT: 95.7 %
+data/aircraft/logs/n890mn_telemetry.log:[2024-06-26 14:39:10] BAT: 95.0 %
+data/aircraft/logs/n890mn_telemetry.log:[2024-06-26 14:40:10] BAT: 94.0 %
+data/aircraft/logs/n890mn_telemetry.log:[2024-06-26 14:41:10] BAT: 93.2 %
+data/aircraft/logs/n890mn_telemetry.log:[2024-06-26 14:42:10] BAT: 92.6 %
+data/aircraft/logs/n890mn_telemetry.log:[2024-06-26 14:43:10] BAT: 91.9 %
+data/aircraft/logs/n890mn_telemetry.log:[2024-06-26 14:44:10] BAT: 91.3 %
+data/aircraft/logs/n890mn_telemetry.log:[2024-06-26 14:45:10] BAT: 90.5 %
+data/aircraft/logs/n890mn_telemetry.log:[2024-06-26 14:46:10] BAT: 89.7 %
+data/aircraft/logs/n890mn_telemetry.log:[2024-06-26 14:47:10] BAT: 88.9 %
+data/aircraft/logs/n890mn_telemetry.log:[2024-06-26 14:48:10] BAT: 88.0 %
+data/aircraft/logs/n890mn_telemetry.log:[2024-06-26 14:49:10] BAT: 87.4 %
+data/aircraft/logs/n890mn_telemetry.log:[2024-06-26 14:50:10] BAT: 86.4 %
+data/aircraft/logs/n890mn_telemetry.log:[2024-06-26 14:51:10] BAT: 85.4 %
+data/aircraft/logs/n890mn_telemetry.log:[2024-06-26 14:52:10] BAT: 84.5 %
+data/aircraft/logs/n890mn_telemetry.log:[2024-06-26 14:53:10] BAT: 83.7 %
+data/aircraft/logs/n890mn_telemetry.log:[2024-06-26 14:54:10] BAT: 83.1 %
+data/aircraft/logs/n890mn_telemetry.log:[2024-06-26 14:55:10] BAT: 82.6 %
+data/aircraft/logs/n890mn_telemetry.log:[2024-06-26 14:56:10] BAT: 81.8 %
+data/aircraft/logs/n890mn_telemetry.log:[2024-06-26 14:57:10] BAT: 81.0 %
+data/aircraft/logs/n890mn_telemetry.log:[2024-06-26 14:58:10] BAT: 80.1 %
+data/aircraft/logs/n890mn_telemetry.log:[2024-06-26 14:59:10] BAT: 79.3 %
+data/aircraft/logs/n890mn_telemetry.log:[2024-06-26 15:00:10] BAT: 78.3 %
+data/aircraft/logs/n890mn_telemetry.log:[2024-06-26 15:01:10] BAT: 77.6 %
+data/aircraft/logs/n890mn_telemetry.log:[2024-06-26 15:02:10] BAT: 76.6 %
+data/aircraft/logs/n890mn_telemetry.log:[2024-06-26 15:03:10] BAT: 76.1%
+data/aircraft/logs/n890mn_telemetry.log:[2024-06-26 15:04:10] BAT: 75.1%
+data/aircraft/logs/n890mn_telemetry.log:[2024-06-26 15:05:10] BAT: 74.5%
+data/aircraft/logs/n890mn_telemetry.log:[2024-06-26 15:06:10] BAT: 73.7%
+data/aircraft/logs/n890mn_telemetry.log:[2024-06-26 15:07:10] BAT: 73.0%
+[0;32m@crtrauger [0m➜ [1;34m/workspaces/cis190-codespace/labs/final [0;36m([1;31mmain[0;36m) [0m$ tar -cvf datr[Ka [K[K[K[K[Kbackup.tgz data
+data/
+data/aircraft/
+data/aircraft/logs/
+data/aircraft/logs/n234ij_telemetry.log
+data/aircraft/logs/n101gh_telemetry.log
+data/aircraft/logs/n123ab_telemetry.log
+data/aircraft/logs/n456cd_telemetry.log
+data/aircraft/logs/bat_summary.txt
+data/aircraft/logs/n223wx_telemetry.log
+data/aircraft/logs/n678st_telemetry.log
+data/aircraft/logs/n789ef_telemetry.log
+data/aircraft/logs/n567kl_telemetry.log
+data/aircraft/logs/gps_summary.txt
+data/aircraft/logs/n890mn_telemetry.log
+data/aircraft/logs/n112op_telemetry.log
+data/aircraft/configs/
+data/aircraft/configs/n567kl/
+data/aircraft/configs/n567kl/config_3.ini
+data/aircraft/configs/n567kl/config_2.ini
+data/aircraft/configs/n567kl/config_5.ini
+data/aircraft/configs/n567kl/config_1.ini
+data/aircraft/configs/n567kl/config_4.ini
+data/aircraft/configs/tailnumbers.txt
+data/aircraft/configs/n456cd/
+data/aircraft/configs/n456cd/config_3.ini
+data/aircraft/configs/n456cd/config_2.ini
+data/aircraft/configs/n456cd/config_5.ini
+data/aircraft/configs/n456cd/config_1.ini
+data/aircraft/configs/n456cd/config_4.ini
+data/aircraft/configs/n789ef/
+data/aircraft/configs/n789ef/config_3.ini
+data/aircraft/configs/n789ef/config_2.ini
+data/aircraft/configs/n789ef/config_5.ini
+data/aircraft/configs/n789ef/config_1.ini
+data/aircraft/configs/n789ef/config_4.ini
+data/aircraft/configs/n123ab/
+data/aircraft/configs/n123ab/config_3.ini
+data/aircraft/configs/n123ab/config_2.ini
+data/aircraft/configs/n123ab/config_5.ini
+data/aircraft/configs/n123ab/config_1.ini
+data/aircraft/configs/n123ab/config_4.ini
+data/aircraft/configs/n223wx/
+data/aircraft/configs/n223wx/config_3.ini
+data/aircraft/configs/n223wx/config_2.ini
+data/aircraft/configs/n223wx/config_5.ini
+data/aircraft/configs/n223wx/config_1.ini
+data/aircraft/configs/n223wx/config_4.ini
+data/aircraft/configs/n678st/
+data/aircraft/configs/n678st/config_3.ini
+data/aircraft/configs/n678st/config_2.ini
+data/aircraft/configs/n678st/config_5.ini
+data/aircraft/configs/n678st/config_1.ini
+data/aircraft/configs/n678st/config_4.ini
+data/aircraft/configs/n890mn/
+data/aircraft/configs/n890mn/config_3.ini
+data/aircraft/configs/n890mn/config_2.ini
+data/aircraft/configs/n890mn/config_5.ini
+data/aircraft/configs/n890mn/config_1.ini
+data/aircraft/configs/n890mn/config_4.ini
+data/aircraft/configs/n234ij/
+data/aircraft/configs/n234ij/config_3.ini
+data/aircraft/configs/n234ij/config_2.ini
+data/aircraft/configs/n234ij/config_5.ini
+data/aircraft/configs/n234ij/config_1.ini
+data/aircraft/configs/n234ij/config_4.ini
+data/aircraft/configs/n101gh/
+data/aircraft/configs/n101gh/config_3.ini
+data/aircraft/configs/n101gh/config_2.ini
+data/aircraft/configs/n101gh/config_5.ini
+data/aircraft/configs/n101gh/config_1.ini
+data/aircraft/configs/n101gh/config_4.ini
+data/aircraft/configs/n101gh/config_1a.ini
+data/aircraft/configs/n112op/
+data/aircraft/configs/n112op/config_3.ini
+data/aircraft/configs/n112op/config_2.ini
+data/aircraft/configs/n112op/config_5.ini
+data/aircraft/configs/n112op/config_1.ini
+data/aircraft/configs/n112op/config_4.ini
+[0;32m@crtrauger [0m➜ [1;34m/workspaces/cis190-codespace/labs/final [0;36m([1;31mmain[0;36m) [0m$ tree
+[34;42m.[00m
+├── [01;31mbackup.tgz[00m
+├── [34;42mdata[00m
+│   └── [34;42maircraft[00m
+│       ├── [01;34mconfigs[00m
+│       │   ├── [01;34mn101gh[00m
+│       │   │   ├── config_1.ini
+│       │   │   ├── config_1a.ini
+│       │   │   ├── config_2.ini
+│       │   │   ├── config_3.ini
+│       │   │   ├── config_4.ini
+│       │   │   └── config_5.ini
+│       │   ├── [01;34mn112op[00m
+│       │   │   ├── config_1.ini
+│       │   │   ├── config_2.ini
+│       │   │   ├── config_3.ini
+│       │   │   ├── config_4.ini
+│       │   │   └── config_5.ini
+│       │   ├── [01;34mn123ab[00m
+│       │   │   ├── config_1.ini
+│       │   │   ├── config_2.ini
+│       │   │   ├── config_3.ini
+│       │   │   ├── config_4.ini
+│       │   │   └── config_5.ini
+│       │   ├── [01;34mn223wx[00m
+│       │   │   ├── config_1.ini
+│       │   │   ├── config_2.ini
+│       │   │   ├── config_3.ini
+│       │   │   ├── config_4.ini
+│       │   │   └── config_5.ini
+│       │   ├── [01;34mn234ij[00m
+│       │   │   ├── config_1.ini
+│       │   │   ├── config_2.ini
+│       │   │   ├── config_3.ini
+│       │   │   ├── config_4.ini
+│       │   │   └── config_5.ini
+│       │   ├── [01;34mn456cd[00m
+│       │   │   ├── config_1.ini
+│       │   │   ├── config_2.ini
+│       │   │   ├── config_3.ini
+│       │   │   ├── config_4.ini
+│       │   │   └── config_5.ini
+│       │   ├── [01;34mn567kl[00m
+│       │   │   ├── config_1.ini
+│       │   │   ├── config_2.ini
+│       │   │   ├── config_3.ini
+│       │   │   ├── config_4.ini
+│       │   │   └── config_5.ini
+│       │   ├── [01;34mn678st[00m
+│       │   │   ├── config_1.ini
+│       │   │   ├── config_2.ini
+│       │   │   ├── config_3.ini
+│       │   │   ├── config_4.ini
+│       │   │   └── config_5.ini
+│       │   ├── [01;34mn789ef[00m
+│       │   │   ├── config_1.ini
+│       │   │   ├── config_2.ini
+│       │   │   ├── config_3.ini
+│       │   │   ├── config_4.ini
+│       │   │   └── config_5.ini
+│       │   ├── [01;34mn890mn[00m
+│       │   │   ├── config_1.ini
+│       │   │   ├── config_2.ini
+│       │   │   ├── config_3.ini
+│       │   │   ├── config_4.ini
+│       │   │   └── config_5.ini
+│       │   └── tailnumbers.txt
+│       └── [01;34mlogs[00m
+│           ├── bat_summary.txt
+│           ├── gps_summary.txt
+│           ├── n101gh_telemetry.log
+│           ├── n112op_telemetry.log
+│           ├── n123ab_telemetry.log
+│           ├── n223wx_telemetry.log
+│           ├── n234ij_telemetry.log
+│           ├── n456cd_telemetry.log
+│           ├── n567kl_telemetry.log
+│           ├── n678st_telemetry.log
+│           ├── n789ef_telemetry.log
+│           └── n890mn_telemetry.log
+├── [01;31mfinal_configs.tgz[00m
+├── [01;31mfinal_logs.tgz[00m
+└── final_typescript
+
+14 directories, 68 files
+[0;32m@crtrauger [0m➜ [1;34m/workspaces/cis190-codespace/labs/final [0;36m([1;31mmain[0;36m) [0m$ tar tf backup.tgz 
+data/
+data/aircraft/
+data/aircraft/logs/
+data/aircraft/logs/n234ij_telemetry.log
+data/aircraft/logs/n101gh_telemetry.log
+data/aircraft/logs/n123ab_telemetry.log
+data/aircraft/logs/n456cd_telemetry.log
+data/aircraft/logs/bat_summary.txt
+data/aircraft/logs/n223wx_telemetry.log
+data/aircraft/logs/n678st_telemetry.log
+data/aircraft/logs/n789ef_telemetry.log
+data/aircraft/logs/n567kl_telemetry.log
+data/aircraft/logs/gps_summary.txt
+data/aircraft/logs/n890mn_telemetry.log
+data/aircraft/logs/n112op_telemetry.log
+data/aircraft/configs/
+data/aircraft/configs/n567kl/
+data/aircraft/configs/n567kl/config_3.ini
+data/aircraft/configs/n567kl/config_2.ini
+data/aircraft/configs/n567kl/config_5.ini
+data/aircraft/configs/n567kl/config_1.ini
+data/aircraft/configs/n567kl/config_4.ini
+data/aircraft/configs/tailnumbers.txt
+data/aircraft/configs/n456cd/
+data/aircraft/configs/n456cd/config_3.ini
+data/aircraft/configs/n456cd/config_2.ini
+data/aircraft/configs/n456cd/config_5.ini
+data/aircraft/configs/n456cd/config_1.ini
+data/aircraft/configs/n456cd/config_4.ini
+data/aircraft/configs/n789ef/
+data/aircraft/configs/n789ef/config_3.ini
+data/aircraft/configs/n789ef/config_2.ini
+data/aircraft/configs/n789ef/config_5.ini
+data/aircraft/configs/n789ef/config_1.ini
+data/aircraft/configs/n789ef/config_4.ini
+data/aircraft/configs/n123ab/
+data/aircraft/configs/n123ab/config_3.ini
+data/aircraft/configs/n123ab/config_2.ini
+data/aircraft/configs/n123ab/config_5.ini
+data/aircraft/configs/n123ab/config_1.ini
+data/aircraft/configs/n123ab/config_4.ini
+data/aircraft/configs/n223wx/
+data/aircraft/configs/n223wx/config_3.ini
+data/aircraft/configs/n223wx/config_2.ini
+data/aircraft/configs/n223wx/config_5.ini
+data/aircraft/configs/n223wx/config_1.ini
+data/aircraft/configs/n223wx/config_4.ini
+data/aircraft/configs/n678st/
+data/aircraft/configs/n678st/config_3.ini
+data/aircraft/configs/n678st/config_2.ini
+data/aircraft/configs/n678st/config_5.ini
+data/aircraft/configs/n678st/config_1.ini
+data/aircraft/configs/n678st/config_4.ini
+data/aircraft/configs/n890mn/
+data/aircraft/configs/n890mn/config_3.ini
+data/aircraft/configs/n890mn/config_2.ini
+data/aircraft/configs/n890mn/config_5.ini
+data/aircraft/configs/n890mn/config_1.ini
+data/aircraft/configs/n890mn/config_4.ini
+data/aircraft/configs/n234ij/
+data/aircraft/configs/n234ij/config_3.ini
+data/aircraft/configs/n234ij/config_2.ini
+data/aircraft/configs/n234ij/config_5.ini
+data/aircraft/configs/n234ij/config_1.ini
+data/aircraft/configs/n234ij/config_4.ini
+data/aircraft/configs/n101gh/
+data/aircraft/configs/n101gh/config_3.ini
+data/aircraft/configs/n101gh/config_2.ini
+data/aircraft/configs/n101gh/config_5.ini
+data/aircraft/configs/n101gh/config_1.ini
+data/aircraft/configs/n101gh/config_4.ini
+data/aircraft/configs/n101gh/config_1a.ini
+data/aircraft/configs/n112op/
+data/aircraft/configs/n112op/config_3.ini
+data/aircraft/configs/n112op/config_2.ini
+data/aircraft/configs/n112op/config_5.ini
+data/aircraft/configs/n112op/config_1.ini
+data/aircraft/configs/n112op/config_4.ini
+[0;32m@crtrauger [0m➜ [1;34m/workspaces/cis190-codespace/labs/final [0;36m([1;31mmain[0;36m) [0m$ touch backup.sh
+[0;32m@crtrauger [0m➜ [1;34m/workspaces/cis190-codespace/labs/final [0;36m([1;31mmain[0;36m) [0m$ which bash
+/usr/bin/bash
+[0;32m@crtrauger [0m➜ [1;34m/workspaces/cis190-codespace/labs/final [0;36m([1;31mmain[0;36m) [0m$ vim backup.sh
+[?1049h[22;0;0t[>4;2m[?1h=[?2004h[1;50r[?12h[?12l[22;2t[22;1t[27m[23m[29m[m[H[2J[?25l[50;1H"backup.sh" 0L, 0C[2;1H▽[6n[2;1H  [1;1H[>c]10;?]11;?[2;1H[94m~                                                                                                                                                                                                      [3;1H~                                                                                                                                                                                                      [4;1H~                                                                                                                                                                                                      [5;1H~                                                                                                                                                                                                      [6;1H~                                                                                                                                                                                                      [7;1H~                                                                                                                                                                                                      [8;1H~                                                                                                                                                                                                      [9;1H~                                                                                                                                                                                                      [10;1H~                                                                                                                                                                                                      [11;1H~                                                                                                                                                                                                      [12;1H~                                                                                                                                                                                                      [13;1H~                                                                                                                                                                                                      [14;1H~                                                                                                                                                                                                      [15;1H~                                                                                                                                                                                                      [16;1H~                                                                                                                                                                                                      [17;1H~                                                                                                                                                                                                      [18;1H~                                                                                                                                                                                                      [19;1H~                                                                                                                                                                                                      [20;1H~                                                                                                                                                                                                      [21;1H~                                                                                                                                                                                                      [22;1H~                                                                                                                                                                                                      [23;1H~                                                                                                                                                                                                      [24;1H~                                                                                                                                                                                                      [25;1H~                                                                                                                                                                                                      [26;1H~                                                                                                                                                                                                      [27;1H~                                                                                                                                                                                                      [28;1H~                                                                                                                                                                                                      [29;1H~                                                                                                                                                                                                      [30;1H~                                                                                                                                                                                                      [31;1H~                                                                                                                                                                                                      [32;1H~                                                                                                                                                                                                      [33;1H~                                                                                                                                                                                                      [34;1H~                                                                                                                                                                                                      [35;1H~                                                                                                                                                                                                      [36;1H~                                                                                                                                                                                                      [37;1H~                                                                                                                                                                                                      [38;1H~                                                                                                                                                                                                      [39;1H~                                                                                                                                                                                                      [40;1H~                                                                                                                                                                                                      [41;1H~                                                                                                                                                                                                      [42;1H~                                                                                                                                                                                                      [43;1H~                                                                                                                                                                                                      [44;1H~                                                                                                                                                                                                      [45;1H~                                                                                                                                                                                                      [46;1H~                                                                                                                                                                                                      [47;1H~                                                                                                                                                                                                      [48;1H~                                                                                                                                                                                                      [49;1H~                                                                                                                                                                                                      [m[50;182H0,0-1[9CAll[1;1H[?25hP+q436f\P+q6b75\P+q6b64\P+q6b72\P+q6b6c\P+q2332\P+q2334\P+q2569\P+q2a37\P+q6b31\[?12$p[?25l[50;172H/[1;1H[50;173He[1;1H[50;174Hd[1;1H[50;175He[1;1H[50;176Hd[1;1H[50;177H/[1;1H[50;178Hf[1;1H[50;179H3[1;1H[50;180Hf[1;1H[50;181H3[1;1H[50;172H          [1;1H[?25h[?25l[50;172H/[1;1H[50;173H0[1;1H[50;174H4[1;1H[50;175H0[1;1H[50;176H4[1;1H[50;177H/[1;1H[50;178H0[1;1H[50;179H9[1;1H[50;180H0[1;1H[50;181H9[1;1H[50;172H          [1;1H[27m[23m[29m[m[H[2J[2;1H[94m~                                                                                                                                                                                                      [3;1H~                                                                                                                                                                                                      [4;1H~                                                                                                                                                                                                      [5;1H~                                                                                                                                                                                                      [6;1H~                                                                                                                                                                                                      [7;1H~                                                                                                                                                                                                      [8;1H~                                                                                                                                                                                                      [9;1H~                                                                                                                                                                                                      [10;1H~                                                                                                                                                                                                      [11;1H~                                                                                                                                                                                                      [12;1H~                                                                                                                                                                                                      [13;1H~                                                                                                                                                                                                      [14;1H~                                                                                                                                                                                                      [15;1H~                                                                                                                                                                                                      [16;1H~                                                                                                                                                                                                      [17;1H~                                                                                                                                                                                                      [18;1H~                                                                                                                                                                                                      [19;1H~                                                                                                                                                                                                      [20;1H~                                                                                                                                                                                                      [21;1H~                                                                                                                                                                                                      [22;1H~                                                                                                                                                                                                      [23;1H~                                                                                                                                                                                                      [24;1H~                                                                                                                                                                                                      [25;1H~                                                                                                                                                                                                      [26;1H~                                                                                                                                                                                                      [27;1H~                                                                                                                                                                                                      [28;1H~                                                                                                                                                                                                      [29;1H~                                                                                                                                                                                                      [30;1H~                                                                                                                                                                                                      [31;1H~                                                                                                                                                                                                      [32;1H~                                                                                                                                                                                                      [33;1H~                                                                                                                                                                                                      [34;1H~                                                                                                                                                                                                      [35;1H~                                                                                                                                                                                                      [36;1H~                                                                                                                                                                                                      [37;1H~                                                                                                                                                                                                      [38;1H~                                                                                                                                                                                                      [39;1H~                                                                                                                                                                                                      [40;1H~                                                                                                                                                                                                      [41;1H~                                                                                                                                                                                                      [42;1H~                                                                                                                                                                                                      [43;1H~                                                                                                                                                                                                      [44;1H~                                                                                                                                                                                                      [45;1H~                                                                                                                                                                                                      [46;1H~                                                                                                                                                                                                      [47;1H~                                                                                                                                                                                                      [48;1H~                                                                                                                                                                                                      [49;1H~                                                                                                                                                                                                      [m[50;182H0,0-1[9CAll"backup.sh" 0L, 0C[1;1H[?25h[?25l[50;172H#[1;1H[50;1H[97m[41mE348: No string under cursor[m[50;172H[K[1;1H[50;182H0,0-1[9CAll[1;1H[?25h[?25l[50;172Hi[1;1H[50;172H [1;1H[50;1H[1m-- INSERT --[m[50;13H[K[50;182H0,1[11CAll[1;1H[?25h[?25l[96m#[m[50;182H1,2[1;2H[?25h[?25l[96m1[m[50;184H3[1;3H[?25h[?25l[1;2H[K[50;184H2[1;2H[?25h[?25l[96m![m[50;184H3[1;3H[?25h[?25l[96m [m[50;184H4[1;4H[?25h[?25l[96m/[m[50;184H5[1;5H[?25h[?25l[96mu[m[50;184H6[1;6H[?25h[?25l[96ms[m[50;184H7[1;7H[?25h[?25l[96mr[m[50;184H8[1;8H[?25h[?25l[96m/[m[50;184H9[1;9H[?25h[?25l[96mb[m[50;184H10[1;10H[?25h[?25l[96mi[m[50;185H1[1;11H[?25h[?25l[96mn[m[50;185H2[1;12H[?25h[?25l[96m/[m[50;185H3[1;13H[?25h[?25l[96mb[m[50;185H4[1;14H[?25h[?25l[96ma[m[50;185H5[1;15H[?25h[?25l[96ms[m[50;185H6[1;16H[?25h[?25l[96mh[m[50;185H7[1;17H[?25h[?25l[2;1H[K[50;182H2,1 [2;1H[?25h[50;1H[K[2;1H[?25l[50;172H^[[2;1H[50;172H  [2;1H[50;182H2,0-1[9CAll[2;1H[?25h[?25l[50;172H:[2;1H[50;172H[K[50;1H:[?2004h[?25hx[?25l[?2004l"backup.sh" 2L, 18C written[23;2t[23;1t
+[?2004l[?1l>[?25h[>4;m[?1049l[23;0;0t[0;32m@crtrauger [0m➜ [1;34m/workspaces/cis190-codespace/labs/final [0;36m([1;31mmain[0;36m) [0m$ vim backup.sh[3Pwhich bashtouch backup.shar tf backup.tgz ree[Kar tf backup.tgz ree[Kar tf backup.tgz ree[Kar -cvf backup.tgz datacat data/aircraft/logs/bat_summary.txt [15Ptar -cvf backup.tgz dataree[Kar tf backup.tgz [3Pouch backup.sh[5Pwhich bashvim backup.sh
+[?1049h[22;0;0t[>4;2m[?1h=[?2004h[1;50r[?12h[?12l[22;2t[22;1t[27m[23m[29m[m[H[2J[?25l[50;1H"backup.sh" 2L, 18C[2;1H▽[6n[2;1H  [1;1H[>c]10;?]11;?[1;1H[34m#! /usr/bin/bash[m
+
+[94m~                                                                                                                                                                                                      [4;1H~                                                                                                                                                                                                      [5;1H~                                                                                                                                                                                                      [6;1H~                                                                                                                                                                                                      [7;1H~                                                                                                                                                                                                      [8;1H~                                                                                                                                                                                                      [9;1H~                                                                                                                                                                                                      [10;1H~                                                                                                                                                                                                      [11;1H~                                                                                                                                                                                                      [12;1H~                                                                                                                                                                                                      [13;1H~                                                                                                                                                                                                      [14;1H~                                                                                                                                                                                                      [15;1H~                                                                                                                                                                                                      [16;1H~                                                                                                                                                                                                      [17;1H~                                                                                                                                                                                                      [18;1H~                                                                                                                                                                                                      [19;1H~                                                                                                                                                                                                      [20;1H~                                                                                                                                                                                                      [21;1H~                                                                                                                                                                                                      [22;1H~                                                                                                                                                                                                      [23;1H~                                                                                                                                                                                                      [24;1H~                                                                                                                                                                                                      [25;1H~                                                                                                                                                                                                      [26;1H~                                                                                                                                                                                                      [27;1H~                                                                                                                                                                                                      [28;1H~                                                                                                                                                                                                      [29;1H~                                                                                                                                                                                                      [30;1H~                                                                                                                                                                                                      [31;1H~                                                                                                                                                                                                      [32;1H~                                                                                                                                                                                                      [33;1H~                                                                                                                                                                                                      [34;1H~                                                                                                                                                                                                      [35;1H~                                                                                                                                                                                                      [36;1H~                                                                                                                                                                                                      [37;1H~                                                                                                                                                                                                      [38;1H~                                                                                                                                                                                                      [39;1H~                                                                                                                                                                                                      [40;1H~                                                                                                                                                                                                      [41;1H~                                                                                                                                                                                                      [42;1H~                                                                                                                                                                                                      [43;1H~                                                                                                                                                                                                      [44;1H~                                                                                                                                                                                                      [45;1H~                                                                                                                                                                                                      [46;1H~                                                                                                                                                                                                      [47;1H~                                                                                                                                                                                                      [48;1H~                                                                                                                                                                                                      [49;1H~                                                                                                                                                                                                      [m[50;182H2,0-1[9CAll[2;1H[?25hP+q436f\P+q6b75\P+q6b64\P+q6b72\P+q6b6c\P+q2332\P+q2334\P+q2569\P+q2a37\P+q6b31\[?12$p[?25l[50;172H/[2;1H[50;173He[2;1H[50;174Hd[2;1H[50;175He[2;1H[50;176Hd[2;1H[50;177H/[2;1H[50;178Hf[2;1H[50;179H3[2;1H[50;180Hf[2;1H[50;181H3[2;1H[50;172H          [2;1H[?25h[?25l[50;172H/[2;1H[50;173H0[2;1H[50;174H4[2;1H[50;175H0[2;1H[50;176H4[2;1H[50;177H/[2;1H[50;178H0[2;1H[50;179H9[2;1H[50;180H0[2;1H[50;181H9[2;1H[50;172H          [2;1H[27m[23m[29m[m[H[2J[1;1H[96m#! /usr/bin/bash[m
+
+[94m~                                                                                                                                                                                                      [4;1H~                                                                                                                                                                                                      [5;1H~                                                                                                                                                                                                      [6;1H~                                                                                                                                                                                                      [7;1H~                                                                                                                                                                                                      [8;1H~                                                                                                                                                                                                      [9;1H~                                                                                                                                                                                                      [10;1H~                                                                                                                                                                                                      [11;1H~                                                                                                                                                                                                      [12;1H~                                                                                                                                                                                                      [13;1H~                                                                                                                                                                                                      [14;1H~                                                                                                                                                                                                      [15;1H~                                                                                                                                                                                                      [16;1H~                                                                                                                                                                                                      [17;1H~                                                                                                                                                                                                      [18;1H~                                                                                                                                                                                                      [19;1H~                                                                                                                                                                                                      [20;1H~                                                                                                                                                                                                      [21;1H~                                                                                                                                                                                                      [22;1H~                                                                                                                                                                                                      [23;1H~                                                                                                                                                                                                      [24;1H~                                                                                                                                                                                                      [25;1H~                                                                                                                                                                                                      [26;1H~                                                                                                                                                                                                      [27;1H~                                                                                                                                                                                                      [28;1H~                                                                                                                                                                                                      [29;1H~                                                                                                                                                                                                      [30;1H~                                                                                                                                                                                                      [31;1H~                                                                                                                                                                                                      [32;1H~                                                                                                                                                                                                      [33;1H~                                                                                                                                                                                                      [34;1H~                                                                                                                                                                                                      [35;1H~                                                                                                                                                                                                      [36;1H~                                                                                                                                                                                                      [37;1H~                                                                                                                                                                                                      [38;1H~                                                                                                                                                                                                      [39;1H~                                                                                                                                                                                                      [40;1H~                                                                                                                                                                                                      [41;1H~                                                                                                                                                                                                      [42;1H~                                                                                                                                                                                                      [43;1H~                                                                                                                                                                                                      [44;1H~                                                                                                                                                                                                      [45;1H~                                                                                                                                                                                                      [46;1H~                                                                                                                                                                                                      [47;1H~                                                                                                                                                                                                      [48;1H~                                                                                                                                                                                                      [49;1H~                                                                                                                                                                                                      [m[50;182H2,0-1[9CAll"backup.sh" 2L, 18C[2;1H[?25h[?25l[50;172Hi[2;1H[50;172H [2;1H[50;1H[1m-- INSERT --[m[50;13H[K[50;182H2,1[11CAll[2;1H[?25h[?25ltar [38;5;224m-cvf[m backup.tgz data[?25h[?25l[50;184H25[2;25H[?25h[?25l[3;1H[K[50;182H3,1 [3;1H[?25h[50;1H[K[3;1H[?25l[50;172H^[[3;1H[50;172H  [3;1H[50;182H3,0-1[9CAll[3;1H[?25h[?25l[50;172H:[3;1H[50;172H[K[50;1H:[?2004h[?25hx[?25l[?2004l"backup.sh" 3L, 43C written[23;2t[23;1t
+[?2004l[?1l>[?25h[>4;m[?1049l[23;0;0t[0;32m@crtrauger [0m➜ [1;34m/workspaces/cis190-codespace/labs/final [0;36m([1;31mmain[0;36m) [0m$ vim backup.sh[3Pwhich bashtouch backup.shar tf backup.tgz [3Pouch backup.sh[5Pwhich bashvim backup.sh
+[?1049h[22;0;0t[>4;2m[?1h=[?2004h[1;50r[?12h[?12l[22;2t[22;1t[27m[23m[29m[m[H[2J[?25l[50;1H"backup.sh" 3L, 43C[2;1H▽[6n[2;1H  [1;1H[>c]10;?]11;?[1;1H[34m#! /usr/bin/bash[m
+tar [35m-cvf[m backup.tgz data
+
+[94m~                                                                                                                                                                                                      [5;1H~                                                                                                                                                                                                      [6;1H~                                                                                                                                                                                                      [7;1H~                                                                                                                                                                                                      [8;1H~                                                                                                                                                                                                      [9;1H~                                                                                                                                                                                                      [10;1H~                                                                                                                                                                                                      [11;1H~                                                                                                                                                                                                      [12;1H~                                                                                                                                                                                                      [13;1H~                                                                                                                                                                                                      [14;1H~                                                                                                                                                                                                      [15;1H~                                                                                                                                                                                                      [16;1H~                                                                                                                                                                                                      [17;1H~                                                                                                                                                                                                      [18;1H~                                                                                                                                                                                                      [19;1H~                                                                                                                                                                                                      [20;1H~                                                                                                                                                                                                      [21;1H~                                                                                                                                                                                                      [22;1H~                                                                                                                                                                                                      [23;1H~                                                                                                                                                                                                      [24;1H~                                                                                                                                                                                                      [25;1H~                                                                                                                                                                                                      [26;1H~                                                                                                                                                                                                      [27;1H~                                                                                                                                                                                                      [28;1H~                                                                                                                                                                                                      [29;1H~                                                                                                                                                                                                      [30;1H~                                                                                                                                                                                                      [31;1H~                                                                                                                                                                                                      [32;1H~                                                                                                                                                                                                      [33;1H~                                                                                                                                                                                                      [34;1H~                                                                                                                                                                                                      [35;1H~                                                                                                                                                                                                      [36;1H~                                                                                                                                                                                                      [37;1H~                                                                                                                                                                                                      [38;1H~                                                                                                                                                                                                      [39;1H~                                                                                                                                                                                                      [40;1H~                                                                                                                                                                                                      [41;1H~                                                                                                                                                                                                      [42;1H~                                                                                                                                                                                                      [43;1H~                                                                                                                                                                                                      [44;1H~                                                                                                                                                                                                      [45;1H~                                                                                                                                                                                                      [46;1H~                                                                                                                                                                                                      [47;1H~                                                                                                                                                                                                      [48;1H~                                                                                                                                                                                                      [49;1H~                                                                                                                                                                                                      [m[50;182H3,0-1[9CAll[3;1H[?25hP+q436f\P+q6b75\P+q6b64\P+q6b72\P+q6b6c\P+q2332\P+q2334\P+q2569\P+q2a37\P+q6b31\[?12$p[?25l[50;172H/[3;1H[50;173He[3;1H[50;174Hd[3;1H[50;175He[3;1H[50;176Hd[3;1H[50;177H/[3;1H[50;178Hf[3;1H[50;179H3[3;1H[50;180Hf[3;1H[50;181H3[3;1H[50;172H          [3;1H[?25h[?25l[50;172H/[3;1H[50;173H0[3;1H[50;174H4[3;1H[50;175H0[3;1H[50;176H4[3;1H[50;177H/[3;1H[50;178H0[3;1H[50;179H9[3;1H[50;180H0[3;1H[50;181H9[3;1H[50;172H          [3;1H[27m[23m[29m[m[H[2J[1;1H[96m#! /usr/bin/bash[m
+tar [38;5;224m-cvf[m backup.tgz data
+
+[94m~                                                                                                                                                                                                      [5;1H~                                                                                                                                                                                                      [6;1H~                                                                                                                                                                                                      [7;1H~                                                                                                                                                                                                      [8;1H~                                                                                                                                                                                                      [9;1H~                                                                                                                                                                                                      [10;1H~                                                                                                                                                                                                      [11;1H~                                                                                                                                                                                                      [12;1H~                                                                                                                                                                                                      [13;1H~                                                                                                                                                                                                      [14;1H~                                                                                                                                                                                                      [15;1H~                                                                                                                                                                                                      [16;1H~                                                                                                                                                                                                      [17;1H~                                                                                                                                                                                                      [18;1H~                                                                                                                                                                                                      [19;1H~                                                                                                                                                                                                      [20;1H~                                                                                                                                                                                                      [21;1H~                                                                                                                                                                                                      [22;1H~                                                                                                                                                                                                      [23;1H~                                                                                                                                                                                                      [24;1H~                                                                                                                                                                                                      [25;1H~                                                                                                                                                                                                      [26;1H~                                                                                                                                                                                                      [27;1H~                                                                                                                                                                                                      [28;1H~                                                                                                                                                                                                      [29;1H~                                                                                                                                                                                                      [30;1H~                                                                                                                                                                                                      [31;1H~                                                                                                                                                                                                      [32;1H~                                                                                                                                                                                                      [33;1H~                                                                                                                                                                                                      [34;1H~                                                                                                                                                                                                      [35;1H~                                                                                                                                                                                                      [36;1H~                                                                                                                                                                                                      [37;1H~                                                                                                                                                                                                      [38;1H~                                                                                                                                                                                                      [39;1H~                                                                                                                                                                                                      [40;1H~                                                                                                                                                                                                      [41;1H~                                                                                                                                                                                                      [42;1H~                                                                                                                                                                                                      [43;1H~                                                                                                                                                                                                      [44;1H~                                                                                                                                                                                                      [45;1H~                                                                                                                                                                                                      [46;1H~                                                                                                                                                                                                      [47;1H~                                                                                                                                                                                                      [48;1H~                                                                                                                                                                                                      [49;1H~                                                                                                                                                                                                      [m[50;182H3,0-1[9CAll"backup.sh" 3L, 43C[3;1H[?25h[?25l[50;172Hi[3;1H[50;172H [3;1H[50;1H[1m-- INSERT --[m[50;13H[K[50;182H3,1[11CAll[3;1H[?25h[?25l[50;182H2[2;1H[?25h[?25l[50;182H1[1;1H[?25h[?25l[50;184H2[1;2H[?25h[?25l[50;184H3[1;3H[?25h[?25l[50;184H4[1;4H[?25h[?25l[50;184H5[1;5H[?25h[?25l[50;184H6[1;6H[?25h[?25l[50;184H7[1;7H[?25h[?25l[50;184H8[1;8H[?25h[?25l[50;184H9[1;9H[?25h[?25l[50;184H10[1;10H[?25h[?25l[50;185H1[1;11H[?25h[?25l[50;185H2[1;12H[?25h[?25l[50;185H3[1;13H[?25h[?25l[50;185H4[1;14H[?25h[?25l[50;185H5[1;15H[?25h[?25l[50;185H6[1;16H[?25h[?25l[50;185H7[1;17H[?25h[?25l[2;49r[2;1H[L[1;50r[50;182H[K[50;182H2,1[11CAll[2;1H[?25h[?25l[1;49r[49;1H
+[1;50r[1;1H[96m#! /usr/bin/bash[m[49;1H[94m~                                                                                                                                                                                                      [m[50;182H[K[50;182H1,17[10CAll[1;17H[?25h[?25l[50;182H2[2;17H[?25h[?25l[50;182H3,1 [3;1H[?25h[?25ltar tf backup.tgz[?25h[?25l[50;185H8[3;18H[?25h[50;1H[K[3;17H[?25l[50;172H^[[3;17H[50;172H  [3;18H[50;182H3,17[10CAll[3;17H[?25h[?25l[50;172H:[3;17H[50;172H[K[50;1H:[?2004h[?25hx[?25l[?2004l"backup.sh" 3L, 60C written[23;2t[23;1t
+[?2004l[?1l>[?25h[>4;m[?1049l[23;0;0t[0;32m@crtrauger [0m➜ [1;34m/workspaces/cis190-codespace/labs/final [0;36m([1;31mmain[0;36m) [0m$ chmod u+x backup.sh
+[0;32m@crtrauger [0m➜ [1;34m/workspaces/cis190-codespace/labs/final [0;36m([1;31mmain[0;36m) [0m$ ./backup.sh 
+data/
+data/aircraft/
+data/aircraft/logs/
+data/aircraft/logs/n234ij_telemetry.log
+data/aircraft/logs/n101gh_telemetry.log
+data/aircraft/logs/n123ab_telemetry.log
+data/aircraft/logs/n456cd_telemetry.log
+data/aircraft/logs/bat_summary.txt
+data/aircraft/logs/n223wx_telemetry.log
+data/aircraft/logs/n678st_telemetry.log
+data/aircraft/logs/n789ef_telemetry.log
+data/aircraft/logs/n567kl_telemetry.log
+data/aircraft/logs/gps_summary.txt
+data/aircraft/logs/n890mn_telemetry.log
+data/aircraft/logs/n112op_telemetry.log
+data/aircraft/configs/
+data/aircraft/configs/n567kl/
+data/aircraft/configs/n567kl/config_3.ini
+data/aircraft/configs/n567kl/config_2.ini
+data/aircraft/configs/n567kl/config_5.ini
+data/aircraft/configs/n567kl/config_1.ini
+data/aircraft/configs/n567kl/config_4.ini
+data/aircraft/configs/tailnumbers.txt
+data/aircraft/configs/n456cd/
+data/aircraft/configs/n456cd/config_3.ini
+data/aircraft/configs/n456cd/config_2.ini
+data/aircraft/configs/n456cd/config_5.ini
+data/aircraft/configs/n456cd/config_1.ini
+data/aircraft/configs/n456cd/config_4.ini
+data/aircraft/configs/n789ef/
+data/aircraft/configs/n789ef/config_3.ini
+data/aircraft/configs/n789ef/config_2.ini
+data/aircraft/configs/n789ef/config_5.ini
+data/aircraft/configs/n789ef/config_1.ini
+data/aircraft/configs/n789ef/config_4.ini
+data/aircraft/configs/n123ab/
+data/aircraft/configs/n123ab/config_3.ini
+data/aircraft/configs/n123ab/config_2.ini
+data/aircraft/configs/n123ab/config_5.ini
+data/aircraft/configs/n123ab/config_1.ini
+data/aircraft/configs/n123ab/config_4.ini
+data/aircraft/configs/n223wx/
+data/aircraft/configs/n223wx/config_3.ini
+data/aircraft/configs/n223wx/config_2.ini
+data/aircraft/configs/n223wx/config_5.ini
+data/aircraft/configs/n223wx/config_1.ini
+data/aircraft/configs/n223wx/config_4.ini
+data/aircraft/configs/n678st/
+data/aircraft/configs/n678st/config_3.ini
+data/aircraft/configs/n678st/config_2.ini
+data/aircraft/configs/n678st/config_5.ini
+data/aircraft/configs/n678st/config_1.ini
+data/aircraft/configs/n678st/config_4.ini
+data/aircraft/configs/n890mn/
+data/aircraft/configs/n890mn/config_3.ini
+data/aircraft/configs/n890mn/config_2.ini
+data/aircraft/configs/n890mn/config_5.ini
+data/aircraft/configs/n890mn/config_1.ini
+data/aircraft/configs/n890mn/config_4.ini
+data/aircraft/configs/n234ij/
+data/aircraft/configs/n234ij/config_3.ini
+data/aircraft/configs/n234ij/config_2.ini
+data/aircraft/configs/n234ij/config_5.ini
+data/aircraft/configs/n234ij/config_1.ini
+data/aircraft/configs/n234ij/config_4.ini
+data/aircraft/configs/n101gh/
+data/aircraft/configs/n101gh/config_3.ini
+data/aircraft/configs/n101gh/config_2.ini
+data/aircraft/configs/n101gh/config_5.ini
+data/aircraft/configs/n101gh/config_1.ini
+data/aircraft/configs/n101gh/config_4.ini
+data/aircraft/configs/n101gh/config_1a.ini
+data/aircraft/configs/n112op/
+data/aircraft/configs/n112op/config_3.ini
+data/aircraft/configs/n112op/config_2.ini
+data/aircraft/configs/n112op/config_5.ini
+data/aircraft/configs/n112op/config_1.ini
+data/aircraft/configs/n112op/config_4.ini
+data/
+data/aircraft/
+data/aircraft/logs/
+data/aircraft/logs/n234ij_telemetry.log
+data/aircraft/logs/n101gh_telemetry.log
+data/aircraft/logs/n123ab_telemetry.log
+data/aircraft/logs/n456cd_telemetry.log
+data/aircraft/logs/bat_summary.txt
+data/aircraft/logs/n223wx_telemetry.log
+data/aircraft/logs/n678st_telemetry.log
+data/aircraft/logs/n789ef_telemetry.log
+data/aircraft/logs/n567kl_telemetry.log
+data/aircraft/logs/gps_summary.txt
+data/aircraft/logs/n890mn_telemetry.log
+data/aircraft/logs/n112op_telemetry.log
+data/aircraft/configs/
+data/aircraft/configs/n567kl/
+data/aircraft/configs/n567kl/config_3.ini
+data/aircraft/configs/n567kl/config_2.ini
+data/aircraft/configs/n567kl/config_5.ini
+data/aircraft/configs/n567kl/config_1.ini
+data/aircraft/configs/n567kl/config_4.ini
+data/aircraft/configs/tailnumbers.txt
+data/aircraft/configs/n456cd/
+data/aircraft/configs/n456cd/config_3.ini
+data/aircraft/configs/n456cd/config_2.ini
+data/aircraft/configs/n456cd/config_5.ini
+data/aircraft/configs/n456cd/config_1.ini
+data/aircraft/configs/n456cd/config_4.ini
+data/aircraft/configs/n789ef/
+data/aircraft/configs/n789ef/config_3.ini
+data/aircraft/configs/n789ef/config_2.ini
+data/aircraft/configs/n789ef/config_5.ini
+data/aircraft/configs/n789ef/config_1.ini
+data/aircraft/configs/n789ef/config_4.ini
+data/aircraft/configs/n123ab/
+data/aircraft/configs/n123ab/config_3.ini
+data/aircraft/configs/n123ab/config_2.ini
+data/aircraft/configs/n123ab/config_5.ini
+data/aircraft/configs/n123ab/config_1.ini
+data/aircraft/configs/n123ab/config_4.ini
+data/aircraft/configs/n223wx/
+data/aircraft/configs/n223wx/config_3.ini
+data/aircraft/configs/n223wx/config_2.ini
+data/aircraft/configs/n223wx/config_5.ini
+data/aircraft/configs/n223wx/config_1.ini
+data/aircraft/configs/n223wx/config_4.ini
+data/aircraft/configs/n678st/
+data/aircraft/configs/n678st/config_3.ini
+data/aircraft/configs/n678st/config_2.ini
+data/aircraft/configs/n678st/config_5.ini
+data/aircraft/configs/n678st/config_1.ini
+data/aircraft/configs/n678st/config_4.ini
+data/aircraft/configs/n890mn/
+data/aircraft/configs/n890mn/config_3.ini
+data/aircraft/configs/n890mn/config_2.ini
+data/aircraft/configs/n890mn/config_5.ini
+data/aircraft/configs/n890mn/config_1.ini
+data/aircraft/configs/n890mn/config_4.ini
+data/aircraft/configs/n234ij/
+data/aircraft/configs/n234ij/config_3.ini
+data/aircraft/configs/n234ij/config_2.ini
+data/aircraft/configs/n234ij/config_5.ini
+data/aircraft/configs/n234ij/config_1.ini
+data/aircraft/configs/n234ij/config_4.ini
+data/aircraft/configs/n101gh/
+data/aircraft/configs/n101gh/config_3.ini
+data/aircraft/configs/n101gh/config_2.ini
+data/aircraft/configs/n101gh/config_5.ini
+data/aircraft/configs/n101gh/config_1.ini
+data/aircraft/configs/n101gh/config_4.ini
+data/aircraft/configs/n101gh/config_1a.ini
+data/aircraft/configs/n112op/
+data/aircraft/configs/n112op/config_3.ini
+data/aircraft/configs/n112op/config_2.ini
+data/aircraft/configs/n112op/config_5.ini
+data/aircraft/configs/n112op/config_1.ini
+data/aircraft/configs/n112op/config_4.ini
+[0;32m@crtrauger [0m➜ [1;34m/workspaces/cis190-codespace/labs/final [0;36m([1;31mmain[0;36m) [0m$ mkdir backups
+[0;32m@crtrauger [0m➜ [1;34m/workspaces/cis190-codespace/labs/final [0;36m([1;31mmain[0;36m) [0m$ mv backup.tgz backups/bacxk[K[Kkups.tgz
+[0;32m@crtrauger [0m➜ [1;34m/workspaces/cis190-codespace/labs/final [0;36m([1;31mmain[0;36m) [0m$ exit
+exit
+
+Script done on 2024-08-15 03:08:25+00:00 [COMMAND_EXIT_CODE="0"]

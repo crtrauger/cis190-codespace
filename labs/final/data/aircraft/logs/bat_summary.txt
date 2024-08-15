@@ -1,0 +1,350 @@
+data/aircraft/logs/n101gh_telemetry.log:[2024-06-26 14:33:10] BAT: 99.3 %
+data/aircraft/logs/n101gh_telemetry.log:[2024-06-26 14:34:10] BAT: 98.4 %
+data/aircraft/logs/n101gh_telemetry.log:[2024-06-26 14:35:10] BAT: 97.8 %
+data/aircraft/logs/n101gh_telemetry.log:[2024-06-26 14:36:10] BAT: 96.9 %
+data/aircraft/logs/n101gh_telemetry.log:[2024-06-26 14:37:10] BAT: 96.0 %
+data/aircraft/logs/n101gh_telemetry.log:[2024-06-26 14:38:10] BAT: 95.3 %
+data/aircraft/logs/n101gh_telemetry.log:[2024-06-26 14:39:10] BAT: 94.6 %
+data/aircraft/logs/n101gh_telemetry.log:[2024-06-26 14:40:10] BAT: 93.9 %
+data/aircraft/logs/n101gh_telemetry.log:[2024-06-26 14:41:10] BAT: 93.2 %
+data/aircraft/logs/n101gh_telemetry.log:[2024-06-26 14:42:10] BAT: 92.5 %
+data/aircraft/logs/n101gh_telemetry.log:[2024-06-26 14:43:10] BAT: 91.9 %
+data/aircraft/logs/n101gh_telemetry.log:[2024-06-26 14:44:10] BAT: 91.0 %
+data/aircraft/logs/n101gh_telemetry.log:[2024-06-26 14:45:10] BAT: 90.4 %
+data/aircraft/logs/n101gh_telemetry.log:[2024-06-26 14:46:10] BAT: 89.8 %
+data/aircraft/logs/n101gh_telemetry.log:[2024-06-26 14:47:10] BAT: 88.9 %
+data/aircraft/logs/n101gh_telemetry.log:[2024-06-26 14:48:10] BAT: 88.1 %
+data/aircraft/logs/n101gh_telemetry.log:[2024-06-26 14:49:10] BAT: 87.5 %
+data/aircraft/logs/n101gh_telemetry.log:[2024-06-26 14:50:10] BAT: 86.6 %
+data/aircraft/logs/n101gh_telemetry.log:[2024-06-26 14:51:10] BAT: 85.6 %
+data/aircraft/logs/n101gh_telemetry.log:[2024-06-26 14:52:10] BAT: 85.1 %
+data/aircraft/logs/n101gh_telemetry.log:[2024-06-26 14:53:10] BAT: 84.4 %
+data/aircraft/logs/n101gh_telemetry.log:[2024-06-26 14:54:10] BAT: 83.7 %
+data/aircraft/logs/n101gh_telemetry.log:[2024-06-26 14:55:10] BAT: 82.9 %
+data/aircraft/logs/n101gh_telemetry.log:[2024-06-26 14:56:10] BAT: 82.1 %
+data/aircraft/logs/n101gh_telemetry.log:[2024-06-26 14:57:10] BAT: 81.4 %
+data/aircraft/logs/n101gh_telemetry.log:[2024-06-26 14:58:10] BAT: 80.6 %
+data/aircraft/logs/n101gh_telemetry.log:[2024-06-26 14:59:10] BAT: 79.8 %
+data/aircraft/logs/n101gh_telemetry.log:[2024-06-26 15:00:10] BAT: 78.9 %
+data/aircraft/logs/n101gh_telemetry.log:[2024-06-26 15:01:10] BAT: 77.9 %
+data/aircraft/logs/n101gh_telemetry.log:[2024-06-26 15:02:10] BAT: 77.3 %
+data/aircraft/logs/n101gh_telemetry.log:[2024-06-26 15:03:10] BAT: 76.4%
+data/aircraft/logs/n101gh_telemetry.log:[2024-06-26 15:04:10] BAT: 75.6%
+data/aircraft/logs/n101gh_telemetry.log:[2024-06-26 15:05:10] BAT: 74.9%
+data/aircraft/logs/n101gh_telemetry.log:[2024-06-26 15:06:10] BAT: 74.2%
+data/aircraft/logs/n101gh_telemetry.log:[2024-06-26 15:07:10] BAT: 73.7%
+data/aircraft/logs/n112op_telemetry.log:[2024-06-26 14:33:10] BAT: 99.5 %
+data/aircraft/logs/n112op_telemetry.log:[2024-06-26 14:34:10] BAT: 98.8 %
+data/aircraft/logs/n112op_telemetry.log:[2024-06-26 14:35:10] BAT: 98.2 %
+data/aircraft/logs/n112op_telemetry.log:[2024-06-26 14:36:10] BAT: 97.5 %
+data/aircraft/logs/n112op_telemetry.log:[2024-06-26 14:37:10] BAT: 96.9 %
+data/aircraft/logs/n112op_telemetry.log:[2024-06-26 14:38:10] BAT: 96.2 %
+data/aircraft/logs/n112op_telemetry.log:[2024-06-26 14:39:10] BAT: 95.4 %
+data/aircraft/logs/n112op_telemetry.log:[2024-06-26 14:40:10] BAT: 94.8 %
+data/aircraft/logs/n112op_telemetry.log:[2024-06-26 14:41:10] BAT: 94.2 %
+data/aircraft/logs/n112op_telemetry.log:[2024-06-26 14:42:10] BAT: 93.3 %
+data/aircraft/logs/n112op_telemetry.log:[2024-06-26 14:43:10] BAT: 92.5 %
+data/aircraft/logs/n112op_telemetry.log:[2024-06-26 14:44:10] BAT: 91.8 %
+data/aircraft/logs/n112op_telemetry.log:[2024-06-26 14:45:10] BAT: 90.9 %
+data/aircraft/logs/n112op_telemetry.log:[2024-06-26 14:46:10] BAT: 90.2 %
+data/aircraft/logs/n112op_telemetry.log:[2024-06-26 14:47:10] BAT: 89.4 %
+data/aircraft/logs/n112op_telemetry.log:[2024-06-26 14:48:10] BAT: 88.8 %
+data/aircraft/logs/n112op_telemetry.log:[2024-06-26 14:49:10] BAT: 88.1 %
+data/aircraft/logs/n112op_telemetry.log:[2024-06-26 14:50:10] BAT: 87.4 %
+data/aircraft/logs/n112op_telemetry.log:[2024-06-26 14:51:10] BAT: 86.6 %
+data/aircraft/logs/n112op_telemetry.log:[2024-06-26 14:52:10] BAT: 86.1 %
+data/aircraft/logs/n112op_telemetry.log:[2024-06-26 14:53:10] BAT: 85.2 %
+data/aircraft/logs/n112op_telemetry.log:[2024-06-26 14:54:10] BAT: 84.7 %
+data/aircraft/logs/n112op_telemetry.log:[2024-06-26 14:55:10] BAT: 83.8 %
+data/aircraft/logs/n112op_telemetry.log:[2024-06-26 14:56:10] BAT: 83.3 %
+data/aircraft/logs/n112op_telemetry.log:[2024-06-26 14:57:10] BAT: 82.7 %
+data/aircraft/logs/n112op_telemetry.log:[2024-06-26 14:58:10] BAT: 81.8 %
+data/aircraft/logs/n112op_telemetry.log:[2024-06-26 14:59:10] BAT: 81.2 %
+data/aircraft/logs/n112op_telemetry.log:[2024-06-26 15:00:10] BAT: 80.7 %
+data/aircraft/logs/n112op_telemetry.log:[2024-06-26 15:01:10] BAT: 80.0 %
+data/aircraft/logs/n112op_telemetry.log:[2024-06-26 15:02:10] BAT: 79.3 %
+data/aircraft/logs/n112op_telemetry.log:[2024-06-26 15:03:10] BAT: 78.4%
+data/aircraft/logs/n112op_telemetry.log:[2024-06-26 15:04:10] BAT: 77.5%
+data/aircraft/logs/n112op_telemetry.log:[2024-06-26 15:05:10] BAT: 76.6%
+data/aircraft/logs/n112op_telemetry.log:[2024-06-26 15:06:10] BAT: 75.8%
+data/aircraft/logs/n112op_telemetry.log:[2024-06-26 15:07:10] BAT: 75.2%
+data/aircraft/logs/n123ab_telemetry.log:[2024-06-26 14:33:10] BAT: 99.2 %
+data/aircraft/logs/n123ab_telemetry.log:[2024-06-26 14:34:10] BAT: 98.4 %
+data/aircraft/logs/n123ab_telemetry.log:[2024-06-26 14:35:10] BAT: 97.6 %
+data/aircraft/logs/n123ab_telemetry.log:[2024-06-26 14:36:10] BAT: 96.7 %
+data/aircraft/logs/n123ab_telemetry.log:[2024-06-26 14:37:10] BAT: 96.0 %
+data/aircraft/logs/n123ab_telemetry.log:[2024-06-26 14:38:10] BAT: 95.3 %
+data/aircraft/logs/n123ab_telemetry.log:[2024-06-26 14:39:10] BAT: 94.6 %
+data/aircraft/logs/n123ab_telemetry.log:[2024-06-26 14:40:10] BAT: 93.9 %
+data/aircraft/logs/n123ab_telemetry.log:[2024-06-26 14:41:10] BAT: 93.0 %
+data/aircraft/logs/n123ab_telemetry.log:[2024-06-26 14:42:10] BAT: 92.4 %
+data/aircraft/logs/n123ab_telemetry.log:[2024-06-26 14:43:10] BAT: 91.7 %
+data/aircraft/logs/n123ab_telemetry.log:[2024-06-26 14:44:10] BAT: 91.0 %
+data/aircraft/logs/n123ab_telemetry.log:[2024-06-26 14:45:10] BAT: 90.0 %
+data/aircraft/logs/n123ab_telemetry.log:[2024-06-26 14:46:10] BAT: 89.3 %
+data/aircraft/logs/n123ab_telemetry.log:[2024-06-26 14:47:10] BAT: 88.7 %
+data/aircraft/logs/n123ab_telemetry.log:[2024-06-26 14:48:10] BAT: 87.9 %
+data/aircraft/logs/n123ab_telemetry.log:[2024-06-26 14:49:10] BAT: 87.2 %
+data/aircraft/logs/n123ab_telemetry.log:[2024-06-26 14:50:10] BAT: 86.3 %
+data/aircraft/logs/n123ab_telemetry.log:[2024-06-26 14:51:10] BAT: 85.3 %
+data/aircraft/logs/n123ab_telemetry.log:[2024-06-26 14:52:10] BAT: 84.7 %
+data/aircraft/logs/n123ab_telemetry.log:[2024-06-26 14:53:10] BAT: 84.0 %
+data/aircraft/logs/n123ab_telemetry.log:[2024-06-26 14:54:10] BAT: 83.0 %
+data/aircraft/logs/n123ab_telemetry.log:[2024-06-26 14:55:10] BAT: 82.3 %
+data/aircraft/logs/n123ab_telemetry.log:[2024-06-26 14:56:10] BAT: 81.5 %
+data/aircraft/logs/n123ab_telemetry.log:[2024-06-26 14:57:10] BAT: 80.7 %
+data/aircraft/logs/n123ab_telemetry.log:[2024-06-26 14:58:10] BAT: 79.9 %
+data/aircraft/logs/n123ab_telemetry.log:[2024-06-26 14:59:10] BAT: 79.4 %
+data/aircraft/logs/n123ab_telemetry.log:[2024-06-26 15:00:10] BAT: 78.5 %
+data/aircraft/logs/n123ab_telemetry.log:[2024-06-26 15:01:10] BAT: 78.0 %
+data/aircraft/logs/n123ab_telemetry.log:[2024-06-26 15:02:10] BAT: 77.5 %
+data/aircraft/logs/n123ab_telemetry.log:[2024-06-26 15:03:10] BAT: 77.0%
+data/aircraft/logs/n123ab_telemetry.log:[2024-06-26 15:04:10] BAT: 76.1%
+data/aircraft/logs/n123ab_telemetry.log:[2024-06-26 15:05:10] BAT: 75.4%
+data/aircraft/logs/n123ab_telemetry.log:[2024-06-26 15:06:10] BAT: 74.9%
+data/aircraft/logs/n123ab_telemetry.log:[2024-06-26 15:07:10] BAT: 74.1%
+data/aircraft/logs/n223wx_telemetry.log:[2024-06-26 14:33:10] BAT: 99.3 %
+data/aircraft/logs/n223wx_telemetry.log:[2024-06-26 14:34:10] BAT: 98.4 %
+data/aircraft/logs/n223wx_telemetry.log:[2024-06-26 14:35:10] BAT: 97.6 %
+data/aircraft/logs/n223wx_telemetry.log:[2024-06-26 14:36:10] BAT: 97.1 %
+data/aircraft/logs/n223wx_telemetry.log:[2024-06-26 14:37:10] BAT: 96.4 %
+data/aircraft/logs/n223wx_telemetry.log:[2024-06-26 14:38:10] BAT: 95.7 %
+data/aircraft/logs/n223wx_telemetry.log:[2024-06-26 14:39:10] BAT: 95.0 %
+data/aircraft/logs/n223wx_telemetry.log:[2024-06-26 14:40:10] BAT: 94.0 %
+data/aircraft/logs/n223wx_telemetry.log:[2024-06-26 14:41:10] BAT: 93.3 %
+data/aircraft/logs/n223wx_telemetry.log:[2024-06-26 14:42:10] BAT: 92.7 %
+data/aircraft/logs/n223wx_telemetry.log:[2024-06-26 14:43:10] BAT: 91.9 %
+data/aircraft/logs/n223wx_telemetry.log:[2024-06-26 14:44:10] BAT: 91.0 %
+data/aircraft/logs/n223wx_telemetry.log:[2024-06-26 14:45:10] BAT: 90.3 %
+data/aircraft/logs/n223wx_telemetry.log:[2024-06-26 14:46:10] BAT: 89.7 %
+data/aircraft/logs/n223wx_telemetry.log:[2024-06-26 14:47:10] BAT: 88.9 %
+data/aircraft/logs/n223wx_telemetry.log:[2024-06-26 14:48:10] BAT: 88.4 %
+data/aircraft/logs/n223wx_telemetry.log:[2024-06-26 14:49:10] BAT: 87.8 %
+data/aircraft/logs/n223wx_telemetry.log:[2024-06-26 14:50:10] BAT: 87.2 %
+data/aircraft/logs/n223wx_telemetry.log:[2024-06-26 14:51:10] BAT: 86.4 %
+data/aircraft/logs/n223wx_telemetry.log:[2024-06-26 14:52:10] BAT: 85.6 %
+data/aircraft/logs/n223wx_telemetry.log:[2024-06-26 14:53:10] BAT: 84.7 %
+data/aircraft/logs/n223wx_telemetry.log:[2024-06-26 14:54:10] BAT: 84.0 %
+data/aircraft/logs/n223wx_telemetry.log:[2024-06-26 14:55:10] BAT: 83.1 %
+data/aircraft/logs/n223wx_telemetry.log:[2024-06-26 14:56:10] BAT: 82.5 %
+data/aircraft/logs/n223wx_telemetry.log:[2024-06-26 14:57:10] BAT: 81.8 %
+data/aircraft/logs/n223wx_telemetry.log:[2024-06-26 14:58:10] BAT: 81.1 %
+data/aircraft/logs/n223wx_telemetry.log:[2024-06-26 14:59:10] BAT: 80.3 %
+data/aircraft/logs/n223wx_telemetry.log:[2024-06-26 15:00:10] BAT: 79.4 %
+data/aircraft/logs/n223wx_telemetry.log:[2024-06-26 15:01:10] BAT: 78.7 %
+data/aircraft/logs/n223wx_telemetry.log:[2024-06-26 15:02:10] BAT: 78.1 %
+data/aircraft/logs/n223wx_telemetry.log:[2024-06-26 15:03:10] BAT: 77.5%
+data/aircraft/logs/n223wx_telemetry.log:[2024-06-26 15:04:10] BAT: 76.8%
+data/aircraft/logs/n223wx_telemetry.log:[2024-06-26 15:05:10] BAT: 76.1%
+data/aircraft/logs/n223wx_telemetry.log:[2024-06-26 15:06:10] BAT: 75.3%
+data/aircraft/logs/n223wx_telemetry.log:[2024-06-26 15:07:10] BAT: 74.4%
+data/aircraft/logs/n234ij_telemetry.log:[2024-06-26 14:33:10] BAT: 99.4 %
+data/aircraft/logs/n234ij_telemetry.log:[2024-06-26 14:34:10] BAT: 98.7 %
+data/aircraft/logs/n234ij_telemetry.log:[2024-06-26 14:35:10] BAT: 98.2 %
+data/aircraft/logs/n234ij_telemetry.log:[2024-06-26 14:36:10] BAT: 97.4 %
+data/aircraft/logs/n234ij_telemetry.log:[2024-06-26 14:37:10] BAT: 96.6 %
+data/aircraft/logs/n234ij_telemetry.log:[2024-06-26 14:38:10] BAT: 95.9 %
+data/aircraft/logs/n234ij_telemetry.log:[2024-06-26 14:39:10] BAT: 95.1 %
+data/aircraft/logs/n234ij_telemetry.log:[2024-06-26 14:40:10] BAT: 94.5 %
+data/aircraft/logs/n234ij_telemetry.log:[2024-06-26 14:41:10] BAT: 94.0 %
+data/aircraft/logs/n234ij_telemetry.log:[2024-06-26 14:42:10] BAT: 93.4 %
+data/aircraft/logs/n234ij_telemetry.log:[2024-06-26 14:43:10] BAT: 92.8 %
+data/aircraft/logs/n234ij_telemetry.log:[2024-06-26 14:44:10] BAT: 92.1 %
+data/aircraft/logs/n234ij_telemetry.log:[2024-06-26 14:45:10] BAT: 91.5 %
+data/aircraft/logs/n234ij_telemetry.log:[2024-06-26 14:46:10] BAT: 90.7 %
+data/aircraft/logs/n234ij_telemetry.log:[2024-06-26 14:47:10] BAT: 90.0 %
+data/aircraft/logs/n234ij_telemetry.log:[2024-06-26 14:48:10] BAT: 89.5 %
+data/aircraft/logs/n234ij_telemetry.log:[2024-06-26 14:49:10] BAT: 88.8 %
+data/aircraft/logs/n234ij_telemetry.log:[2024-06-26 14:50:10] BAT: 88.0 %
+data/aircraft/logs/n234ij_telemetry.log:[2024-06-26 14:51:10] BAT: 87.3 %
+data/aircraft/logs/n234ij_telemetry.log:[2024-06-26 14:52:10] BAT: 86.7 %
+data/aircraft/logs/n234ij_telemetry.log:[2024-06-26 14:53:10] BAT: 85.9 %
+data/aircraft/logs/n234ij_telemetry.log:[2024-06-26 14:54:10] BAT: 85.0 %
+data/aircraft/logs/n234ij_telemetry.log:[2024-06-26 14:55:10] BAT: 84.2 %
+data/aircraft/logs/n234ij_telemetry.log:[2024-06-26 14:56:10] BAT: 83.3 %
+data/aircraft/logs/n234ij_telemetry.log:[2024-06-26 14:57:10] BAT: 82.3 %
+data/aircraft/logs/n234ij_telemetry.log:[2024-06-26 14:58:10] BAT: 81.6 %
+data/aircraft/logs/n234ij_telemetry.log:[2024-06-26 14:59:10] BAT: 81.0 %
+data/aircraft/logs/n234ij_telemetry.log:[2024-06-26 15:00:10] BAT: 80.2 %
+data/aircraft/logs/n234ij_telemetry.log:[2024-06-26 15:01:10] BAT: 79.4 %
+data/aircraft/logs/n234ij_telemetry.log:[2024-06-26 15:02:10] BAT: 78.8 %
+data/aircraft/logs/n234ij_telemetry.log:[2024-06-26 15:03:10] BAT: 77.8%
+data/aircraft/logs/n234ij_telemetry.log:[2024-06-26 15:04:10] BAT: 76.9%
+data/aircraft/logs/n234ij_telemetry.log:[2024-06-26 15:05:10] BAT: 75.9%
+data/aircraft/logs/n234ij_telemetry.log:[2024-06-26 15:06:10] BAT: 75.2%
+data/aircraft/logs/n234ij_telemetry.log:[2024-06-26 15:07:10] BAT: 74.6%
+data/aircraft/logs/n456cd_telemetry.log:[2024-06-26 14:33:10] BAT: 99.4 %
+data/aircraft/logs/n456cd_telemetry.log:[2024-06-26 14:34:10] BAT: 98.9 %
+data/aircraft/logs/n456cd_telemetry.log:[2024-06-26 14:35:10] BAT: 98.3 %
+data/aircraft/logs/n456cd_telemetry.log:[2024-06-26 14:36:10] BAT: 97.7 %
+data/aircraft/logs/n456cd_telemetry.log:[2024-06-26 14:37:10] BAT: 96.9 %
+data/aircraft/logs/n456cd_telemetry.log:[2024-06-26 14:38:10] BAT: 96.0 %
+data/aircraft/logs/n456cd_telemetry.log:[2024-06-26 14:39:10] BAT: 95.3 %
+data/aircraft/logs/n456cd_telemetry.log:[2024-06-26 14:40:10] BAT: 94.8 %
+data/aircraft/logs/n456cd_telemetry.log:[2024-06-26 14:41:10] BAT: 94.0 %
+data/aircraft/logs/n456cd_telemetry.log:[2024-06-26 14:42:10] BAT: 93.0 %
+data/aircraft/logs/n456cd_telemetry.log:[2024-06-26 14:43:10] BAT: 92.2 %
+data/aircraft/logs/n456cd_telemetry.log:[2024-06-26 14:44:10] BAT: 91.5 %
+data/aircraft/logs/n456cd_telemetry.log:[2024-06-26 14:45:10] BAT: 90.9 %
+data/aircraft/logs/n456cd_telemetry.log:[2024-06-26 14:46:10] BAT: 90.2 %
+data/aircraft/logs/n456cd_telemetry.log:[2024-06-26 14:47:10] BAT: 89.3 %
+data/aircraft/logs/n456cd_telemetry.log:[2024-06-26 14:48:10] BAT: 88.4 %
+data/aircraft/logs/n456cd_telemetry.log:[2024-06-26 14:49:10] BAT: 87.5 %
+data/aircraft/logs/n456cd_telemetry.log:[2024-06-26 14:50:10] BAT: 86.5 %
+data/aircraft/logs/n456cd_telemetry.log:[2024-06-26 14:51:10] BAT: 85.7 %
+data/aircraft/logs/n456cd_telemetry.log:[2024-06-26 14:52:10] BAT: 84.8 %
+data/aircraft/logs/n456cd_telemetry.log:[2024-06-26 14:53:10] BAT: 84.3 %
+data/aircraft/logs/n456cd_telemetry.log:[2024-06-26 14:54:10] BAT: 83.5 %
+data/aircraft/logs/n456cd_telemetry.log:[2024-06-26 14:55:10] BAT: 82.7 %
+data/aircraft/logs/n456cd_telemetry.log:[2024-06-26 14:56:10] BAT: 81.8 %
+data/aircraft/logs/n456cd_telemetry.log:[2024-06-26 14:57:10] BAT: 81.1 %
+data/aircraft/logs/n456cd_telemetry.log:[2024-06-26 14:58:10] BAT: 80.3 %
+data/aircraft/logs/n456cd_telemetry.log:[2024-06-26 14:59:10] BAT: 79.6 %
+data/aircraft/logs/n456cd_telemetry.log:[2024-06-26 15:00:10] BAT: 78.6 %
+data/aircraft/logs/n456cd_telemetry.log:[2024-06-26 15:01:10] BAT: 77.8 %
+data/aircraft/logs/n456cd_telemetry.log:[2024-06-26 15:02:10] BAT: 77.1 %
+data/aircraft/logs/n456cd_telemetry.log:[2024-06-26 15:03:10] BAT: 76.4%
+data/aircraft/logs/n456cd_telemetry.log:[2024-06-26 15:04:10] BAT: 75.7%
+data/aircraft/logs/n456cd_telemetry.log:[2024-06-26 15:05:10] BAT: 74.7%
+data/aircraft/logs/n456cd_telemetry.log:[2024-06-26 15:06:10] BAT: 74.1%
+data/aircraft/logs/n456cd_telemetry.log:[2024-06-26 15:07:10] BAT: 73.5%
+data/aircraft/logs/n567kl_telemetry.log:[2024-06-26 14:33:10] BAT: 99.4 %
+data/aircraft/logs/n567kl_telemetry.log:[2024-06-26 14:34:10] BAT: 98.7 %
+data/aircraft/logs/n567kl_telemetry.log:[2024-06-26 14:35:10] BAT: 97.7 %
+data/aircraft/logs/n567kl_telemetry.log:[2024-06-26 14:36:10] BAT: 96.9 %
+data/aircraft/logs/n567kl_telemetry.log:[2024-06-26 14:37:10] BAT: 96.0 %
+data/aircraft/logs/n567kl_telemetry.log:[2024-06-26 14:38:10] BAT: 95.4 %
+data/aircraft/logs/n567kl_telemetry.log:[2024-06-26 14:39:10] BAT: 94.9 %
+data/aircraft/logs/n567kl_telemetry.log:[2024-06-26 14:40:10] BAT: 94.1 %
+data/aircraft/logs/n567kl_telemetry.log:[2024-06-26 14:41:10] BAT: 93.3 %
+data/aircraft/logs/n567kl_telemetry.log:[2024-06-26 14:42:10] BAT: 92.6 %
+data/aircraft/logs/n567kl_telemetry.log:[2024-06-26 14:43:10] BAT: 91.7 %
+data/aircraft/logs/n567kl_telemetry.log:[2024-06-26 14:44:10] BAT: 90.7 %
+data/aircraft/logs/n567kl_telemetry.log:[2024-06-26 14:45:10] BAT: 90.1 %
+data/aircraft/logs/n567kl_telemetry.log:[2024-06-26 14:46:10] BAT: 89.2 %
+data/aircraft/logs/n567kl_telemetry.log:[2024-06-26 14:47:10] BAT: 88.6 %
+data/aircraft/logs/n567kl_telemetry.log:[2024-06-26 14:48:10] BAT: 88.0 %
+data/aircraft/logs/n567kl_telemetry.log:[2024-06-26 14:49:10] BAT: 87.1 %
+data/aircraft/logs/n567kl_telemetry.log:[2024-06-26 14:50:10] BAT: 86.6 %
+data/aircraft/logs/n567kl_telemetry.log:[2024-06-26 14:51:10] BAT: 85.6 %
+data/aircraft/logs/n567kl_telemetry.log:[2024-06-26 14:52:10] BAT: 84.7 %
+data/aircraft/logs/n567kl_telemetry.log:[2024-06-26 14:53:10] BAT: 84.2 %
+data/aircraft/logs/n567kl_telemetry.log:[2024-06-26 14:54:10] BAT: 83.5 %
+data/aircraft/logs/n567kl_telemetry.log:[2024-06-26 14:55:10] BAT: 82.7 %
+data/aircraft/logs/n567kl_telemetry.log:[2024-06-26 14:56:10] BAT: 81.8 %
+data/aircraft/logs/n567kl_telemetry.log:[2024-06-26 14:57:10] BAT: 81.2 %
+data/aircraft/logs/n567kl_telemetry.log:[2024-06-26 14:58:10] BAT: 80.7 %
+data/aircraft/logs/n567kl_telemetry.log:[2024-06-26 14:59:10] BAT: 79.7 %
+data/aircraft/logs/n567kl_telemetry.log:[2024-06-26 15:00:10] BAT: 78.9 %
+data/aircraft/logs/n567kl_telemetry.log:[2024-06-26 15:01:10] BAT: 78.2 %
+data/aircraft/logs/n567kl_telemetry.log:[2024-06-26 15:02:10] BAT: 77.7 %
+data/aircraft/logs/n567kl_telemetry.log:[2024-06-26 15:03:10] BAT: 76.8%
+data/aircraft/logs/n567kl_telemetry.log:[2024-06-26 15:04:10] BAT: 75.9%
+data/aircraft/logs/n567kl_telemetry.log:[2024-06-26 15:05:10] BAT: 75.2%
+data/aircraft/logs/n567kl_telemetry.log:[2024-06-26 15:06:10] BAT: 74.4%
+data/aircraft/logs/n567kl_telemetry.log:[2024-06-26 15:07:10] BAT: 73.9%
+data/aircraft/logs/n678st_telemetry.log:[2024-06-26 14:33:10] BAT: 99.2 %
+data/aircraft/logs/n678st_telemetry.log:[2024-06-26 14:34:10] BAT: 98.7 %
+data/aircraft/logs/n678st_telemetry.log:[2024-06-26 14:35:10] BAT: 97.7 %
+data/aircraft/logs/n678st_telemetry.log:[2024-06-26 14:36:10] BAT: 97.0 %
+data/aircraft/logs/n678st_telemetry.log:[2024-06-26 14:37:10] BAT: 96.2 %
+data/aircraft/logs/n678st_telemetry.log:[2024-06-26 14:38:10] BAT: 95.7 %
+data/aircraft/logs/n678st_telemetry.log:[2024-06-26 14:39:10] BAT: 94.8 %
+data/aircraft/logs/n678st_telemetry.log:[2024-06-26 14:40:10] BAT: 94.3 %
+data/aircraft/logs/n678st_telemetry.log:[2024-06-26 14:41:10] BAT: 93.4 %
+data/aircraft/logs/n678st_telemetry.log:[2024-06-26 14:42:10] BAT: 92.8 %
+data/aircraft/logs/n678st_telemetry.log:[2024-06-26 14:43:10] BAT: 91.9 %
+data/aircraft/logs/n678st_telemetry.log:[2024-06-26 14:44:10] BAT: 91.2 %
+data/aircraft/logs/n678st_telemetry.log:[2024-06-26 14:45:10] BAT: 90.5 %
+data/aircraft/logs/n678st_telemetry.log:[2024-06-26 14:46:10] BAT: 89.9 %
+data/aircraft/logs/n678st_telemetry.log:[2024-06-26 14:47:10] BAT: 89.3 %
+data/aircraft/logs/n678st_telemetry.log:[2024-06-26 14:48:10] BAT: 88.4 %
+data/aircraft/logs/n678st_telemetry.log:[2024-06-26 14:49:10] BAT: 87.6 %
+data/aircraft/logs/n678st_telemetry.log:[2024-06-26 14:50:10] BAT: 86.8 %
+data/aircraft/logs/n678st_telemetry.log:[2024-06-26 14:51:10] BAT: 86.2 %
+data/aircraft/logs/n678st_telemetry.log:[2024-06-26 14:52:10] BAT: 85.6 %
+data/aircraft/logs/n678st_telemetry.log:[2024-06-26 14:53:10] BAT: 84.9 %
+data/aircraft/logs/n678st_telemetry.log:[2024-06-26 14:54:10] BAT: 84.3 %
+data/aircraft/logs/n678st_telemetry.log:[2024-06-26 14:55:10] BAT: 83.7 %
+data/aircraft/logs/n678st_telemetry.log:[2024-06-26 14:56:10] BAT: 83.2 %
+data/aircraft/logs/n678st_telemetry.log:[2024-06-26 14:57:10] BAT: 82.2 %
+data/aircraft/logs/n678st_telemetry.log:[2024-06-26 14:58:10] BAT: 81.5 %
+data/aircraft/logs/n678st_telemetry.log:[2024-06-26 14:59:10] BAT: 80.8 %
+data/aircraft/logs/n678st_telemetry.log:[2024-06-26 15:00:10] BAT: 80.3 %
+data/aircraft/logs/n678st_telemetry.log:[2024-06-26 15:01:10] BAT: 79.7 %
+data/aircraft/logs/n678st_telemetry.log:[2024-06-26 15:02:10] BAT: 79.0 %
+data/aircraft/logs/n678st_telemetry.log:[2024-06-26 15:03:10] BAT: 78.0%
+data/aircraft/logs/n678st_telemetry.log:[2024-06-26 15:04:10] BAT: 77.4%
+data/aircraft/logs/n678st_telemetry.log:[2024-06-26 15:05:10] BAT: 76.5%
+data/aircraft/logs/n678st_telemetry.log:[2024-06-26 15:06:10] BAT: 75.7%
+data/aircraft/logs/n678st_telemetry.log:[2024-06-26 15:07:10] BAT: 75.0%
+data/aircraft/logs/n789ef_telemetry.log:[2024-06-26 14:33:10] BAT: 99.3 %
+data/aircraft/logs/n789ef_telemetry.log:[2024-06-26 14:34:10] BAT: 98.3 %
+data/aircraft/logs/n789ef_telemetry.log:[2024-06-26 14:35:10] BAT: 97.3 %
+data/aircraft/logs/n789ef_telemetry.log:[2024-06-26 14:36:10] BAT: 96.8 %
+data/aircraft/logs/n789ef_telemetry.log:[2024-06-26 14:37:10] BAT: 96.2 %
+data/aircraft/logs/n789ef_telemetry.log:[2024-06-26 14:38:10] BAT: 95.6 %
+data/aircraft/logs/n789ef_telemetry.log:[2024-06-26 14:39:10] BAT: 94.8 %
+data/aircraft/logs/n789ef_telemetry.log:[2024-06-26 14:40:10] BAT: 94.0 %
+data/aircraft/logs/n789ef_telemetry.log:[2024-06-26 14:41:10] BAT: 93.3 %
+data/aircraft/logs/n789ef_telemetry.log:[2024-06-26 14:42:10] BAT: 92.5 %
+data/aircraft/logs/n789ef_telemetry.log:[2024-06-26 14:43:10] BAT: 92.0 %
+data/aircraft/logs/n789ef_telemetry.log:[2024-06-26 14:44:10] BAT: 91.5 %
+data/aircraft/logs/n789ef_telemetry.log:[2024-06-26 14:45:10] BAT: 90.8 %
+data/aircraft/logs/n789ef_telemetry.log:[2024-06-26 14:46:10] BAT: 89.9 %
+data/aircraft/logs/n789ef_telemetry.log:[2024-06-26 14:47:10] BAT: 89.2 %
+data/aircraft/logs/n789ef_telemetry.log:[2024-06-26 14:48:10] BAT: 88.4 %
+data/aircraft/logs/n789ef_telemetry.log:[2024-06-26 14:49:10] BAT: 87.8 %
+data/aircraft/logs/n789ef_telemetry.log:[2024-06-26 14:50:10] BAT: 87.1 %
+data/aircraft/logs/n789ef_telemetry.log:[2024-06-26 14:51:10] BAT: 86.6 %
+data/aircraft/logs/n789ef_telemetry.log:[2024-06-26 14:52:10] BAT: 86.0 %
+data/aircraft/logs/n789ef_telemetry.log:[2024-06-26 14:53:10] BAT: 85.3 %
+data/aircraft/logs/n789ef_telemetry.log:[2024-06-26 14:54:10] BAT: 84.8 %
+data/aircraft/logs/n789ef_telemetry.log:[2024-06-26 14:55:10] BAT: 84.1 %
+data/aircraft/logs/n789ef_telemetry.log:[2024-06-26 14:56:10] BAT: 83.5 %
+data/aircraft/logs/n789ef_telemetry.log:[2024-06-26 14:57:10] BAT: 82.9 %
+data/aircraft/logs/n789ef_telemetry.log:[2024-06-26 14:58:10] BAT: 82.0 %
+data/aircraft/logs/n789ef_telemetry.log:[2024-06-26 14:59:10] BAT: 81.1 %
+data/aircraft/logs/n789ef_telemetry.log:[2024-06-26 15:00:10] BAT: 80.6 %
+data/aircraft/logs/n789ef_telemetry.log:[2024-06-26 15:01:10] BAT: 79.8 %
+data/aircraft/logs/n789ef_telemetry.log:[2024-06-26 15:02:10] BAT: 79.0 %
+data/aircraft/logs/n789ef_telemetry.log:[2024-06-26 15:03:10] BAT: 78.5%
+data/aircraft/logs/n789ef_telemetry.log:[2024-06-26 15:04:10] BAT: 77.8%
+data/aircraft/logs/n789ef_telemetry.log:[2024-06-26 15:05:10] BAT: 76.9%
+data/aircraft/logs/n789ef_telemetry.log:[2024-06-26 15:06:10] BAT: 76.0%
+data/aircraft/logs/n789ef_telemetry.log:[2024-06-26 15:07:10] BAT: 75.1%
+data/aircraft/logs/n890mn_telemetry.log:[2024-06-26 14:33:10] BAT: 99.3 %
+data/aircraft/logs/n890mn_telemetry.log:[2024-06-26 14:34:10] BAT: 98.7 %
+data/aircraft/logs/n890mn_telemetry.log:[2024-06-26 14:35:10] BAT: 97.9 %
+data/aircraft/logs/n890mn_telemetry.log:[2024-06-26 14:36:10] BAT: 97.1 %
+data/aircraft/logs/n890mn_telemetry.log:[2024-06-26 14:37:10] BAT: 96.3 %
+data/aircraft/logs/n890mn_telemetry.log:[2024-06-26 14:38:10] BAT: 95.7 %
+data/aircraft/logs/n890mn_telemetry.log:[2024-06-26 14:39:10] BAT: 95.0 %
+data/aircraft/logs/n890mn_telemetry.log:[2024-06-26 14:40:10] BAT: 94.0 %
+data/aircraft/logs/n890mn_telemetry.log:[2024-06-26 14:41:10] BAT: 93.2 %
+data/aircraft/logs/n890mn_telemetry.log:[2024-06-26 14:42:10] BAT: 92.6 %
+data/aircraft/logs/n890mn_telemetry.log:[2024-06-26 14:43:10] BAT: 91.9 %
+data/aircraft/logs/n890mn_telemetry.log:[2024-06-26 14:44:10] BAT: 91.3 %
+data/aircraft/logs/n890mn_telemetry.log:[2024-06-26 14:45:10] BAT: 90.5 %
+data/aircraft/logs/n890mn_telemetry.log:[2024-06-26 14:46:10] BAT: 89.7 %
+data/aircraft/logs/n890mn_telemetry.log:[2024-06-26 14:47:10] BAT: 88.9 %
+data/aircraft/logs/n890mn_telemetry.log:[2024-06-26 14:48:10] BAT: 88.0 %
+data/aircraft/logs/n890mn_telemetry.log:[2024-06-26 14:49:10] BAT: 87.4 %
+data/aircraft/logs/n890mn_telemetry.log:[2024-06-26 14:50:10] BAT: 86.4 %
+data/aircraft/logs/n890mn_telemetry.log:[2024-06-26 14:51:10] BAT: 85.4 %
+data/aircraft/logs/n890mn_telemetry.log:[2024-06-26 14:52:10] BAT: 84.5 %
+data/aircraft/logs/n890mn_telemetry.log:[2024-06-26 14:53:10] BAT: 83.7 %
+data/aircraft/logs/n890mn_telemetry.log:[2024-06-26 14:54:10] BAT: 83.1 %
+data/aircraft/logs/n890mn_telemetry.log:[2024-06-26 14:55:10] BAT: 82.6 %
+data/aircraft/logs/n890mn_telemetry.log:[2024-06-26 14:56:10] BAT: 81.8 %
+data/aircraft/logs/n890mn_telemetry.log:[2024-06-26 14:57:10] BAT: 81.0 %
+data/aircraft/logs/n890mn_telemetry.log:[2024-06-26 14:58:10] BAT: 80.1 %
+data/aircraft/logs/n890mn_telemetry.log:[2024-06-26 14:59:10] BAT: 79.3 %
+data/aircraft/logs/n890mn_telemetry.log:[2024-06-26 15:00:10] BAT: 78.3 %
+data/aircraft/logs/n890mn_telemetry.log:[2024-06-26 15:01:10] BAT: 77.6 %
+data/aircraft/logs/n890mn_telemetry.log:[2024-06-26 15:02:10] BAT: 76.6 %
+data/aircraft/logs/n890mn_telemetry.log:[2024-06-26 15:03:10] BAT: 76.1%
+data/aircraft/logs/n890mn_telemetry.log:[2024-06-26 15:04:10] BAT: 75.1%
+data/aircraft/logs/n890mn_telemetry.log:[2024-06-26 15:05:10] BAT: 74.5%
+data/aircraft/logs/n890mn_telemetry.log:[2024-06-26 15:06:10] BAT: 73.7%
+data/aircraft/logs/n890mn_telemetry.log:[2024-06-26 15:07:10] BAT: 73.0%
